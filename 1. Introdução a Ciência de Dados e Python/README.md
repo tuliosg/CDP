@@ -1,8 +1,8 @@
 # 1. Introdução à Ciência de Dados e Python
-O primeiro capítulo do curso aborda uma introdução aos principais conceitos na área de dados e também ao Python (a linguagem de programação que será utilizada ao longo dos próximos capítulos).
+O primeiro capítulo do curso aborda uma introdução aos principais conceitos na área de dados e também ao Python (a linguagem de programação que será utilizada ao longo do curso).
 
 ## 1.1. Dados: o que são, de onde vêm e por que são importantes?
-Começando pelo principal objeto de estudo desse curso, os "dados"... bem, mas o que, afinal, são "dados"?
+Começando pelo principal objeto de estudo desse curso, os "dados"... bem, mas o que são "dados"?
 A depender de onde essa pergunta seja feita, as respostas serão diferentes mas, em sua maioria, trarão elementos semelhantes, como: 
 * Resultados de medições;
 * Observações documentadas;
@@ -30,13 +30,21 @@ O mundo dos dados é gigantesco e diverso, não se assutem.
 * Exemplos de dados em Linguística e Psicologia (transcrições, surveys, experimentos)
 * Como a Ciência de Dados pode otimizar pesquisas nessas áreas
 
+### 1.2. Ciência de Dados
+É desse contexto que emerge a Ciência de Dados, a área que engloba as teorias, conceitos, metodologias e ferramentas necessárias para aprender com ou sobre os dados[^1].
+[^1]: https://alan-turing-institute.github.io/rds-course/modules/m1/1.1-WhatIsDataScience.html#what-is-research-data-science
+
+A única certeza que temos sobre a Ciência de Dados é que não há um consenso sobre sua definição ou sobre o corpo de conhecimentos que a compõe. Como apontado por Grus (2016), *“[...] basicamente não importa como você define data science, pois você encontrará praticantes para quem a definição está total e absolutamente errada.”*
+No contexto desse curso, **Ciência de Dados é a área do conhecimento que nos capacita a aprender com dados**.
+
+
 #### Casos de estudo
 * Análise de corpus e padrões linguísticos
 * Processamento de dados sociolinguísticos
 * Análise quantitativa de experimentos em psicolinguística
 * Processamento de dados de emoções e linguagem
 
-## 1.2. Introdução à Lógica de Programação
+## 1.3. Introdução à Lógica de Programação
 #### Teoria
 * Variáveis e tipos de dados (inteiros, strings, booleanos) - Variáveis como "caixas" para armazenar informações (analogias com conceitos linguísticos)
 * Estruturas de dados básicas (listas, dicionários, dataframes)
@@ -49,7 +57,7 @@ O mundo dos dados é gigantesco e diverso, não se assutem.
 * Implementação de loops simples para processamento repetitivo
 * Desenvolvimento de funções básicas
 
-## 1.3. Ambiente de Trabalho: Google Colab e Jupyter Notebook
+## 1.4. Ambiente de Trabalho: Google Colab e Jupyter Notebook
 #### Teoria
 * Vantagens do notebook para documentação de pesquisa
 * Estrutura de células de código e markdown
@@ -60,7 +68,7 @@ O mundo dos dados é gigantesco e diverso, não se assutem.
 * Formatação de texto com markdown para documentar análises
 * Compartilhamento de notebooks com colaboradores
 
-## 1.4. Princípios de Ciência Aberta e Reprodutibilidade - Introdução
+## 1.5. Princípios de Ciência Aberta e Reprodutibilidade - Introdução
 * O que é ciência aberta e por que é importante
 * A crise de reprodutibilidade nas ciências
 * Benefícios da pesquisa transparente e reprodutível
