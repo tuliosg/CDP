@@ -16,7 +16,7 @@ Não pensem que por ter escrito "valores" que dados são apenas números. A segu
 * A cor da pelagem dos gatos que vivem na UFS;
 * Os cafés favoritos das pessoas que trabalham no LAMID.
 
-Ao longo do curso, vocês serão estimulados a transpor o conhecimento visto aqui para a sua própria realidade, para a sua própria pesquisa. Então, vamos começar pensando: **o que são os dados na sua pesquisa?**
+Ao longo do curso, vocês serão estimulados a transpor o conhecimento visto aqui para a sua própria realidade, para a sua própria pesquisa. Então, vamos começar pensando: **o que são os dados na sua pesquisa?**  
 Para ajudar, vou deixar aqui uma lista com alguns dados que "aparecem" frequentemente nas pesquisas do laboratório:
 
 * _Corpus_: é o conjunto de textos ou registros orais em uma determinada língua e que serve como base para diversas análises. Lembram da Linguística de corpus?;
@@ -30,6 +30,7 @@ O universo dos dados é gigantesco e diverso. Não se assustem, admirem a vastid
 [^1]: https://alan-turing-institute.github.io/rds-course/modules/m1/1.1-WhatIsDataScience.html#what-is-research-data-science
 
 A única certeza que temos sobre a Ciência de Dados é que não há um consenso sobre sua definição ou sobre o corpo de conhecimentos que a compõe. Como apontado por Grus (2016), *“[...] basicamente não importa como você define data science, pois você encontrará praticantes para quem a definição está total e absolutamente errada.”*
+
 No contexto desse curso, **Ciência de Dados é a área do conhecimento que nos capacita a aprender com dados**.
 
 É através dos conhecimentos que a Ciência de Dados nos oferece que seremos capazes de:
@@ -43,9 +44,12 @@ No contexto desse curso, **Ciência de Dados é a área do conhecimento que nos 
 
 ## 1.3. Introdução à Lógica de Programação
 Existem algumas formas de fazer ciência de dados, e muitas delas são conhecidas, como o Excel, o SPSS e a linguagem R. E o foco desse curso não é necessariamente no ferramental, ou seja, nos programas/softwares que podemos utilizar para isso e sim no conjunto completo: teorias, modos de pensar, ferramentas e aplicações.
+
 **É aí onde entra a programação.**
-Uma pergunta comum é *"Por que aprender a programar se muitos softwares já fazem o que eu preciso?"*.
+
+Uma pergunta comum é *"Por que aprender a programar se muitos softwares já fazem o que eu preciso?"*.  
 Isso não só é uma dúvida válida como também implica em decisões importantes. As vezes um trabalho pode ser iniciado e finalizado somente no Excel - inclusive veremos esse tipo de ocorrência ao longo do curso -, e isso é ótimo. Se a pessoa responsável souber e entender que aquela tarefa só precisa do Excel e mais nada, ela acabou de aplicar um dos conhecimentos da ciência de dados - saber o que usar para cada ocasião (é o famigerado "não vamos matar uma barata com um tiro").
+
 Contudo, diversos problemas vão requerer uma flexibilidade muito maior, ou terão etapas mais longas que só com um software as coisas não vão ser resolvidas. Casos comuns são:
 
 * Quantidade massiva de dados (um dia abram uma planilha de rastreio ocular ou de gestos faciais);
