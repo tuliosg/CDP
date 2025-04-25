@@ -149,9 +149,6 @@ Ao unirmos alguns dados, precisamos de meios de organizá-los, e é aí onde ent
 
 
 
----
-<small>
-<strong>Ciência de Dados para Pesquisa</strong> | 
-Edição especial: <I>Ciências Humanas</I>  <br>
-Organizador: Túlio Gois
-</small>
+<div align="right">
+   <a href="https://github.com/tuliosg"><img align="center" src="https://github.com/user-attachments/assets/f7cb0712-b3bb-4dc5-9347-cb72a4ab7f8d" alt="tuliosg" height="50" /></a>
+</div>
