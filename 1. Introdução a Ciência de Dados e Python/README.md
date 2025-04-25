@@ -48,14 +48,14 @@ Existem algumas formas de fazer ciência de dados, e muitas delas são conhecida
 **É aí onde entra a programação.**
 
 Uma pergunta comum é *"Por que aprender a programar se muitos softwares já fazem o que eu preciso?"*.  
-Isso não só é uma dúvida válida como também implica em decisões importantes. As vezes um trabalho pode ser iniciado e finalizado somente no Excel - inclusive veremos esse tipo de ocorrência ao longo do curso -, e isso é ótimo. Se a pessoa responsável souber e entender que aquela tarefa só precisa do Excel e mais nada, ela acabou de aplicar um dos conhecimentos da ciência de dados - saber o que usar para cada ocasião (é o famigerado "não vamos matar uma barata com um tiro").
+Isso não só é uma dúvida válida como também implica em decisões importantes. As vezes um trabalho pode ser iniciado e finalizado somente no Excel — inclusive veremos esse tipo de ocorrência ao longo do curso —, e isso é ótimo. Se a pessoa responsável souber e entender que aquela tarefa só precisa do Excel e mais nada, ela acabou de aplicar um dos conhecimentos da ciência de dados — saber o que usar para cada ocasião (é o famigerado "não vamos matar uma barata com um tiro").
 
 Contudo, diversos problemas vão requerer uma flexibilidade muito maior, ou terão etapas mais longas que só com um software as coisas não vão ser resolvidas. Casos comuns são:
 
 * Quantidade massiva de dados (um dia abram uma planilha de rastreio ocular ou de gestos faciais);
 * Construção de gráficos de forma mais dinâmica;
 * Corrigir/limpar/transformar muitos dados de uma só vez;
-* Implementar suas próprias funções - as vezes construir uma função no Excel pode ser muito mais complexo do que simplesmente programar.
+* Implementar suas próprias funções — as vezes construir uma função no Excel pode ser muito mais complexo do que simplesmente programar.
 
 Além disso, a ciência de dados se manifesta muitas vezes através da programação. É programando que a gente consegue implementar novos métodos de análise, construir novas formas de coletar dados, organizar diversos arquivos mais rapidamente (todas essas mágicas vocês já devem ter visto Profª Raquel ou Prof Julian fazendo).
 
@@ -63,7 +63,7 @@ Além disso, a ciência de dados se manifesta muitas vezes através da programa�
 Uma das analogias mais comuns para introduzir o conceito de programação (e de algoritmo) é que:
 > Um algoritmo nada mais é do que uma receita.
 
-Ao programar, você "ensina" o computador a realizar as tarefas que você deseja, assim, o programa que você escreve é como uma receita. 
+Ao programar, você "ensina" o computador a realizar as tarefas que você deseja, assim, o programa que você escreve é como uma receita que a máquina vai fazer. 
 | Na receita | Na programação |  
 |:----------:|:--------------:|  
 | pote, xícara | variáveis |  
@@ -81,13 +81,47 @@ Vamos entender um pouco melhor cada um desses pedaços do nosso bolo (programa):
 * Valores das variáveis: o valor de uma variável é aquilo que está sendo armazenado na variável naquele momento. 
    > Exemplo: Enquanto não enchermos uma xícara com óleo, a variável xícara não tem nenhum valor. Mas, ao despejar o óleo, a xícara passa a ter o valor "150mL de óleo".
 
-* Tipos de dados: cada variável pode armazenar alguns tipos de dados, ou seja, os valores delas tem uma característica específica. Na programação podemos definir, de forma básica, que os tipos de dados são: textos e números
+* Tipos de dados: cada variável pode armazenar alguns tipos de dados, ou seja, os valores delas tem uma característica específica. Na programação podemos definir, de forma básica, que os tipos de dados são: textos e números. Esses tipos "básicos" são ramificados, gerando tipos mais específicos — e restritos —, e também podem ser mais elaborados, gerando as chamadas **estruturas de dados**.
+   > Exemplo: Na receita, definimos que os tipos de dados (ou os tipos aceitáveis para as variáveis) seriam secos e molhados. Assim, sabemos qual o tipo de dado armazenado em cada variável, o que já implica nos tipos de operações que podemos fazer com elas.
 
-#### Teoria
-* Variáveis e tipos de dados (inteiros, strings, booleanos) - Variáveis como "caixas" para armazenar informações (analogias com conceitos linguísticos)
-* Estruturas de dados básicas (listas, dicionários, dataframes)
-* Loops (for, while) e condicionais (if-else) como ferramentas de decisão e repetição
-* Funções como "receitas" para tarefas repetitivas em pesquisa
+* Funções: uma função pode ser definida como uma operação que recebe uma entrada e possui uma saída. Assim como na matemática, podemos pensar em uma função que realiza somas, então precisamos de duas varíaveis — nesse caso, dois números — para somarmos e o resultado da operação é a nossa saída.
+   > Exemplo: Na nossa receita, as funções são as ações que vamos fazer com o conteúdo de algumas variáveis. Então, na função `bater`, podemos inserir todos os ingredientes secos e molhados como entrada, e o resultado — a saída — será uma mistura homogênea.
+
+* Loops: os loops são estruturas que permitem a repetição de ações. Essas estruturas são construídas pensando em reduzir o nosso trabalho no momento de programar, então, ao invés de chamarmos uma função 30 vezes, podemos colocar a função em um loop e pedir para rodar essas 30 vezes.
+   > Exemplo: Voltemos à função `bater`. Para ela funcionar, precisamos misturar todos os ingredientes em um recipiente só, então, precisamos repetir essa ação de `misturar`. O loop entra justamente para evitar a gente escrever "misture a farinha de trigo, misture a manteiga, misture o ovo..."". Com os loops, podemos criar algo tipo `para cada ingrediente disponível: misture`. Assim, entendemos que vamos misturar todos os ingredientes selecionados.
+
+* Bibliotecas: semelhante às bibliotecas reais, elas são utilizadas para "pegarmos" um determinado conhecimento e usar no nosso programa. Muitas vezes, as funções que queremos utilizar já foram construídas, então só precisamos importar a biblioteca que contêm essas funções e usar. Em resumo, bibliotecas são conjuntos de scripts já prontos que podem ser reutilizados e aplicados em diferentes programas.
+   > Exemplo: Imaginem ter que criar um forno do zero apenas para assar o nosso bolo... muito complicado. É por isso que podemos "importar" a função `assar` da biblioteca `forno`. Assim, com a nossa massa pronta, pegamos emprestada essa função do forno e aplicamos na nossa produção.
+
+* A saída: programas são construídos para que tragam algum resultado, e esse resultado pode ser chamado de **saída** do programa. A saída nada mais é do que o resultado final da execução do seu programa.
+   > Exemplo: Nada melhor que o bolo pronto. Após todas as definições das variáveis, aplicação das funções, execuções de loops, utilizar funções de bibliotecas, temos finalmente o resultado: um bolo quentinho para comer com café.
+
+### 1.3.2. Tipos e estruturas de dados
+Aprofundando o que foi visto na seção anterior, chegamos nos tipos e nas estruturas de dados utilizadas na programação e na ciência de dados.  
+
+Os tipos de dados definem a categoria de cada dado. E para cada categoria, temos algumas especificações, como os limites ou o domínio daquele conjunto. Vejam a seguir:
+* Dados numéricos
+  * Inteiros: são os números positivos (acima de 0) que não possuem casas decimais.
+      > 1, 2, 3...
+  * Decimais (números com ponto flutuante): são os números que possuem casas decimais.
+      > 1.5, 2,68, 3.14... 
+
+* Dados booleanos: são aqueles que podem assumir apenas dois valores, representando "verdadeiro" ou "falso".
+      > (False, True), (0, 1), (Falso, Verdadeiro) 
+
+* Caracteres
+  * Strings (cadeias de caracteres): as strings são qualquer conjunto de caracteres (letras, símbolos, números), e geralmente estão sempre entre aspas.
+      > "Essa é uma string", "Esse curso teve 25 inscrições", "Olá :)"
+
+Ao unirmos alguns dados, precisamos de meios de organizá-los, e é aí onde entram as estruturas de dados. São elas que fornecem as formas que podemos agrupar um ou mais dados. Dentro as estruturas mais comuns — e as que veremos ao longo do curso — estão:
+* Lista: uma lista é uma estrutura de dados unidimensional que armazena dados de mesmo tipo. 
+  > Um exemplo comum é a lista de compras que algumas pessoas fazem para ir ao mercado. Lista: feijão, arroz, óleo, pão...
+
+* Dicionário: o dicionário é uma estrutura de dados construída no modo "chave: valor". Essa estrutura segue o formato de um dicionário de palavras, onde encontramos "palavra: significado". O seu uso é muito comum na elaboração de tabelas e no armazenamento de dados textuais.
+  > Na programação, os dicionários ficam entre chaves: {"palavra": "significado"} .
+
+* Tabela: apesar de não ser um formato nativo da programação, essa estrutura é de suma importância na área de dados. As tabelas são estruturas bidimensionais formadas por linhas e colunas que podem armazenar diversos tipos de dados. Tabelas podem ser entendidas como a união de várias listas, sendo cada lista uma coluna e os seus valores as linhas correspondentes. Um local onde tabelas são usadas como estrutura de dados padrão é em softwares de planlihas, como Google Planilhas ou Excel. Diversas bibliotecas de manipulação de dados — como o pandas que aparecerá no próximo módulo — implementam esse tipo de estrutura.
+
 
 #### Prática
 * Criação de variáveis para armazenar dados de pesquisa
