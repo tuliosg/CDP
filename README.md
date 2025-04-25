@@ -1,4 +1,4 @@
-# Ciência de Dados para Pesquisa:
+# Ciência de Dados para Pesquisa
 > Edição especial: Ciências Humanas
 
 ## Introdução
