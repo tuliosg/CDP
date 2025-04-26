@@ -1,5 +1,11 @@
 # 2. Manipulação de Dados
-Objetivo: Ensinar boas práticas de organização de dados e manipulação básica usando pandas.
+Ao trabalharmos com dados, dificilmente encontraremos o chamado "caminho feliz". Ou seja, dificilmente os dados que coletamos estarão prontos para análise.
+
+Voltando à comparação com a cozinha, na maioria das vezes precisaremos peneirar a farinha, remover as cascas e talos da cenoura ou até separar as gemas das claras para que obtenhamos o melhor bolo de cenoura possível. Essas ações possibilitam que nosso bolo tenha uma qualidade superior, mesmo que possam ser entendidas como uma alteração na condição original dos ingredientes.
+
+No universo dos dados, chamamos essa "alteração" de manipulação. Assim como no nosso bolo de cenoura imaginário, a qualidade da nossa análise - e da nossa pesquisa como um todo - aumenta substancialmente quando realizamos essa manipulação.
+
+Nesse módulo, exploraremos os princípios e boas práticas de organização e manipulação de dados
 
 ## 2.1. Tabulação de Dados e Padrões
 ### Teoria:
