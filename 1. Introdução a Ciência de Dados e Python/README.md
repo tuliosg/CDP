@@ -169,6 +169,9 @@ Ao somarmos as bases da programação que vimos com as especificações de tipos
 
 
 
-<div align="right">
-   <a href="https://github.com/tuliosg"><img align="center" src="https://github.com/user-attachments/assets/f7cb0712-b3bb-4dc5-9347-cb72a4ab7f8d" alt="tuliosg" height="50" /></a>
-</div>
+<p align="right">
+    <small>
+    <strong>Ciência de Dados para Pesquisa </strong></br>
+    <I> Módulo 1 - Introdução à Ciência de Dados e Python </I>
+    </small>
+</p>
