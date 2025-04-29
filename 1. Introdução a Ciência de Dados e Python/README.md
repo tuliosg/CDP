@@ -123,6 +123,8 @@ Os tipos de dados definem a categoria de cada dado. E, para cada categoria, temo
   * **Strings** (cadeias de caracteres): as strings são qualquer conjunto de caracteres (letras, símbolos, números), e elas são encontradas entre aspas.
       > "Essa é uma string", "Esse curso dura 15 horas", "Olá :)"
 
+
+
 Ao unirmos alguns dados, sejam de tipos iguais ou diferentes, precisamos de meios de organizá-los, e é aí onde entram as estruturas de dados. São elas que fornecem as formas que podemos agrupar um ou mais dados. Dentre as estruturas mais comuns estão:
 
 * **Lista**: uma lista é uma estrutura de dados unidimensional que armazena dados de mesmo tipo. 
