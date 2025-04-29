@@ -172,27 +172,10 @@ As Figuras 2 e 3 exibem alguns dos recursos disponíveis no Notebook.
    <img src="../1. Introdução a Ciência de Dados e Python/imgs/ex2_plot.png" height="250">
 </figure>
 
+Neste curso, adotaremos o Jupyter Notebook, mais especificamente sua versão disponível no Colab, por conta da sua versatilidade em mesclar códigos e textos, e também pelo componente interacional, permitindo uma programação mais ativa. Ademais, é importante ressaltar que, devido à combinação de documentações e códigos executáveis, o uso do Jupyter Notebook tem sido defendido como forma de publicar pesquisas reprodutíveis (Kluvyer et al., 2016).  
 
-
-
-#### Teoria
-* Vantagens do notebook para documentação de pesquisa
-* Estrutura de células de código e markdown
-
-#### Prática
-* Navegação básica no Colab
-* Execução de células de código
-* Formatação de texto com markdown para documentar análises
-* Compartilhamento de notebooks com colaboradores
-
-## 1.5. Princípios de Ciência Aberta e Reprodutibilidade - Introdução
-* O que é ciência aberta e por que é importante
-* A crise de reprodutibilidade nas ciências
-* Benefícios da pesquisa transparente e reprodutível
-
-
-
-
+O fechamento desse módulo ocorrerá diretamente nos Notebooks criados. Inicialmente, vamos explorar esse novo ambiente, entendendo sua estrutura e componentes, no [Introdução ao Google Colab](link). Na sequência, partiremos para a programação, no [Prática de Programação com Python](link).  
+> Todos os notebooks podem ser acessado na pasta **📁 [notebooks](link)** desse módulo.
 
 <p align="right">
     <small>
