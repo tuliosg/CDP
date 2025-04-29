@@ -8,10 +8,10 @@ A depender de onde essa pergunta seja feita, as respostas serão diferentes mas,
 * Observações documentadas;
 * Valores.
 
-Ainda que haja uma gama de possíveis descrições para o que são dados, podemos resumir da seguinte forma:
+Ainda que haja uma gama de possíveis definições, podemos resumir da seguinte forma:
 > Dados são uma coleção de valores (ou unidades básicas de significado) que transmitem informações.
 
-Apeasr da presença da palavra "valores" na definição, dados não devem ser entendidos apenas como números. A seguir vão alguns exemplos de dados:
+Embora a palavra 'valores' apareça na definição, é importante entender que dados não são apenas a números. A seguir vão alguns exemplos de dados:
 
 * As alturas, em metros, das pessoas que participaram desse curso;
 * A cor da pelagem dos gatos que vivem na UFS;
@@ -19,7 +19,7 @@ Apeasr da presença da palavra "valores" na definição, dados não devem ser en
 
 Ao longo do curso, vocês serão estimulados a transpor o conhecimento visto aqui para a sua própria realidade e pesquisa. Então, vamos começar pensando: **quais são os dados da sua pesquisa?**  
 
-Para ajudar, deixo aqui uma lista com alguns dados que "aparecem" frequentemente nas pesquisas do laboratório:
+Para ajudar na reflexão, apresentamos exemplos de dados frequentemente utilizados nas pesquisas do laboratório:
 
 * _Corpus_: o conjunto de textos ou registros orais em uma determinada língua que serve como base para diversas análises;
 * Rastreamento ocular: o registro da posição dos olhos de uma pessoa e o caminho que eles percorreram em um texto ou imagem;
@@ -34,7 +34,7 @@ O universo dos dados é gigantesco e diverso. Não se assustem, admirem a vastid
 
 A única certeza que temos sobre a Ciência de Dados é que não há um consenso sobre sua definição ou sobre o corpo de conhecimentos que a compõe. Como apontado por Grus (2016), *“[...] basicamente não importa como você define data science, pois você encontrará praticantes para quem a definição está total e absolutamente errada.”*
 
-Mas, no contexto desse curso, vamos definir da seguinte forma: **Ciência de Dados é a área do conhecimento que nos capacita a aprender com e sobre dados**.
+Mas, no contexto desse curso, vamos partir da seguinte definição: **Ciência de Dados é a área do conhecimento que nos capacita a aprender com e sobre dados**.
 
 É através dos conhecimentos que a ciência de dados oferece que nos tornamos capazes de:
 * Encontrar e distinguir o que são dados e quais nos interessam;
@@ -105,7 +105,7 @@ Vamos entender um pouco melhor cada um desses pedaços do nosso bolo:
 
 Partindo desses conceitos iniciais, começamos a entender melhor como funciona a programação e os programas. Agora, temos que detalhar alguns dos conceitos básicos, principalmente os que carregam "dados" nos seu nomes, pois são eles que vocês verão com maior frequência.
 
-### 1.3.2. Tipos e estruturas de dados
+### 1.3.2. Tipos de dados
 Aprofundando o que foi visto na seção anterior, chegamos nos tipos e nas estruturas de dados utilizadas na programação e na ciência de dados.
 
 Os tipos de dados definem a categoria de cada dado. E, para cada categoria, temos algumas especificações, como os limites ou o domínio daquele conjunto. Vejam a seguir:
@@ -123,8 +123,7 @@ Os tipos de dados definem a categoria de cada dado. E, para cada categoria, temo
   * **Strings** (cadeias de caracteres): as strings são qualquer conjunto de caracteres (letras, símbolos, números), e elas são encontradas entre aspas.
       > "Essa é uma string", "Esse curso dura 15 horas", "Olá :)"
 
-
-
+### 1.3.3. Estruturas de dados
 Ao unirmos alguns dados, sejam de tipos iguais ou diferentes, precisamos de meios de organizá-los, e é aí onde entram as estruturas de dados. São elas que fornecem as formas que podemos agrupar um ou mais dados. Dentre as estruturas mais comuns estão:
 
 * **Lista**: uma lista é uma estrutura de dados unidimensional que armazena dados de mesmo tipo. 
@@ -190,7 +189,7 @@ As Figuras 2 e 3 exibem alguns dos recursos disponíveis no Notebook.
 
 Neste curso, adotaremos o Jupyter Notebook, mais especificamente sua versão disponível no Colab, por conta da sua versatilidade em mesclar códigos e textos, e também pelo componente interacional, permitindo uma programação mais ativa. Ademais, é importante ressaltar que, devido à combinação de documentações e códigos executáveis, o uso do Jupyter Notebook tem sido defendido como forma de publicar pesquisas reprodutíveis (Kluvyer et al., 2016).  
 
-O fechamento desse módulo ocorrerá diretamente nos Notebooks criados. Inicialmente, vamos explorar esse novo ambiente, entendendo sua estrutura e componentes, no [Introdução ao Google Colab](link). Na sequência, partiremos para a programação, no [Prática de Programação com Python](link).  
+Fecharemos esse módulo diretamente nos Notebooks criados. Inicialmente, vamos explorar esse novo ambiente, entendendo sua estrutura e componentes, no [Introdução ao Google Colab](link). Na sequência, partiremos para a programação, no [Prática de Programação com Python](link).  
 > Todos os notebooks podem ser acessado na pasta **📁 [notebooks](link)** desse módulo.
 
 <p align="right">
