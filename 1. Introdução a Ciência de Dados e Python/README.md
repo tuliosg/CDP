@@ -125,21 +125,35 @@ Os tipos de dados definem a categoria de cada dado. E, para cada categoria, temo
 
 Ao unirmos alguns dados, sejam de tipos iguais ou diferentes, precisamos de meios de organizá-los, e é aí onde entram as estruturas de dados. São elas que fornecem as formas que podemos agrupar um ou mais dados. Dentre as estruturas mais comuns estão:
 
-* Lista: uma lista é uma estrutura de dados unidimensional que armazena dados de mesmo tipo. 
+* **Lista**: uma lista é uma estrutura de dados unidimensional que armazena dados de mesmo tipo. 
   > Um exemplo comum é a lista de compras que algumas pessoas fazem para ir ao mercado. Lista: feijão, arroz, óleo, pão...
 
-*IMAGEM*
+```python
+meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"]
+numero_dias = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+```
 
-* Dicionário: o dicionário é uma estrutura de dados construída no modo "chave: valor". Essa estrutura segue o formato de um dicionário de palavras, onde encontramos "palavra: significado". O seu uso é muito comum na elaboração de tabelas e no armazenamento de dados textuais.
+* **Dicionário**: o dicionário é uma estrutura de dados construída no modo "chave: valor". Essa estrutura segue o formato de um dicionário de palavras, onde encontramos "palavra: significado". O seu uso é muito comum na elaboração de tabelas e no armazenamento de dados textuais.
   > Na programação, os dicionários ficam entre chaves: {"palavra": "significado"} .
 
-*IMAGEM*
+```python
+cafezinho = {
+   "cafe": 70,
+   "agua": 1000,
+   "temperatura": 96
+}
+```
 
-* Tabela: apesar de não ser um formato nativo da programação, essa estrutura é de suma importância na área de dados. As tabelas são estruturas bidimensionais formadas por linhas e colunas que podem armazenar diversos tipos de dados. Tabelas podem ser entendidas como a união de várias listas, sendo cada lista uma coluna e os seus valores as linhas correspondentes. Um local onde tabelas são usadas como estrutura de dados padrão é em softwares de planlihas, como Google Planilhas ou Excel. Diversas bibliotecas de manipulação de dados — como o pandas, que aparecerá no próximo módulo — implementam esse tipo de estrutura[^2].
+* **Tabela**: apesar de não ser um formato nativo da programação, essa estrutura é de suma importância na área de dados. As tabelas são estruturas bidimensionais formadas por linhas e colunas que podem armazenar diversos tipos de dados. Tabelas podem ser entendidas como a união de várias listas, sendo cada lista uma coluna e os seus valores as linhas correspondentes. Um local onde tabelas são usadas como estrutura de dados padrão é em softwares de planlihas, como Google Planilhas ou Excel. Diversas bibliotecas de manipulação de dados — como o pandas, que aparecerá no próximo módulo — implementam esse tipo de estrutura[^2].
 
 [^2]: Apesar das tabelas não serem nativas algumas linguagens de programação implementam matrizes, que são estruturas no formato linhas x colunas que armazenam dados numéricos.
 
-*IMAGEM*
+*Tabela 1. Dados climatológicos de Aracaju. Adaptado de https://pt.wikipedia.org/wiki/Aracaju#Geografia*
+| Temperatura | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez  |
+|--|--|--|--|--|--|--|--|--|--|--|--|--|
+|Temperatura máxima recorde (°C) |	34,2	|33,9	|34,3|	33,7	|32,3	|31,9	|30,1	|30	|30,6	|32,5	|32,6	|33,8	 |   
+|Temperatura máxima média (°C)	|30,6	|30,8	|30,9	|30,4	|29,6	|28,6	|27,9	|27,9	|28,4	|29,2	|29,8	|30,2	  |  
+|Temperatura média compensada (°C)	|27,3	|27,5	|27,7	|27,3	|26,5	|25,6	|24,9	|24,9	|25,4	|26,2	|26,7	|27,1	 |   
 
 Ao somarmos as bases da programação que vimos com as especificações de tipos e estruturas de dados, podemos começar a pôr a mão na massa. Na próxima seção, será apresentado o ambiente do Google Colab, o local onde nós vamos desenvolver todos os códigos do curso e, após as devidas apresentações, terão alguns códigos práticos para assimilarmos o conteúdo visto até aqui.
 
