@@ -149,7 +149,21 @@ Ao somarmos as bases da programação que vimos com as especificações de tipos
 * Implementação de loops simples para processamento repetitivo
 * Desenvolvimento de funções básicas
 
-## 1.4. Ambiente de Trabalho: Google Colab e Jupyter Notebook
+## 1.4. Google Colab
+O Google Colaboratory, comumente chamado de Colab, é um serviço da Google que permite a criação de Jupyter Notebooks sem a necessidade de configurações para uso e sem custos. E o que seria um Jupyter Notebook?  
+O Jupyter Notebook é um ambiente web de programação interativa estruturado em células, permitindo a inserção de código, texto, gráficos e imagens. O principal componente interacional do notebook é a execução dos blocos de código de maneira indepentende. Além disso, por conta dos blocos de texto (e outros recursos visuais), é muito mais fácil apresentar e explicar os códigos desenvolvidos.
+
+<figure>
+   <img src="../1. Introdução a Ciência de Dados e Python/imgs/ex1_calculo-no-colab.png">
+   <figcaption>Figura 1. Cálculo realizado no Colab</figcaption>
+</figure>
+
+<figure>
+   <img src="../1. Introdução a Ciência de Dados e Python/imgs/ex2_plot.png">
+   <figcaption>Figura 2. Plotagem de gráfico realizada no Colab</figcaption>
+</figure>
+
+
 #### Teoria
 * Vantagens do notebook para documentação de pesquisa
 * Estrutura de células de código e markdown
