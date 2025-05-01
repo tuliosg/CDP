@@ -158,11 +158,6 @@ cafezinho = {
 
 Ao somarmos as bases da programação que vimos com as especificações de tipos e estruturas de dados, podemos começar a pôr a mão na massa. Na próxima seção, será apresentado o ambiente do Google Colab, o local onde nós vamos desenvolver todos os códigos do curso e, após as devidas apresentações, terão alguns códigos práticos para assimilarmos o conteúdo visto até aqui.
 
-#### Prática
-* Criação de variáveis para armazenar dados de pesquisa
-* Construção de listas, e dicionários e dataframes
-* Implementação de loops simples para processamento repetitivo
-* Desenvolvimento de funções básicas
 
 ## 1.4. Google Colab
 O Google Colaboratory, comumente chamado de Colab, é um serviço da Google que permite a criação de Jupyter Notebooks sem a necessidade de configurações para uso e sem custos.
@@ -187,10 +182,11 @@ As Figuras 2 e 3 exibem alguns dos recursos disponíveis no Notebook.
    <img src="../1. Introdução a Ciência de Dados e Python/imgs/ex2_plot.png" height="250">
 </figure>
 
-Neste curso, adotaremos o Jupyter Notebook, mais especificamente sua versão disponível no Colab, por conta da sua versatilidade em mesclar códigos e textos, e também pelo componente interacional, permitindo uma programação mais ativa. Ademais, é importante ressaltar que, devido à combinação de documentações e códigos executáveis, o uso do Jupyter Notebook tem sido defendido como forma de publicar pesquisas reprodutíveis (Kluvyer et al., 2016).  
+Neste curso, adotaremos o Jupyter Notebook, mais especificamente sua versão disponível no Colab, por conta da sua versatilidade em mesclar códigos e textos, e também pelo componente interacional, permitindo uma programação ainda mais ativa. Ademais, é importante ressaltar que, devido à combinação de documentações e códigos executáveis, o uso do Jupyter Notebook tem sido defendido como forma de publicar pesquisas reprodutíveis (Kluvyer et al., 2016).  
 
 Fecharemos esse módulo diretamente nos Notebooks criados. Inicialmente, vamos explorar esse novo ambiente, entendendo sua estrutura e componentes, no [Introdução ao Google Colab](link). Na sequência, partiremos para a programação, no [Prática de Programação com Python](link).  
-> Todos os notebooks podem ser acessado na pasta **📁 [notebooks](link)** desse módulo.
+> Todos os notebooks podem ser acessados na pasta **📁 [notebooks](link)** desse módulo.
+
 
 <p align="right">
     <small>
@@ -198,3 +194,14 @@ Fecharemos esse módulo diretamente nos Notebooks criados. Inicialmente, vamos e
     <I> Módulo 1 - Introdução à Ciência de Dados e Python </I>
     </small>
 </p>
+
+<div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+  <div>
+    <small>
+      <strong>Ciência de Dados para Pesquisa</strong><br>
+      <i>Módulo 1 - Introdução à Ciência de Dados e Python</i>
+    </small>
+  </div>
+  <div>
+    <img src="/1. Introdução a Ciência de Dados e Python/imgs/tt_corvo.png" alt="icon" height="40"> </div>
+</div>
