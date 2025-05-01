@@ -188,12 +188,12 @@ Fecharemos esse módulo diretamente nos Notebooks criados. Inicialmente, vamos e
 > Todos os notebooks podem ser acessados na pasta **📁 [notebooks](link)** desse módulo.
 
 
-<p align="right">
+<p align="left">
     <small>
     <strong>Ciência de Dados para Pesquisa </strong></br>
     <I> Módulo 1 - Introdução à Ciência de Dados e Python </I>
     </small>
 </p>
-<p align="left">
+<p align="right">
    <img src="/1. Introdução a Ciência de Dados e Python/imgs/tt_corvo.png" alt="icon" height="40"> 
 </p>
