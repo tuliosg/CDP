@@ -194,14 +194,6 @@ Fecharemos esse módulo diretamente nos Notebooks criados. Inicialmente, vamos e
     <I> Módulo 1 - Introdução à Ciência de Dados e Python </I>
     </small>
 </p>
-
-<div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
-  <div>
-    <small>
-      <strong>Ciência de Dados para Pesquisa</strong><br>
-      <i>Módulo 1 - Introdução à Ciência de Dados e Python</i>
-    </small>
-  </div>
-  <div>
-    <img src="/1. Introdução a Ciência de Dados e Python/imgs/tt_corvo.png" alt="icon" height="40"> </div>
-</div>
+<p align="left">
+   <img src="/1. Introdução a Ciência de Dados e Python/imgs/tt_corvo.png" alt="icon" height="40"> 
+</p>
