@@ -156,7 +156,9 @@ cafezinho = {
 |Temperatura máxima média (°C)	|30,6	|30,8	|30,9	|30,4	|29,6	|28,6	|27,9	|27,9	|28,4	|29,2	|29,8	|30,2	  |  
 |Temperatura média compensada (°C)	|27,3	|27,5	|27,7	|27,3	|26,5	|25,6	|24,9	|24,9	|25,4	|26,2	|26,7	|27,1	 |   
 
-Ao somarmos as bases da programação que vimos com as especificações de tipos e estruturas de dados, podemos começar a pôr a mão na massa. Na próxima seção, será apresentado o ambiente do Google Colab, o local onde nós vamos desenvolver todos os códigos do curso e, após as devidas apresentações, terão alguns códigos práticos para assimilarmos o conteúdo visto até aqui.
+Ao compreendermos os fundamentos da programação e as estruturas de dados apresentadas, estamos equipados com o conhecimento teórico necessário para iniciar nossa jornada prática. No entanto, para transformar esse conhecimento em habilidades aplicáveis, precisamos de um ambiente adequado para escrever e executar os códigos.
+
+É nesse momento que o Google Colab entra em cena, oferecendo um espaço interativo onde poderemos experimentar todos os conceitos que acabamos de aprender, visualizar resultados e desenvolver as nossas primeiras análises de dados. Na próxima seção, o Colab será apresentado com mais detalhes e, teremos algumas práticas para assimilação de conteúdo.
 
 
 ## 1.4. Google Colab
