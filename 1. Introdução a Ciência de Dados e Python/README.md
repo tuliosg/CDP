@@ -187,6 +187,7 @@ Neste curso, adotaremos o Jupyter Notebook, mais especificamente sua versão dis
 Fecharemos esse módulo diretamente nos Notebooks criados. Inicialmente, vamos explorar esse novo ambiente, entendendo sua estrutura e componentes, no [Introdução ao Google Colab](link). Na sequência, partiremos para a programação, no [Prática de Programação com Python](link).  
 > Todos os notebooks podem ser acessados na pasta **📁 [notebooks](link)** desse módulo.
 
+---
 
 <p align="left">
     <small>
