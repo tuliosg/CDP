@@ -1,4 +1,4 @@
-# 1. Introdução à Ciência de Dados e Python
+# 1. Introdução à ciência de dados e Python
 O primeiro capítulo aborda uma introdução aos principais conceitos na área de dados e também ao Python, a linguagem de programação que será utilizada ao longo do curso.
 
 ## 1.1. Dados: o que são, de onde vêm e por que são importantes?
@@ -27,7 +27,7 @@ Para ajudar na reflexão, apresentamos exemplos de dados frequentemente utilizad
 
 O universo dos dados é gigantesco e diverso. Não se assustem, admirem a vastidão e descubram, a seguir, como começar a desbravá-lo!
 
-### 1.2. Ciência de Dados
+### 1.2. Ciência de dados
 É da necessidade de explorar essa vastidão que emerge a Ciência de Dados (CD), a área que engloba as teorias, conceitos, metodologias e ferramentas necessárias para aprender com ou sobre os dados[^1].
 
 [^1]: https://alan-turing-institute.github.io/rds-course/modules/m1/1.1-WhatIsDataScience.html#what-is-research-data-science
@@ -47,7 +47,7 @@ Desenvolver essas habilidades exige tempo e dedicação ao estudo da ciência de
 
 Começaremos pela programação, um conhecimento técnico que nos habilita a ensinar computadores e resolver problemas utilizando-os. É através dela que implementamos muitas das técnicas e soluções em ciência de dados. Assim, a próxima seção é dedicada a explicação das bases da programação.
 
-## 1.3. Introdução à Programação
+## 1.3. Introdução à programação
 Existem diversas formas de trabalhar com ciência de dados, e algumas delas são conhecidas, como o Excel e o SPSS. Porém, o foco desse curso não é somente no ferramental, ou seja, nos softwares prontos que podemos utilizar, e sim no conjunto completo: teorias, modos de pensar, técnicas, ferramentas e aplicações.
 
 **É aí onde entra a programação.**
