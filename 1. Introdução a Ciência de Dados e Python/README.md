@@ -169,19 +169,19 @@ O Jupyter Notebook é um ambiente web de programação interativa estruturado em
 
 *Figura 1. Visão geral. Fonte: Autoria própria*
 <figure>
-   <img src="../1. Introdução a Ciência de Dados e Python/imgs/visao_geral_colab.png" height="250">
+   <img src="../1. Introdução a Ciência de Dados e Python/imgs/fig1-visao_geral_colab.png" height="250">
 </figure>
 
 As Figuras 2 e 3 exibem alguns dos recursos disponíveis no Notebook.
 
 *Figura 2. Célula de código. Fonte: https://osf.io/un8cw/*
 <figure>
-   <img src="../1. Introdução a Ciência de Dados e Python/imgs/ex1_calculo-no-colab.png" height="250">
+   <img src="../1. Introdução a Ciência de Dados e Python/imgs/fig2-ex1_calculo-no-colab.png" height="250">
 </figure>
 
 *Figura 3. Plotagem de gráfico. Fonte: https://osf.io/un8cw/*
 <figure>
-   <img src="../1. Introdução a Ciência de Dados e Python/imgs/ex2_plot.png" height="250">
+   <img src="../1. Introdução a Ciência de Dados e Python/imgs/fig3-ex2_plot.png" height="250">
 </figure>
 
 Neste curso, adotaremos o Jupyter Notebook como ambiente de trabalho, mais especificamente sua versão disponível no Colab, por conta da sua versatilidade em mesclar códigos e textos, e também pelo componente interacional, permitindo uma programação ainda mais ativa. Ademais, é importante ressaltar que, devido à combinação de documentações e códigos executáveis, o uso do Jupyter Notebook tem sido defendido como forma de publicar pesquisas reprodutíveis (Kluvyer et al., 2016).  
