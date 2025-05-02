@@ -54,7 +54,7 @@ Existem diversas formas de trabalhar com ciência de dados, e algumas delas são
 
 Uma pergunta comum é, *"Por que aprender a programar se muitos softwares já fazem o que eu preciso?"*.  
 
-Isso não só é uma dúvida válida como também implica em decisões importantes. Às vezes, um trabalho pode ser iniciado e finalizado somente no Excel — inclusive, veremos esse tipo de ocorrência ao longo do curso —, e isso é ótimo. Se a pessoa responsável souber e entender que aquela tarefa só precisa do Excel e mais nada, ela acabou de aplicar um dos conhecimentos da ciência de dados — saber o que usar para cada ocasião.
+Isso não só é uma dúvida válida como também implica em decisões importantes. Às vezes, um trabalho pode ser iniciado e finalizado somente no Excel — inclusive, utilizaremos essa abordagem ao longo do curso —, e isso é ótimo. Se a pessoa responsável souber e entender que aquela tarefa só precisa do Excel e mais nada, ela acabou de aplicar um dos conhecimentos da ciência de dados — saber o que usar para cada ocasião.
 
 Contudo, diversos problemas vão requerer uma flexibilidade muito maior, ou terão etapas mais longas que só com um software as coisas não vão ser resolvidas. Casos comuns são:
 
@@ -184,7 +184,7 @@ As Figuras 2 e 3 exibem alguns dos recursos disponíveis no Notebook.
    <img src="../1. Introdução a Ciência de Dados e Python/imgs/ex2_plot.png" height="250">
 </figure>
 
-Neste curso, adotaremos o Jupyter Notebook, mais especificamente sua versão disponível no Colab, por conta da sua versatilidade em mesclar códigos e textos, e também pelo componente interacional, permitindo uma programação ainda mais ativa. Ademais, é importante ressaltar que, devido à combinação de documentações e códigos executáveis, o uso do Jupyter Notebook tem sido defendido como forma de publicar pesquisas reprodutíveis (Kluvyer et al., 2016).  
+Neste curso, adotaremos o Jupyter Notebook como ambiente de trabalho, mais especificamente sua versão disponível no Colab, por conta da sua versatilidade em mesclar códigos e textos, e também pelo componente interacional, permitindo uma programação ainda mais ativa. Ademais, é importante ressaltar que, devido à combinação de documentações e códigos executáveis, o uso do Jupyter Notebook tem sido defendido como forma de publicar pesquisas reprodutíveis (Kluvyer et al., 2016).  
 
 Fecharemos esse módulo diretamente nos Notebooks criados. Inicialmente, vamos explorar esse novo ambiente, entendendo sua estrutura e componentes, no [Introdução ao Google Colab](../1.%20Introdução%20a%20Ciência%20de%20Dados%20e%20Python//notebooks/introducao_ao_colab.ipynb). Na sequência, partiremos para a programação, no [Prática de Programação com Python](../1.%20Introdução%20a%20Ciência%20de%20Dados%20e%20Python/notebooks/pratica_programacao_python.ipynb).  
 > Todos os notebooks podem ser acessados na pasta **📁 [notebooks](../1.%20Introdução%20a%20Ciência%20de%20Dados%20e%20Python/notebooks/)** desse módulo.
