@@ -213,37 +213,17 @@ O trabalho aqui é organizar cada uma das planilhas abaixo seguindo os princípi
 > Todas as planilhas utilizadas nos exercícios práticos estão na pasta 📁 [**planilhas**](../2.%20Organização%20e%20pré-processamento/planilhas/).
 
 
-## 2.2. Introdução ao Pandas
-Carregamento de dados (pd.read_csv(), pd.read_excel())
-Inspeção básica (.head(), .info(), .describe())
-Seleção de dados (.loc[], .iloc[], filtros booleanos)
-Indexação e consulta (df[df['coluna'] > 10])
+## 2.3. Organização e pré-processamento com `pandas`
+A partir de agora, voltaremos ao Google Colab para entender o funcionamento e a aplicação dos princípios através da programação. O notebook [**Organização e pré-processamento com pandas**]() começa do carregamento dos dados, onde vamos inserir no ambiente o arquivo do conjunto de dados e, na sequência, abordaremos como implementar, usando a biblioteca `pandas`, o conhecimento visto na seção de organização. Por fim, veremos o pré-processamento de dados: a exploração inicial, a limpeza e a transformação dos dados.
 
-## 2.3. Limpeza Básica de Dados
+O notebook da vez é o [**Organização e pré-processamento com pandas**]() e o conjunto de dados que usaremos é o [**Catálogo de livros da biblioteca**](../2.%20Organização%20e%20pré-processamento/dados/Catálogo%20de%20livros%20da%20biblioteca.csv)*.
 
-### Teoria:		
-Tipos comuns de problemas em dados de pesquisa
-Estratégias de limpeza e transformação
-Fluxo de trabalho para preparação de dados
+\* *O conjunto de dados intitulado "Catálogo de livros da biblioteca" é completamente fictício e foi gerado utilizando o modelo de IA generativa Claude 3.7 Sonnet apenas para fins didáticos.*
 
-### Prática:
-Tratamento de valores ausentes (.dropna(), .fillna())
-Remoção de duplicatas (.drop_duplicates())
-Verificação de consistência (.value_counts())
-Transformação de tipos de dados (.astype(), .apply())
-Renomeação e reorganização de colunas (.rename(), .drop())
+> Todos os conjuntos de dados podem ser encontrados na pasta [**📁 dados**](../2.%20Organização%20e%20pré-processamento/dados/)
 
-## 2.4. Transformação e Agregação de Dados
-### Teoria:		
-Conceitos de groupby e agregação
-Criação de variáveis derivadas
-Junção de diferentes fontes de dados
-
-### Prática:
-Agrupamento e resumo (.groupby().agg())
-Criação de novas colunas (df['nova_coluna'] = df['coluna'] * 2)
-Mesclagem de DataFrames (.merge(), .join())
-
+## Referências
+As referências desse módulo estão disponíveis em formato BibTeX no arquivo [`refs.bib`](../2.%20Organização%20e%20pré-processamento/refs.bib).
 
 ---
 
