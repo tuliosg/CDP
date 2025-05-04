@@ -55,7 +55,8 @@ O curso está organizado em quatro módulos principais:
 * O arquivo `README` de cada pasta corresponde ao material escrito completo relacionado àquele módulo.
 
 ## Agradecimentos
-Agradeço à Nayla Chagas, que aceitou o convite para participar desse trabalho e colaborou brilhantemente no Módulo de Organização e pré-processamento, com sua expertise em engenharia de dados.  
+Agradeço à Nayla Chagas, que aceitou o convite para participar desse trabalho e colaborou brilhantemente no Módulo de Organização e pré-processamento, com sua expertise em engenharia de dados.
+  
 Esse trabalho faz parte do meu projeto como Embaixador da Rede Brasileira de Reprodutibilidade (RBR) e só foi possível graças ao apoio da equipe e da infraestrutura do Laboratório Multiusuário de Informática e Documentação Linguística (LAMID).
 
 
