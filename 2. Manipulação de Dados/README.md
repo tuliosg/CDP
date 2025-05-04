@@ -95,6 +95,17 @@ Deixe todas as funcionalidades do ambiente de lado. Apenas os dados devem estar 
 * Usar formatação específica de células nos dados (como a formatação em data ou em moeda);
 * Colorir, trocar fontes, adicionar bordas, entre outras formatações de estilo.  
 
+*Figura 1. Exemplo de tabela formatada a ser evitada. Elaboração própria*
+<figure>
+   <img src="../2. Manipulação de Dados/imgs/fig1-ex_tabela_formt.png" height="150">
+</figure>
+
+*Figura 2. Tabela da Figura 1 sem formatações. Elaboração própria*
+<figure>
+   <img src="../2. Manipulação de Dados/imgs/fig2-ex_tabela_normal.png" height="150">
+</figure>
+
+
 Caso deseje construir uma planilha mais elaborada ou visivelmente bonita, siga o princípio anterior, crie uma cópia e trabalhe apenas na cópia.
 
 
