@@ -1,25 +1,27 @@
-# 2. Manipulação e pré-processamento de dados
+# 2. Organização e pré-processamento
 Ao trabalharmos com dados, dificilmente encontraremos o chamado "caminho feliz". Ou seja, é improvável que os dados que coletamos estarão prontos para análise.
 
 Voltando à comparação com a cozinha, na maioria das vezes precisaremos peneirar a farinha, remover as cascas e talos da cenoura ou até separar as gemas das claras para que obtenhamos o melhor bolo de cenoura possível. Essas ações possibilitam que o bolo tenha uma qualidade superior, mesmo que possam ser entendidas como uma alteração na condição original dos ingredientes.
 
-No universo dos dados, chamamos essas "alterações" de manipulação ou pré-processamento. Assim como no nosso bolo de cenoura imaginário, a qualidade da nossa análise — e da nossa pesquisa como um todo — aumenta substancialmente quando realizamos essas ações.
+No universo dos dados, essas "alterações" constituem o que chamamos de organização e pré-processamento. Assim como no nosso bolo de cenoura imaginário, a qualidade da nossa análise — e da nossa pesquisa como um todo — aumenta substancialmente quando realizamos essas ações.
 
-Nesse módulo, exploraremos a manipulação e pré-processamento dos dados, abordando as etapas de organização, limpeza e transformação.
+A organização é a etapa onde os dados são estruturados em formatos legíveis tanto por humanos quanto por máquinas. Nesse processo, seguimos uma série de padrões e regras para minimizar erros nas etapas posteriores. Já no pré-processamento, os dados são verificados, evidenciando qualquer possível problema, seja no conjunto de dados em si ou na tabulação. Além disso, é nessa etapa onde começamos a explorar e transformar os dados, entendendo quais variáveis e tipos de dados estão no conjunto, filtrando ocorrências, verificando valores, entre outras ações.
+
+Nesse módulo, exploraremos a organização e pré-processamento dos dados, abordando princípios de organização, limpeza de dados e transformações. 
 
 ## 2.1. Organização de dados
 Antes de aplicar análises, fazer inferências e construir gráficos, precisamos entender os nossos dados. E, para isso, é essencial que eles estejam devidamente organizados. Com um conjunto de dados organizados, estamos não só facilitando o nosso próprio trabalho, como também tornando esses dados reutilizáveis para outros pesquisadores. 
 
 Uma das formas mais amplamente utilizadas para a organização de dados de pesquisa é a planilha. Ainda que muito propensas a erros e ineficientes para algumas etapas do trabalho com dados, as planilhas cumprem bem o seu papel na hora de servir como estruturas para inserção e armazenamento. E, quando somos **consistentes** na tabulação e na organização, estamos diminuindo ao máximo o número de erros que podem ocorrer (Freitag, 2021; Broman e Woo, 2018).
 
-Organizar os dados requer consistência e atenção. Para orientar cada etapa de uma boa organização, elaboramos **os princípios de organização de dados**. Cada um dos princípios traz recomendações, explicações e erros comuns na organização de dados de pesquisa. 
+Organizar dados de forma eficaz exige consistência e atenção meticulosa. Para guiar este processo, desenvolvemos **os princípios de organização de dados**. Cada princípio apresenta recomendações práticas, explicações conceituais e alertas sobre erros comuns que pesquisadores frequentemente cometem durante essa etapa.
 
-No âmbito desse curso, escolhemos o Google Planilhas para a apresentação inicial dos princípios e, mais adiante, veremos como aplicá-los também através da programação. O Google Planilhas foi escolhido por ser uma solução gratuita, com estrutura semelhante ao Excel e que permite o compartilhamento com outras pessoas através do Google Drive.
+No âmbito desse curso, escolhemos o Google Planilhas para a apresentação inicial dos princípios e, mais adiante, veremos como aplicá-los também através da programação, usando a biblioteca `pandas`. O Google Planilhas foi escolhido por ser uma solução gratuita, com estrutura semelhante ao Excel e que permite o compartilhamento com outras pessoas através do Google Drive.
 
 ---
 
 ## Príncipios de organização de dados
-Os princípios são estruturados em um formato inspirado nos "10 mandamentos dos dados" de Freitag (2021) e alicerçados pelos trabalhos de Freitag (2021), Brooman e Woo (2018), Wickham (2014), Borer et. al (2009) e no livro/comunidade The Turing Way (2025).
+Organizamos esses princípios em um formato inspirado nos "10 mandamentos dos dados" de Freitag (2021), incorporando também contribuições dos trabalhos de Brooman e Woo (2018), Wickham (2014), Borer et. al (2009) e do livro/comunidade The Turing Way (2025).
 
 ### **Estruture a planilha no formato: ocorrências X variáveis**  
 Na planilha, cada coluna representa uma variável e as células representam as ocorrências/observações daquela variável. Dessa forma, cada linha é uma amostra. A estrutura esperada é:  
@@ -55,7 +57,7 @@ No cabeçalho ficam os rótulos das colunas, ou seja, o nome da variável contid
 Os principais pontos de atenção na hora de definir essas nomenclaturas são:
 
 1. **Não utilize acentuações, caracteres especiais ou espaços em branco**  
-   Adote o underline "_" como espaço, prefira escrever apenas com letras minúsculas e apague todos os acentos. Exemplificando: transforme `Nome e Sobrenome` em `nome_sobrenome`, `Classificação` em `classificacao` e `Anotação 1` em `anotacao_1`;  
+   Adote o underline "_" como espaço. Prefira escrever apenas com letras minúsculas. Elimine todos os acentos. Exemplificando: transforme `Nome e Sobrenome` em `nome_sobrenome`, `Classificação` em `classificacao` e `Anotação 1` em `anotacao_1`;  
 
 2. **Adote uma nomenclatura curta e descritiva**  
     Por exemplo: ao trabalhar na tabulação de dados de uma aplicação de uma prova que tem data, hora de começar e hora de terminar, não nomeie as colunas como `Data`, `Começo` e `Final`. Troque para `data_aplicacao`, `hora_inicio` e `hora_fim`. Com essa transformação, o conteúdo das colunas é melhor descrito e com uma nomenclatura sucinta.
@@ -76,9 +78,15 @@ Adote **apenas um padrão** para cada caso e use-o. E lembre-se, letras maiúscu
 
 
 ### **Use um valor fixo para lidar com dados ausentes**  
-Dados ausentes vão — ou melhor, não vão — aparecer e isso deve ser padronizado. Escolha uma forma para indicar que há um dado faltante naquele campo. Então, para casos onde o valor se perdeu e/ou não há nenhum registro dele, adote códigos como `"NA"` (comum para usuários de R), `"Null"` (comum para usuários de Python) ou até mesmo `"valor ausente"` para tornar mais legível. Mais uma vez, o importante é ser consistente.*
+Dados ausentes vão — ou melhor, não vão — aparecer e isso deve ser padronizado. Escolha uma forma para indicar que há um dado faltante naquele campo. Então, para casos onde o valor se perdeu e/ou não há nenhum registro dele, adote códigos como:
 
-\* *Dados faltantes não devem ser confundidos com zeros. Por exemplo: um participante que intencionalmente não respondeu uma questão não produz um dado faltante na nossa planilha e sim um zero (uma resposta em branco). Esses zeros entram como uma ocorrência de uma variável categórica, devendo possuir um padrão específico para cada caso.*
+* `"NA"` (comum para usuários de R);
+* `"Null"` (comum para usuários de Python);
+* `"valor ausente"` (para tornar mais legível). 
+
+O fundamental é manter a consistência, usando sempre o mesmo código em todo o conjunto de dados.
+
+**Importante:** *Dados faltantes não devem ser confundidos com zeros. Por exemplo: um participante que intencionalmente não respondeu uma questão, não produz um dado faltante na nossa planilha e sim um zero (uma resposta em branco). Nesses casos, devemos codificar adequadamente essa resposta (ex.: `'não respondeu'`) em vez de marcá-la como dado ausente.*
 
 
 ### **Se quiser trabalhar nos dados, faça uma cópia**  
@@ -99,12 +107,12 @@ A Figura 1 apresenta uma tabela com formatação, exibindo o que não deve ser f
 
 *Figura 1. Exemplo de tabela formatada a ser evitada. Elaboração própria*
 <figure>
-   <img src="../2. Manipulação de Dados/imgs/fig1-ex_tabela_formt.png" height="150">
+   <img src="../2. Organização e pré-processamento/imgs/fig1-ex_tabela_formt.png" height="150">
 </figure>
 
 *Figura 2. Tabela da Figura 1 sem formatações. Elaboração própria*
 <figure>
-   <img src="../2. Manipulação de Dados/imgs/fig2-ex_tabela_normal.png" height="110">
+   <img src="../2. Organização e pré-processamento/imgs/fig2-ex_tabela_normal.png" height="110">
 </figure>
 
 
@@ -131,7 +139,7 @@ A recomendação principal é manter todos os dados em apenas uma planilha — s
 | NSSC | 2 corações | 2|  
 
 
-Nas duas tabelas acima, o que "conecta" os dados é a coluna `id_participante`. Através dela, sabemos qual o método de café favorito de cada participante e também as notas para cada marca de café. Portanto, caso seja necessário integrar (unir) esses dados, essa será a coluna chave. 
+Nas duas tabelas acima, o que "conecta" os dados é a coluna `id_participante`. Através dela, sabemos qual o método favorito de cada participante e também as notas para cada marca de café. Portanto, caso seja necessário integrar (unir) esses dados, essa será a coluna chave. 
 
 
 ### **Exporte, armazene e cuide dos seus dados**  
@@ -145,7 +153,7 @@ Para exportar, armazenar e cuidar dos dados de modo a preservá-los da melhor fo
 
 
 ### **Registre os metadados**  
-Metadados são as informações sobre os dados, que auxiliam na documentação e catalogação desses dados. O nível de detalhe dos metadados depende do tipo de projeto e de como ele será documentado. O recomendado, no contexto da organização de dados, é um arquivo separado da planilha — este pode ser um arquivo texto (txt), markdown (md) ou pdf — contendo os seguintes elementos:
+Metadados são informações que descrevem nossos conjuntos de dados, auxiliando na sua documentação e catalogação. O nível de detalhe dos metadados depende do tipo de projeto e de como ele será documentado. O recomendado, no contexto da organização de dados, é um arquivo separado da planilha — este pode ser um arquivo texto (txt), markdown (md) ou pdf — contendo os seguintes elementos:
 
 1. **Informações sobre a aquisição dos dados**: foi uma coleta de dados, uma raspagem na internet, uma curadoria de dados já existentes? É a descrição sobre a origem daqueles dados e a metodologia envolvida nessa aquisição — data(s) de coleta, colaboradores, local de coleta, instrumentos utilizados, entre outras informações;
    
@@ -165,11 +173,27 @@ Como exemplo, voltemos a tabela 4:
 | Marca do café | `marca_cafe` | Nome da marca do café avaliado |  
 | Avaliação do participante | `avaliacao` | Avaliação, de 0 a 10, do participante sobre o café |  
 
+## Guia de referência rápida
+
+Antes de avançarmos para a aplicação prática, vamos consolidar os dez princípios abordados. A tabela a seguir serve como um guia de referência rápida que poderá ser consultado durante suas atividades de organização de dados.
+
+| Princípio | Descrição | Recomendação-chave |
+|-----------|-----------|-------------------|
+| **1. Estruture a planilha no formato: ocorrências X variáveis** | Cada coluna representa uma variável e cada linha representa uma amostra. A primeira linha deve ser o cabeçalho. | Uma coluna = uma variável; Uma célula = uma informação; Uma linha = uma amostra; A primeira linha = cabeçalho. |
+| **2. Construa um cabeçalho limpo e descritivo** | O cabeçalho deve conter rótulos claros que descrevam o conteúdo de cada coluna. | Não utilize acentos, caracteres especiais ou espaços em branco. Adote o underline "_" como espaço, use letras minúsculas e nomenclaturas curtas e descritivas. |
+| **3. Cuidado com espaços em branco** | Espaços em branco causam problemas no processamento e análise de dados. | Evite espaços em branco no início ou final de texto, em células ou colunas inteiras. Lembre-se que `"classificacao "`, `" classificacao"` e `"classificacao"` são interpretadas como entradas diferentes. |
+| **4. Adote um padrão para codificar variáveis categóricas** | Variáveis categóricas devem seguir um padrão consistente em todas as ocorrências. | Escolha um único formato para cada categoria e mantenha-o idêntico em todo o conjunto de dados, respeitando inclusive letras maiúsculas e minúsculas. |
+| **5. Use um valor fixo para lidar com dados ausentes** | Dados ausentes devem ser representados de forma padronizada. | Adote códigos como `"NA"`, `"Null"` ou `"valor ausente"` para indicar dados faltantes, mantendo consistência em todo o conjunto. |
+| **6. Se quiser trabalhar nos dados, faça uma cópia** | Os arquivos originais de dados devem permanecer intactos. | Não faça análises, manipulações ou adição de fórmulas na planilha original — trabalhe sempre em uma cópia. |
+| **7. Evite formatações na planilha** | Formatações podem atrapalhar o processamento dos dados. | Não mescle células, não use fórmulas, formatações específicas (data/moeda), cores, fontes diferenciadas ou bordas. |
+| **8. Estruture seus dados de forma consistente** | Se necessário usar múltiplos arquivos, mantenha a mesma estrutura entre eles. | Mantenha o mesmo padrão de codificação em todos os arquivos e inclua colunas de identificação que permitam conectar os diferentes conjuntos de dados. |
+| **9. Exporte, armazene e cuide dos seus dados** | Dados bem armazenados são dados preservados. | Nomeie arquivos com padrão consistente, use formatos não proprietários (CSV, TSV), e mantenha backups em múltiplos locais. |
+| **10. Registre os metadados** | Metadados são informações sobre os dados que auxiliam na documentação. | Crie um arquivo separado contendo informações sobre a aquisição dos dados e um dicionário detalhado que explique cada variável. |
 
 ---
 
 ## 2.2. Aplicando os princípios
-A lista de princípios não serve apenas para explicá-los no âmbito desse curso, ela também foi elaborada para servir como material de consulta, sendo um tipo de *checklist* de organização de dados. E, para "pregrarmos" ainda mais esse princípios na mente de vocês, preparamos algumas práticas. Nelas, vamos observar planilhas com erros comuns e aplicar algumas das recomendações vistas aqui, organizando os dados da melhor forma.
+Para fixarmos ainda mais esses princípios na mente de vocês, preparamos algumas práticas. Nelas, vamos observar planilhas com erros comuns e aplicar algumas das recomendações vistas aqui, organizando os dados da melhor forma.
 
 O contexto dos exercícios é: uma escola deseja avaliar mais rapidamente o desempenho dos discentes e, para isso, começou a adotar a prática de tabular os dados das provas, visando uma análise automática desses dados. Nas planilhas, inseriram os dados de três discentes, suas informações e seus respectivos desempenhos nas provas de português e matemática. O problema é que diversas pessoas tabularam esses dados, cada um do seu jeito, e a coisa desandou. 
 
@@ -181,12 +205,12 @@ As informações que temos são:
 
 O trabalho aqui é organizar cada uma das planilhas abaixo seguindo os princípios apresentados.
 
-1. [**Problemas de estrutura**](../2.%20Manipulação%20de%20Dados/planilhas/pratica-estruturacao.xlsx): Alguém foi sucinto demais na hora da tabulação e acabou juntando mais ocorrências do que deveria;
-2. [**Cabeçalho extenso**](../2.%20Manipulação%20de%20Dados/planilhas/pratica-cabecalho.xlsx): Uma planilha onde o padrão do cabeçalho é não ter padrão;
-3. [**Variáveis diversas**](../2.%20Manipulação%20de%20Dados/planilhas/pratica-nomenclatura-variaveis.xlsx): Nessa planilha, cada ocorrência de variável parece ser única de tão diferentes que são suas codificações;
-4. [**Dado ausente ou faltante?**](../2.%20Manipulação%20de%20Dados/planilhas/pratica-dado-ausente.xlsx): Notaram a falta de Carlos na prova de português e acrescentaram na planilha.
+1. [**Problemas de estrutura**](../2.%20Organização%20e%20pré-processamento/planilhas/pratica-estruturacao.xlsx): Alguém foi sucinto demais na hora da tabulação e acabou juntando mais ocorrências do que deveria;
+2. [**Cabeçalho extenso**](../2.%20Organização%20e%20pré-processamento/planilhas/pratica-cabecalho.xlsx): Uma planilha onde o padrão do cabeçalho é não ter padrão;
+3. [**Variáveis diversas**](../2.%20Organização%20e%20pré-processamento/planilhas/pratica-nomenclatura-variaveis.xlsx): Nessa planilha, cada ocorrência de variável parece ser única de tão diferentes que são suas codificações;
+4. [**Dado ausente ou faltante?**](../2.%20Organização%20e%20pré-processamento/planilhas/pratica-dado-ausente.xlsx): Notaram a falta de Carlos na prova de português e acrescentaram na planilha.
 
-> Todas as planilhas utilizadas nos exercícios práticos estão na pasta 📁 [**planilhas**](../2.%20Manipulação%20de%20Dados/planilhas/).
+> Todas as planilhas utilizadas nos exercícios práticos estão na pasta 📁 [**planilhas**](../2.%20Organização%20e%20pré-processamento/planilhas/).
 
 
 ## 2.2. Introdução ao Pandas
@@ -226,6 +250,6 @@ Mesclagem de DataFrames (.merge(), .join())
 <p align="right">
    <small>
    <strong>Ciência de Dados para Pesquisa </strong></br>
-   <I> Módulo 1 - Introdução à Ciência de Dados e Python </I>
+   <I> Módulo 2 - Organização e pré-processamento </I>
    </small>
 </p>

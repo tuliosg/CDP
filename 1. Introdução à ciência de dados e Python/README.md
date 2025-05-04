@@ -169,31 +169,31 @@ O Jupyter Notebook é um ambiente web de programação interativa estruturado em
 
 *Figura 1. Visão geral. Fonte: Autoria própria*
 <figure>
-   <img src="../1. Introdução a Ciência de Dados e Python/imgs/fig1-visao_geral_colab.png" height="250">
+   <img src="../1. Introdução à Ciência de Dados e Python/imgs/fig1-visao_geral_colab.png" height="250">
 </figure>
 
 As Figuras 2 e 3 exibem alguns dos recursos disponíveis no Notebook.
 
 *Figura 2. Célula de código. Fonte: https://osf.io/un8cw/*
 <figure>
-   <img src="../1. Introdução a Ciência de Dados e Python/imgs/fig2-ex1_calculo-no-colab.png" height="250">
+   <img src="../1. Introdução à Ciência de Dados e Python/imgs/fig2-ex1_calculo-no-colab.png" height="250">
 </figure>
 
 *Figura 3. Plotagem de gráfico. Fonte: https://osf.io/un8cw/*
 <figure>
-   <img src="../1. Introdução a Ciência de Dados e Python/imgs/fig3-ex2_plot.png" height="250">
+   <img src="../1. Introdução à Ciência de Dados e Python/imgs/fig3-ex2_plot.png" height="250">
 </figure>
 
 Neste curso, adotaremos o Jupyter Notebook como ambiente de trabalho, mais especificamente sua versão disponível no Colab, por conta da sua versatilidade em mesclar códigos e textos, e também pelo componente interacional, permitindo uma programação ainda mais ativa. Ademais, é importante ressaltar que, devido à combinação de documentações e códigos executáveis, o uso do Jupyter Notebook tem sido defendido como forma de publicar pesquisas reprodutíveis (Kluvyer et al., 2016).  
 
-Fecharemos esse módulo diretamente nos Notebooks criados. Inicialmente, vamos explorar esse novo ambiente, entendendo sua estrutura e componentes, no [Introdução ao Google Colab](../1.%20Introdução%20a%20Ciência%20de%20Dados%20e%20Python//notebooks/introducao_ao_colab.ipynb). Na sequência, partiremos para a programação, no [Prática de Programação com Python](../1.%20Introdução%20a%20Ciência%20de%20Dados%20e%20Python/notebooks/pratica_programacao_python.ipynb).  
-> Todos os notebooks podem ser acessados na pasta **📁 [notebooks](../1.%20Introdução%20a%20Ciência%20de%20Dados%20e%20Python/notebooks/)** desse módulo.
+Fecharemos esse módulo diretamente nos Notebooks criados. Inicialmente, vamos explorar esse novo ambiente, entendendo sua estrutura e componentes, no [Introdução ao Google Colab](../1.%20Introdução%20à%20ciência%20de%20dados%20e%20Python/notebooks/introducao_ao_colab.ipynb). Na sequência, partiremos para a programação, no [Prática de Programação com Python](../1.%20Introdução%20à%20ciência%20de%20dados%20e%20Python/notebooks/pratica_programacao_python.ipynb).  
+> Todos os notebooks podem ser acessados na pasta **📁 [notebooks](../1.%20Introdução%20à%20ciência%20de%20dados%20e%20Python/notebooks/)** desse módulo.
 
 ---
 
 <p align="right">
    <small>
    <strong>Ciência de Dados para Pesquisa </strong></br>
-   <I> Módulo 1 - Introdução à Ciência de Dados e Python </I>
+   <I> Módulo 1 - Introdução à ciência de dados e Python </I>
    </small>
 </p>
