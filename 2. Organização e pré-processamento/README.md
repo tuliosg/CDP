@@ -23,7 +23,7 @@ No âmbito desse curso, escolhemos o Google Planilhas para a apresentação inic
 ## Príncipios de organização de dados
 Organizamos esses princípios em um formato inspirado nos "10 mandamentos dos dados" de Freitag (2021), incorporando também contribuições dos trabalhos de Brooman e Woo (2018), Wickham (2014), Borer et. al (2009) e do livro/comunidade The Turing Way (2025).
 
-### **Estruture a planilha no formato: ocorrências X variáveis**  
+### **1. Estruture a planilha no formato: ocorrências X variáveis**  
 Na planilha, cada coluna representa uma variável e as células representam as ocorrências/observações daquela variável. Dessa forma, cada linha é uma amostra. A estrutura esperada é:  
 
 *Tabela 1. Adaptado de Freitag (2021)*  
@@ -51,7 +51,7 @@ Resumindo:
 4. A primeira linha deve ser o cabeçalho.
 
 
-### **Construa um cabeçalho limpo e descritivo**  
+### **2. Construa um cabeçalho limpo e descritivo**  
 No cabeçalho ficam os rótulos das colunas, ou seja, o nome da variável contida naquela coluna. A nomenclatura presente no cabeçalho deve ser clara sobre o que será encontrado ali. Se estamos tratando das idades de pessoas, é indicado inserir rótulos como `idade` ou `idade_anos` no cabeçalho.
 
 Os principais pontos de atenção na hora de definir essas nomenclaturas são:
@@ -63,13 +63,13 @@ Os principais pontos de atenção na hora de definir essas nomenclaturas são:
     Por exemplo: ao trabalhar na tabulação de dados de uma aplicação de uma prova que tem data, hora de começar e hora de terminar, não nomeie as colunas como `Data`, `Começo` e `Final`. Troque para `data_aplicacao`, `hora_inicio` e `hora_fim`. Com essa transformação, o conteúdo das colunas é melhor descrito e com uma nomenclatura sucinta.
 
 
-### **Cuidado com espaços em branco**  
+### **3. Cuidado com espaços em branco**  
 Espaços em branco são um problema. Para além de células ou colunas inteiras em branco, o espaço em branco é um dos problemas mais comuns em planilhas de dados, o que acarreta em erros nos momentos de processamento e análise. É fundamental ter atenção na tabulação, tomando cuidado para não deixar espaços em branco em qualquer posição.  
 
 Por exemplo: `"classificacao "`, `" classificacao"` e `"classificacao"`, podem até ser a mesma palavra mas são completamente diferentes para a máquina e, no momento de analisar esses dados, serão contadas como ocorrências distintas.
 
 
-### **Adote um padrão para codificar variáveis categóricas**  
+### **4. Adote um padrão para codificar variáveis categóricas**  
 Conjuntos de dados muitas vezes possuem variáveis categóricas, como informações acerca de um participante ou categorias pertencentes à uma classificação/avaliação. Essas variáveis devem ter um **padrão consistente** para cada ocorrência.
 
 Por exemplo, se foram tabuladas informações sobre o grau de escolaridade, adote valores únicos para cada grau, como `"médio completo"` para quem possuir ensino médio completo, e `"superior incompleto"` para quem possuir ensino superior incompleto. Não escreva `"Ensino médio"` em algumas ocorrências, `"Ensino Superior incompleto"` em outras. 
@@ -77,7 +77,7 @@ Por exemplo, se foram tabuladas informações sobre o grau de escolaridade, adot
 Adote **apenas um padrão** para cada caso e use-o. E lembre-se, letras maiúsculas e minúsculas são diferentes, então mantenha a codificação sempre idêntica em todos os aspectos.
 
 
-### **Use um valor fixo para lidar com dados ausentes**  
+### **5. Use um valor fixo para lidar com dados ausentes**  
 Dados ausentes vão — ou melhor, não vão — aparecer e isso deve ser padronizado. Escolha uma forma para indicar que há um dado faltante naquele campo. Então, para casos onde o valor se perdeu e/ou não há nenhum registro dele, adote códigos como:
 
 * `"NA"` (comum para usuários de R);
@@ -89,13 +89,13 @@ O fundamental é manter a consistência, usando sempre o mesmo código em todo o
 **Importante:** *Dados faltantes não devem ser confundidos com zeros. Por exemplo: um participante que intencionalmente não respondeu uma questão, não produz um dado faltante na nossa planilha e sim um zero (uma resposta em branco). Nesses casos, devemos codificar adequadamente essa resposta (ex.: `'não respondeu'`) em vez de marcá-la como dado ausente.*
 
 
-### **Se quiser trabalhar nos dados, faça uma cópia**  
+### **6. Se quiser trabalhar nos dados, faça uma cópia**  
 É comum encontrar casos de planilhas que alteraram os dados após a inserção de fórmulas ou mesclagem de células. Modificações assim podem ocasionar erros no momento da análise ou até mesmo a perda dos dados.
 
 Evite esse problema lembrando do seguinte: o(s) arquivo(s) originais onde estão seus dados devem ser **intocáveis**. Não faça análises, manipulações, adição de fórmulas ou qualquer outro tipo de alteração na planilha original dos seus dados — se quiser trabalhar nos dados, faça uma cópia da planilha e modifique apenas ela.
 
 
-### **Evite formatações na planilha**   
+### **7. Evite formatações na planilha**   
 Deixe todas as funcionalidades do ambiente de lado. Apenas os dados devem estar na sua planilha, então, toda a formatação da planilha pode acabar atrapalhando. Esqueça as seguintes funções:
 
 * Mesclar células;
@@ -119,7 +119,7 @@ A Figura 1 apresenta uma tabela com formatação, exibindo o que não deve ser f
 Caso deseje construir uma planilha mais elaborada ou visivelmente bonita, siga o princípio anterior, crie uma cópia e trabalhe apenas na cópia.
 
 
-### **Estruture seus dados de forma consistente**  
+### **8. Estruture seus dados de forma consistente**  
 A recomendação principal é manter todos os dados em apenas uma planilha — sem outros arquivos ou múltiplas páginas na mesma planilha. Porém, caso seja necessário ter múltiplos arquivos, mantenha uma estrutura consistente dos dados, com o mesmo padrão de codificações para os dados e para as colunas. Se houver alguma coluna para identificação, seja de participante ou de experimento, mantenha ela em todos os arquivos de dados como uma forma de chave que liga todos os valores. Segue um exemplo:
 
 *Tabela 3. Preferências de métodos de café. Elaboração própria*
@@ -142,7 +142,7 @@ A recomendação principal é manter todos os dados em apenas uma planilha — s
 Nas duas tabelas acima, o que "conecta" os dados é a coluna `id_participante`. Através dela, sabemos qual o método favorito de cada participante e também as notas para cada marca de café. Portanto, caso seja necessário integrar (unir) esses dados, essa será a coluna chave. 
 
 
-### **Exporte, armazene e cuide dos seus dados**  
+### **9. Exporte, armazene e cuide dos seus dados**  
 Para exportar, armazenar e cuidar dos dados de modo a preservá-los da melhor forma, alguns cuidados devem ser tomados:
 
 1. Nomeie o(s) arquivo(s) seguindo um padrão consistente e as mesmas recomendações apresentadas na nomeação de colunas — nomenclaturas descritivas, sem espaços em branco e sem caracteres especiais ou símbolos. Estruturas como `"titulo-do-conjunto_autor_ano_versao.csv"` ou `"autor_titulo-do-conjunto_data-de-atualizacao.csv"` são recomendadas;
@@ -152,7 +152,7 @@ Para exportar, armazenar e cuidar dos dados de modo a preservá-los da melhor fo
 3. Mantenha sempre um backup dos seus dados — preferencialmente em mais de um dispositivo ou na nuvem. Isso diminui a chance de perda dos dados. Assim, salve em diferentes dispositivos, deixe uma cópia em nuvens (como o Google Drive ou Dropbox) ou mantenha uma cópia em alguma plataforma de compartilhamento de repositórios (como o GitHub ou o OSF).
 
 
-### **Registre os metadados**  
+### **10. Registre os metadados**  
 Metadados são informações que descrevem nossos conjuntos de dados, auxiliando na sua documentação e catalogação. O nível de detalhe dos metadados depende do tipo de projeto e de como ele será documentado. O recomendado, no contexto da organização de dados, é um arquivo separado da planilha — este pode ser um arquivo texto (txt), markdown (md) ou pdf — contendo os seguintes elementos:
 
 1. **Informações sobre a aquisição dos dados**: foi uma coleta de dados, uma raspagem na internet, uma curadoria de dados já existentes? É a descrição sobre a origem daqueles dados e a metodologia envolvida nessa aquisição — data(s) de coleta, colaboradores, local de coleta, instrumentos utilizados, entre outras informações;
