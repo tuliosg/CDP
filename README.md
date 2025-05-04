@@ -2,10 +2,10 @@
 > Edição especial: Ciências Humanas
 
 ## Sobre o curso
-Este curso é destinado a pesquisadores das Ciências Humanas que desejam aprender conceitos fundamentais de Ciência de Dados aplicados à pesquisa acadêmica. Utilizando uma abordagem prática e acessível, o curso abordará as bases da ciência de dados, desde definições e conceitos teóricos até exercícios e implementações de código, através da linguagem de programação Python. 
+Este curso é destinado a pesquisadores das Ciências Humanas que desejam aprender conceitos fundamentais de Ciência de Dados aplicados à pesquisa acadêmica. Utilizando uma abordagem prática e acessível, o curso trata das bases da ciência de dados, desde definições e conceitos teóricos até exercícios e implementações de código, através da linguagem de programação Python. 
 
 ## Objetivos
-* Introduzir conceitos fundamentais de Ciência de Dados e sua relevância para pesquisas em Humanidades;
+* Introduzir conceitos fundamentais de Ciência de Dados;
 * Desenvolver habilidades práticas de organização, tabulação e limpeza de dados;
 * Apresentar noções básicas de programação em Python focadas na solução de problemas reais de pesquisa;
 * Criar visualizações para comunicar resultados de pesquisa.
@@ -15,17 +15,16 @@ O curso está organizado em quatro módulos principais:
 
 ### Módulo 1: Introdução à ciência de dados e Python
 * Conceitos fundamentais sobre dados e sua importância na pesquisa;
-* O que é Ciência de Dados e como pode beneficiar pesquisas em Humanidades;
+* O que é Ciência de Dados e como pode beneficiar pesquisas;
 * Introdução à programação e conceitos básicos (variáveis, tipos de dados, estruturas);
-* Ambiente de trabalho com Google Colab e Jupyter Notebooks;
+* Programação interativa com Google Colab;
 * Primeiros passos com Python.
 
 ### Módulo 2: Organização e pré-processamento
 * Princípios de organização de dados em planilhas;
 * Importação e exportação de dados com pandas;
 * Exploração inicial de conjuntos de dados;
-* Limpeza e transformação de dados;
-* Estruturação consistente para análise.
+* Limpeza e transformação de dados.
 
 ### Módulo 3: Análise de dados
 * Estatística descritiva;
@@ -38,7 +37,6 @@ O curso está organizado em quatro módulos principais:
 * União entre análise e visualização.
   
 ## Ferramentas e recursos
-
 ### Ambientes de trabalho
 * **Google Colab**: ambiente web interativo para execução de códigos;
 * **Google Planilhas**: ambiente para criação, edição e compartilhamento de planilhas.
