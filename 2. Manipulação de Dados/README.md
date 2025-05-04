@@ -95,6 +95,8 @@ Deixe todas as funcionalidades do ambiente de lado. Apenas os dados devem estar 
 * Usar formatação específica de células nos dados (como a formatação em data ou em moeda);
 * Colorir, trocar fontes, adicionar bordas, entre outras formatações de estilo.  
 
+A Figura 1 apresenta uma tabela com formatação, exibindo o que não deve ser feito. Já a Figura 2, traz como seria a tabela da Figura 1 seguindo o princípio apresentado.
+
 *Figura 1. Exemplo de tabela formatada a ser evitada. Elaboração própria*
 <figure>
    <img src="../2. Manipulação de Dados/imgs/fig1-ex_tabela_formt.png" height="150">
@@ -102,7 +104,7 @@ Deixe todas as funcionalidades do ambiente de lado. Apenas os dados devem estar 
 
 *Figura 2. Tabela da Figura 1 sem formatações. Elaboração própria*
 <figure>
-   <img src="../2. Manipulação de Dados/imgs/fig2-ex_tabela_normal.png" height="150">
+   <img src="../2. Manipulação de Dados/imgs/fig2-ex_tabela_normal.png" height="110">
 </figure>
 
 
@@ -166,19 +168,26 @@ Como exemplo, voltemos a tabela 4:
 
 ---
 
-### Teoria:
-"10 Mandamentos dos Dados" 
-Princípios de estruturação de dados em planilhas
-Padrões de codificação e classificação
-Documentação adequada de dados e metadados
+## 2.2. Aplicando os princípios
+A lista de princípios não serve apenas para explicá-los no âmbito desse curso, ela também foi elaborada para servir como material de consulta, sendo um tipo de *checklist* de organização de dados. E, para "pregrarmos" ainda mais esse princípios na mente de vocês, preparamos algumas práticas. Nelas, vamos observar planilhas com erros comuns e aplicar algumas das recomendações vistas aqui, organizando os dados da melhor forma.
 
-### Prática:
-Padrões de codificação e classificação de dados qualitativos
-Problemas comuns em planilhas de pesquisa e como evitá-los:
-Nomenclatura de variáveis (sem acentos, espaços ou caracteres especiais)
-Uma observação por linha, uma variável por coluna
-Consistência na codificação de valores ausentes
-Documentação de procedimentos de coleta e processamento
+O contexto dos exercícios é: uma escola deseja avaliar mais rapidamente o desempenho dos discentes e, para isso, começou a adotar a prática de tabular os dados das provas, visando uma análise automática desses dados. Nas planilhas, inseriram os dados de três discentes, suas informações e seus respectivos desempenhos nas provas de português e matemática. O problema é que diversas pessoas tabularam esses dados, cada um do seu jeito, e a coisa desandou. 
+
+As informações que temos são:
+* Discentes: os discentes se chamam Ana, Bruno e Carlos;
+* Ano escolar: todos são do 6º ano;
+* Turma: Ana e Carlos são da Turma A e Bruno é da Turma B;
+* Presença nas provas: Ana e Bruno fizeram todas as provas (português e matemática), e Carlos fez a prova de matemática porém faltou na de português.
+
+O trabalho aqui é organizar cada uma das planilhas abaixo seguindo os princípios apresentados.
+
+1. [**Problemas de estrutura**](../2.%20Manipulação%20de%20Dados/planilhas/pratica-estruturacao.xlsx): Alguém foi sucinto demais na hora da tabulação e acabou juntando mais ocorrências do que deveria;
+2. [**Cabeçalho extenso**](../2.%20Manipulação%20de%20Dados/planilhas/pratica-cabecalho.xlsx): Uma planilha onde o padrão do cabeçalho é não ter padrão;
+3. [**Variáveis diversas**](../2.%20Manipulação%20de%20Dados/planilhas/pratica-nomenclatura-variaveis.xlsx): Nessa planilha, cada ocorrência de variável parece ser única de tão diferentes que são suas codificações;
+4. [**Dado ausente ou faltante?**](../2.%20Manipulação%20de%20Dados/planilhas/pratica-dado-ausente.xlsx): Notaram a falta de Carlos na prova de português e acrescentaram na planilha.
+
+> Todas as planilhas utilizadas nos exercícios práticos estão na pasta 📁 [**planilhas**](../2.%20Manipulação%20de%20Dados/planilhas/).
+
 
 ## 2.2. Introdução ao Pandas
 Carregamento de dados (pd.read_csv(), pd.read_excel())
