@@ -27,7 +27,7 @@ Para ajudar na reflexão, apresentamos exemplos de dados frequentemente utilizad
 
 O universo dos dados é gigantesco e diverso. Não se assustem, admirem a vastidão e descubram, a seguir, como começar a desbravá-lo!
 
-### 1.2. Ciência de dados
+## 1.2. Ciência de dados
 É da necessidade de explorar essa vastidão que emerge a Ciência de Dados (CD), a área que engloba as teorias, conceitos, metodologias e ferramentas necessárias para aprender com ou sobre os dados[^1].
 
 [^1]: https://alan-turing-institute.github.io/rds-course/modules/m1/1.1-WhatIsDataScience.html#what-is-research-data-science
