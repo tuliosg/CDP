@@ -12,14 +12,17 @@ Antes de aplicar análises, fazer inferências e construir gráficos, precisamos
 
 Uma das formas mais amplamente utilizadas para a organização de dados de pesquisa é a planilha. Ainda que muito propensas a erros e ineficientes para algumas etapas do trabalho com dados, as planilhas cumprem bem o seu papel na hora de servir como estruturas para inserção e armazenamento. E, quando somos **consistentes** na tabulação e na organização, estamos diminuindo ao máximo o número de erros que podem ocorrer (Freitag, 2021; Broman e Woo, 2018).
 
-Organizar os dados requer consistência e atenção. E, para explicar cada etapa de uma boa organização, elaboramos os **princípios de organização de dados**. Cada um dos princípios traz recomendações, explicações, erros comuns e exemplos práticos de como podem ser aplicados na organização de dados de pesquisa. 
+Organizar os dados requer consistência e atenção. Para orientar cada etapa de uma boa organização, elaboramos **os princípios de organização de dados**. Cada um dos princípios traz recomendações, explicações, erros comuns e exemplos práticos de como podem ser aplicados na organização de dados de pesquisa. 
 
 No âmbito desse curso, escolhemos o Google Planilhas para a apresentação inicial dos princípios e, mais adiante, veremos como aplicá-los também através da programação. O Google Planilhas foi escolhido por ser uma solução gratuita, com estrutura semelhante ao Excel e que permite o compartilhamento com outras pessoas através do Google Drive.
 
 ### Príncipios de organização de dados
 Os princípios são estruturados em um formato inspirado nos "10 mandamentos dos dados" de Freitag (2021) e alicerçados pelos trabalhos de Freitag (2021), Brooman e Woo (2018), Wickham (2014), Borer et. al (2009) e no livro/comunidade The Turing Way (2025).
 
-* **Estruture a planilha no formato: ocorrências X variáveis**
+* **Siga a ordem da planilha**  
+    Ao tabular/organizar dados em uma planilha, sempre comece pela primeira linha da primeira coluna, e não deixe linhas ou colunas em branco. 
+
+* **Estruture a planilha no formato: ocorrências X variáveis**  
     Na planilha, cada coluna representa uma variável e as células representam as ocorrências daquela variável. Dessa forma, cada linha é uma amostra. A estrutura fica da seguinte forma:  
 
     *Tabela 1. Adaptado de Freitag (2021)*  
@@ -46,22 +49,54 @@ Os princípios são estruturados em um formato inspirado nos "10 mandamentos dos
     3. Uma linha = uma amostra;
     4. A primeira linha deve ser o cabeçalho.
 
-* **Siga a ordem da planilha**
-    Ao tabular dados em uma planilha, sempre comece pela primeira linha da primeira coluna da planilha, e não deixe linhas ou colunas em branco. 
+* **Construa um cabeçalho limpo e descritivo**  
+    No cabeçalho ficam os rótulos das colunas, ou seja, a descrição da variável contida naquela coluna. Assim, a nomenclatura presente no cabeçalho deve ser clara sobre o que será encontrado ali. Se estamos tratando das idades de pessoas, é indicado inserir rótulos como `idade` ou `idade_anos` no cabeçalho. 
+    Os principais pontos de atenção na hora de definir essas nomenclaturas são:
 
-* **Adote um padrão para codificar variáveis categóricas**
+    1. Não utilize acentuações, caracteres especiais ou espaços em branco. Adote o underline "_" como espaço, prefira escrever apenas com letras minúsculas e apague todos os acentos. Exemplificando: transforme `Nome e Sobrenome` em `nome_sobrenome`, `Classificação` em `classificacao` e `Anotação 1` em `anotacao_1`.  
+    2. Adote uma nomenclatura curta e descritiva. Por exemplo: ao trabalhar na tabulação de dados de uma aplicação de uma prova que tem data, hora de começar e hora de terminar, não nomeie as colunas como `Data`, `Começo`, `Final`, troque para `data_aplicacao`, `hora_inicio` e `hora_fim`. Dessa forma, o conteúdo daquelas colunas estará melhor descrito e com uma nomenclatura sucinta.
+
+* **Cuidado com espaços em branco**  
+    Espaços em branco são um problema. Para além de células ou colunas inteiras em branco, o espaço em branco na escrita é um dos problemas mais comuns em planilhas de dados, que muitas vezes acabam atrapalhando o momento da análise. É fundamental ter atenção no momento de escrever, tomando cuidado para não deixar espaços em branco em qualquer posição. Por exemplo: `"classificacao "`, `" classificacao"` e `"classificacao"`, podem até ser a mesma palavra mas são completamente diferentes para a máquina e, no momento de analisar esses dados, serão contadas como ocorrências distintas.
+
+* **Adote um padrão para codificar variáveis categóricas**  
     Conjuntos de dados muitas vezes possuem variáveis categóricas, como informações acerca de um participante ou categorias pertencentes à uma classificação/avaliação. Essas variáveis devem ter um **padrão consistente** para cada ocorrência.
     
-    Por exemplo, se há, na planilha, informações sobre o grau de escolaridade, adote valores únicos para cada grau, como "médio completo" para quem possuir ensino médio completo, e "superior incompleto" para quem possuir ensino superior incompleto. Não escreva "Ensino médio" em algumas ocorrências, "Ensino Superior incompleto" em outras. Adote **apenas um padrão** para cada caso e use-o.
+    Por exemplo, se há, na planilha, informações sobre o grau de escolaridade, adote valores únicos para cada grau, como `"médio completo"` para quem possuir ensino médio completo, e `"superior incompleto"` para quem possuir ensino superior incompleto. Não escreva `"Ensino médio"` em algumas ocorrências, `"Ensino Superior incompleto"` em outras. Adote **apenas um padrão** para cada caso e use-o. E lembre-se, letras maiúsculas e minúsculas são diferentes, então mantenha a codificação sempre idêntica em todos os aspectos.
 
-* **Use um valor fixo para lidar com dados ausentes**
-    Dados ausentes vão — ou melhor, não vão — aparecer e isso deve ser padronizado. Escolha uma forma para indicar que há um dado faltante naquele campo. Para casos onde o valor se perdeu e/ou não há nenhum registro dele, adote códigos como "NA" (comum para usuários de R), "Null" (comum para usuários de Python) ou até mesmo "valor ausente" para tornar mais legível. Mais uma vez, o importante é ser consistente.*
+* **Use um valor fixo para lidar com dados ausentes**  
+    Dados ausentes vão — ou melhor, não vão — aparecer e isso deve ser padronizado. Escolha uma forma para indicar que há um dado faltante naquele campo. Para casos onde o valor se perdeu e/ou não há nenhum registro dele, adote códigos como `"NA"` (comum para usuários de R), `"Null"` (comum para usuários de Python) ou até mesmo `"valor ausente"` para tornar mais legível. Mais uma vez, o importante é ser consistente.*
 
     \* *Dados faltantes não devem ser confundidos com zeros. Por exemplo: um participante que intencionalmente não respondeu uma questão não produz um dado faltante na nossa planilha e sim um zero (uma resposta em branco). Esses zeros entram como uma ocorrência de uma variável categórica, devendo possuir um padrão específico para cada caso.*
 
-* **Estruture seus dados de forma consistente**
+* **Se quiser trabalhar nos dados, faça uma cópia**  
+    O(s) arquivo(s) originais onde estão seus dados devem ser **intocáveis**. Não faça análises, manipulações, adição de fórmulas ou qualquer outro tipo de alteração na planilha original dos seus dados — faça uma cópia da planilha e trabalhe nela.
+
+* **Evite formatações na planilha**   
+    Deixe todas as funcionalidades do ambiente de lado. Apenas os dados devem estar na sua planilha, então, toda a formatação da planilha pode acabar atrapalhando. Assim, evite:
+    * Mesclar células;
+    * Usar funções nas células;
+    * Usar formatação específica de células nos dados (como a formatação em data ou em moeda);
+    * Colorir, trocar fontes, adicionar bordas, entre outras formatações de estilo.
+    Caso deseje construir uma planilha mais elaborada ou visivelmente bonita, siga o princípio anterior, crie uma cópia e trabalhe apenas na cópia.
+
+* **Estruture seus dados de forma consistente**  
     A recomendação principal é manter todos os dados em apenas uma planilha — sem outros arquivos ou múltiplas páginas na mesma planilha. Porém, caso seja necessário ter múltiplos arquivos, mantenha uma estrutura consistente dos dados, com o mesmo padrão de codificações para os dados e para as colunas.
 
+* **Registre os metadados**  
+    Metadados são as informações sobre os dados, que ajudam na documentação e catalogação desses dados. O nível de detalhe dos metadados depende do tipo de projeto e de como ele será documentado. O recomendado no contexto da organização de dados é um arquivo separado da planilha — este pode ser um arquivo texto (txt), markdown (md) ou pdf — contendo os seguintes elementeos:
+    1. Informações sobre a aquisição dos dados: foi uma coleta de dados, uma raspagem na internet, uma curadoria de dados já existentes? É a descrição sobre a origem daqueles dados e a metodologia envolvida nessa aquisição;
+    2. Dicionário dos dados: o propósito de um dicionário de dados é explicar o que cada uma das variáveis dos dados significa. O seu formato mais simples é:
+   
+        | Variável | Nomenclatura da coluna | Descrição |  
+        |---|---|---|  
+        | Nome da variável | Rótulo adotado na coluna | Descrição da coluna | 
+        | Nome do participante | nome_sobrenome |  Nome completo do participante do experimento |  
+
+
+* **Exporte, armazene e cuide dos seus dados**  
+    1. Adote formatos não proprietários e que armazenem apenas os dados na hora de exportar suas planilhas, como o *CSV* (valores separados por vírgula) ou *TSV* (valores separados por tabulações). Esses formatos são legíveis por todos os softwares disponíveis para leitura de planilhas e também por linguagens de programação.
+    2. Mantenha sempre um backup dos seus dados — preferencialmente em mais de um dispositivo ou na nuvem. Isso diminui a chance de perda dos dados. Assim, salve em diferentes dispositivos, deixe uma cópia em nuvens (como o Google Drive ou Dropbox) ou mantenha uma cópia em alguma plataforma de compartilhamento de repositórios (como o GitHub ou o OSF).
 
 
 
