@@ -33,7 +33,7 @@ Na planilha, cada coluna representa uma variável e as células representam as o
 
 Notem que **a primeira linha da planilha é o cabeçalho**, que deve sempre estar presente neste local. Assim, se coletarmos os nomes e as idades de um grupo de pessoas, ao tabularmos esses dados, devemos ter algo semelhante à Tabela 2.
 
-*Tabela 2. Exemplo de organização de dados. Fonte: elaboração própria*
+*Tabela 2. Exemplo de organização de dados. Elaboração própria*
 | nome | idade |  
 |---|---|  
 | Fulano da Silva | 38 |  
@@ -58,11 +58,12 @@ Os principais pontos de atenção na hora de definir essas nomenclaturas são:
    Adote o underline "_" como espaço, prefira escrever apenas com letras minúsculas e apague todos os acentos. Exemplificando: transforme `Nome e Sobrenome` em `nome_sobrenome`, `Classificação` em `classificacao` e `Anotação 1` em `anotacao_1`;  
 
 2. **Adote uma nomenclatura curta e descritiva**  
-    Por exemplo: ao trabalhar na tabulação de dados de uma aplicação de uma prova que tem data, hora de começar e hora de terminar, não nomeie as colunas como `Data`, `Começo`, `Final`, troque para `data_aplicacao`, `hora_inicio` e `hora_fim`. Com essa transformação, o conteúdo das colunas é melhor descrito e com uma nomenclatura sucinta.
+    Por exemplo: ao trabalhar na tabulação de dados de uma aplicação de uma prova que tem data, hora de começar e hora de terminar, não nomeie as colunas como `Data`, `Começo` e `Final`. Troque para `data_aplicacao`, `hora_inicio` e `hora_fim`. Com essa transformação, o conteúdo das colunas é melhor descrito e com uma nomenclatura sucinta.
 
 
 ### **Cuidado com espaços em branco**  
 Espaços em branco são um problema. Para além de células ou colunas inteiras em branco, o espaço em branco é um dos problemas mais comuns em planilhas de dados, o que acarreta em erros nos momentos de processamento e análise. É fundamental ter atenção na tabulação, tomando cuidado para não deixar espaços em branco em qualquer posição.  
+
 Por exemplo: `"classificacao "`, `" classificacao"` e `"classificacao"`, podem até ser a mesma palavra mas são completamente diferentes para a máquina e, no momento de analisar esses dados, serão contadas como ocorrências distintas.
 
 
@@ -83,7 +84,7 @@ Dados ausentes vão — ou melhor, não vão — aparecer e isso deve ser padron
 ### **Se quiser trabalhar nos dados, faça uma cópia**  
 É comum encontrar casos de planilhas que alteraram os dados após a inserção de fórmulas ou mesclagem de células. Modificações assim podem ocasionar erros no momento da análise ou até mesmo a perda dos dados.
 
-Evite esse problema lembrando do seguinte: o(s) arquivo(s) originais onde estão seus dados devem ser **intocáveis**. Não faça análises, manipulações, adição de fórmulas ou qualquer outro tipo de alteração na planilha original dos seus dados — se quiser trabalhar nos dados, faça uma cópia da planilha e modifique ela.
+Evite esse problema lembrando do seguinte: o(s) arquivo(s) originais onde estão seus dados devem ser **intocáveis**. Não faça análises, manipulações, adição de fórmulas ou qualquer outro tipo de alteração na planilha original dos seus dados — se quiser trabalhar nos dados, faça uma cópia da planilha e modifique apenas ela.
 
 
 ### **Evite formatações na planilha**   
@@ -98,16 +99,15 @@ Caso deseje construir uma planilha mais elaborada ou visivelmente bonita, siga o
 
 
 ### **Estruture seus dados de forma consistente**  
-A recomendação principal é manter todos os dados em apenas uma planilha — sem outros arquivos ou múltiplas páginas na mesma planilha. Porém, caso seja necessário ter múltiplos arquivos, mantenha uma estrutura consistente dos dados, com o mesmo padrão de codificações para os dados e para as colunas. Se houver alguma coluna para identificação, seja de participante ou de experimento, mantenha ela em todos os arquivos de dados como uma forma de chave que liga todos os valores.  
-Exemplo:
+A recomendação principal é manter todos os dados em apenas uma planilha — sem outros arquivos ou múltiplas páginas na mesma planilha. Porém, caso seja necessário ter múltiplos arquivos, mantenha uma estrutura consistente dos dados, com o mesmo padrão de codificações para os dados e para as colunas. Se houver alguma coluna para identificação, seja de participante ou de experimento, mantenha ela em todos os arquivos de dados como uma forma de chave que liga todos os valores. Segue um exemplo:
 
-*Tabela 3. Preferências de métodos de café. Fonte: elaboração própria*
+*Tabela 3. Preferências de métodos de café. Elaboração própria*
 | id_participante | metodo_cafe |  
 |--|--|  
 | TSG | v60 |  
 | NSSC | prensa francesa |  
 
-*Tabela 4. Avaliação de marcas de café. Fonte: elaboração própria*
+*Tabela 4. Avaliação de marcas de café. Elaboração própria*
 | id_participante | marca_cafe | avaliacao |  
 |---|---|---|  
 | TSG | maraçá | 0 |  
@@ -143,6 +143,8 @@ Metadados são as informações sobre os dados, que auxiliam na documentação e
 | Nome da variável | Rótulo adotado na coluna | Descrição da coluna | 
 
 Como exemplo, voltemos a tabela 4:
+
+*Tabela 5. Dicionário de dados da Tabela 4. Elaboração própria*
 
 | Variável | Coluna | Descrição |  
 |---|---|---| 
