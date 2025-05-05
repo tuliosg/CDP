@@ -105,12 +105,12 @@ Deixe todas as funcionalidades do ambiente de lado. Apenas os dados devem estar 
 
 A Figura 1 apresenta uma tabela com formatação, exibindo o que não deve ser feito. Já a Figura 2, traz como seria a tabela da Figura 1 seguindo o princípio apresentado.
 
-*Figura 1. Exemplo de tabela formatada a ser evitada. Elaboração própria*
+*Figura 1. Exemplo de tabela formatada a ser evitada. Fonte: Elaboração própria*
 <figure>
    <img src="../2. Organização e pré-processamento/imgs/fig1-ex_tabela_formt.png" height="150">
 </figure>
 
-*Figura 2. Tabela da Figura 1 sem formatações. Elaboração própria*
+*Figura 2. Tabela da Figura 1 sem formatações. Fonte: Elaboração própria*
 <figure>
    <img src="../2. Organização e pré-processamento/imgs/fig2-ex_tabela_normal.png" height="110">
 </figure>
@@ -122,13 +122,13 @@ Caso deseje construir uma planilha mais elaborada ou visivelmente bonita, siga o
 ### **8. Estruture seus dados de forma consistente**  
 A recomendação principal é manter todos os dados em apenas uma planilha — sem outros arquivos ou múltiplas páginas na mesma planilha. Porém, caso seja necessário ter múltiplos arquivos, mantenha uma estrutura consistente dos dados, com o mesmo padrão de codificações para os dados e para as colunas. Se houver alguma coluna para identificação, seja de participante ou de experimento, mantenha ela em todos os arquivos de dados como uma forma de chave que liga todos os valores. Segue um exemplo:
 
-*Tabela 3. Preferências de métodos de café. Elaboração própria*
+*Tabela 3. Preferências de métodos de café. Fonte: Elaboração própria*
 | id_participante | metodo_cafe |  
 |--|--|  
 | TSG | v60 |  
 | NSSC | prensa francesa |  
 
-*Tabela 4. Avaliação de marcas de café. Elaboração própria*
+*Tabela 4. Avaliação de marcas de café. Fonte: Elaboração própria*
 | id_participante | marca_cafe | avaliacao |  
 |---|---|---|  
 | TSG | maraçá | 0 |  
@@ -165,7 +165,7 @@ Metadados são informações que descrevem nossos conjuntos de dados, auxiliando
 
 Como exemplo, voltemos a tabela 4:
 
-*Tabela 5. Dicionário de dados da Tabela 4. Elaboração própria*
+*Tabela 5. Dicionário de dados da Tabela 4. Fonte: Elaboração própria*
 
 | Variável | Coluna | Descrição |  
 |---|---|---| 

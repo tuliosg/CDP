@@ -167,7 +167,7 @@ O Google Colaboratory, comumente chamado de Colab, é um serviço da Google que 
 E o que seria um Jupyter Notebook?  
 O Jupyter Notebook é um ambiente web de programação interativa estruturado em células, permitindo a inserção de código, texto, gráficos e imagens. O principal componente interacional do notebook é a execução dos blocos de código de maneira indepentende. Além disso, por conta dos blocos de texto (e outros recursos visuais), é muito mais fácil apresentar e explicar os códigos desenvolvidos. A Figura 1 apresenta uma visão geral de um Notebook no Colab.
 
-*Figura 1. Visão geral. Fonte: Autoria própria*
+*Figura 1. Visão geral. Fonte: Elaboração própria*
 <figure>
    <img src="../1. Introdução à ciência de dados e Python/imgs/fig1-visao_geral_colab.png" height="250">
 </figure>
