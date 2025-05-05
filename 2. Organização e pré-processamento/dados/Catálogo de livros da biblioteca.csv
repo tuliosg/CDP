@@ -1,0 +1,11 @@
+Título do livro, Autor ,categoria  ,Data Aquisição,Exemplares,Prateleira
+"Introdução à Ciência de Dados",  Maria Silva,"Computação ",12/05/2022,3,A-15
+"Estatística Básica","João Oliveira ",Matemática,03-01-2023,5,B-22
+"História da Arte",Carlos Santos,"Artes  ",00/00/0000,NULL,C-07
+" Machine Learning: Conceitos e Aplicações"," Ana Pereira",Computação,05/07/2022 ,2,A-16
+"Cálculo Avançado",Pedro Martins,matemática,10/02/2023,4,B-23
+"Literatura Brasileira",NA,Humanas,04/11/2022,,D-04
+Química Orgânica,Luiza Costa,"   ciências",07/30/2022,não disponível,E-11
+"Física Quântica",Roberto Alves,ciencias,09/06/2022,1,E-12
+"Arquitetura de Computadores",Carla Dias,"Computação",18/08/2022,2,A-17
+Psicologia Cognitiva,"Marcos Ribeiro ",Humanas,22/12/2022,indisponível,D-05
