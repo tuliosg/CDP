@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Se você utilizar este curso, por favor cite-o conforme indicado abaixo."
+title: "Ciência de Dados para Pesquisa"
+version: "v1.0"
+doi: "10.5281/zenodo.15384287"
+date-released: 2025-05-11
+authors:
+  - family-names: Gois
+    given-names: Túlio Sousa
+  - family-names: Chagas
+    given-names: Nayla Sahra Santos
+type: software
+repository-code: "https://doi.org/10.5281/zenodo.15384287"
+url: "https://doi.org/10.5281/zenodo.15384287"
