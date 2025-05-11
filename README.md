@@ -71,12 +71,22 @@ Disponível em: https://github.com/tuliosg/CDP
 * **Citação formal**
 
 ```
-@software{Gois_Ciencia_de_Dados,
-author = {Gois, Túlio Sousa and Chagas, Nayla Sahra Santos},
-license = {[\{"content" => "CC-BY-4.0"\}, \{"code" => "MIT"\}]},
-title = {{Ciência de Dados para Pesquisa}},
-url = {https://github.com/tuliosg/CDP},
-version = {1.0.0}
+@software{gois_2025_15384287,
+  author       = {Gois, Túlio Sousa and
+                  Chagas, Nayla Sahra Santos},
+  title        = {Ciência de Dados para Pesquisa},
+  month        = may,
+  year         = 2025,
+  publisher    = {Zenodo},
+  version      = {v1.0},
+  doi          = {10.5281/zenodo.15384287},
+  url          = {https://doi.org/10.5281/zenodo.15384287},
+  swhid        = {swh:1:dir:9aef7b4d4b890b410cc8e51b565bd15ea30e46c7
+                   ;origin=https://doi.org/10.5281/zenodo.15384286;vi
+                   sit=swh:1:snp:56371c28e746ab411ad408be706b32a0fae7
+                   f449;anchor=swh:1:rel:981843493a81f2b30c524b963522
+                   0754bbdf30d1;path=tuliosg-CDP-1e0d845
+                  },
 }
 ```
 
