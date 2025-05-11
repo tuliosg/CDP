@@ -1,0 +1,1001 @@
+id_estudante,idade,sexo,horas_estudo_dia,horas_redes_sociais,horas_netflix,trabalho_meio_periodo,percentual_presenca,horas_sono,qualidade_dieta,freq_exercicios,nivel_educacao_pais,qualidade_internet,avaliacao_saude_mental,participacao_extracurricular,nota_exame
+S1000,23,feminino,0.0,1.2,1.1,não,85.0,8.0,razoável,6,mestrado,média,8,sim,56.2
+S1001,20,feminino,6.9,2.8,2.3,não,97.3,4.6,bom,6,ensino médio,média,8,não,100.0
+S1002,21,masculino,1.4,3.1,1.3,não,94.8,8.0,ruim,1,ensino médio,ruim,1,não,34.3
+S1003,23,feminino,1.0,3.9,1.0,não,71.0,9.2,ruim,4,mestrado,bom,1,sim,26.8
+S1004,19,feminino,5.0,4.4,0.5,não,90.9,4.9,razoável,3,mestrado,bom,1,não,66.4
+S1005,24,masculino,7.2,1.3,0.0,não,82.9,7.4,razoável,1,mestrado,média,4,não,100.0
+S1006,21,feminino,5.6,1.5,1.4,sim,85.8,6.5,bom,2,mestrado,ruim,4,não,89.8
+S1007,21,feminino,4.3,1.0,2.0,sim,77.7,4.6,razoável,0,graduação,média,8,não,72.6
+S1008,23,feminino,4.4,2.2,1.7,não,100.0,7.1,bom,3,graduação,bom,1,não,78.9
+S1009,18,feminino,4.8,3.1,1.3,não,95.4,7.5,bom,5,graduação,bom,10,sim,100.0
+S1010,19,feminino,4.6,3.7,0.8,não,77.6,5.8,razoável,1,não informado,bom,3,não,63.3
+S1011,23,masculino,3.9,2.4,2.5,não,71.7,7.9,razoável,2,graduação,média,1,não,74.4
+S1012,19,feminino,3.7,2.1,0.4,sim,81.1,4.5,razoável,1,graduação,bom,9,não,76.9
+S1013,19,feminino,3.4,2.7,2.7,não,89.3,4.7,razoável,4,graduação,bom,10,não,75.8
+S1014,24,masculino,2.4,1.5,0.7,não,87.4,6.7,ruim,6,graduação,média,9,não,78.9
+S1015,21,masculino,3.1,5.0,1.0,não,97.5,6.5,bom,6,ensino médio,média,7,não,74.0
+S1016,20,masculino,1.0,0.6,0.2,não,92.9,5.6,ruim,3,ensino médio,ruim,8,sim,55.2
+S1017,24,feminino,3.4,2.7,1.2,não,94.7,7.5,ruim,0,ensino médio,média,1,sim,70.8
+S1018,24,outro,2.0,4.9,2.9,sim,88.3,7.1,bom,2,ensino médio,bom,5,não,43.9
+S1019,19,masculino,1.8,2.5,2.4,não,71.1,7.5,razoável,1,ensino médio,média,2,não,45.3
+S1020,22,feminino,3.8,2.3,2.9,não,83.0,6.4,bom,3,mestrado,bom,1,não,58.5
+S1021,21,masculino,5.6,2.1,2.4,não,95.6,7.2,razoável,1,ensino médio,bom,3,não,82.5
+S1022,18,outro,4.9,2.3,0.6,não,84.5,6.0,razoável,3,ensino médio,média,7,não,98.7
+S1023,24,feminino,1.1,4.1,1.4,sim,90.0,9.0,razoável,6,graduação,bom,1,não,43.7
+S1024,20,feminino,2.0,0.0,0.9,sim,81.8,5.5,razoável,4,graduação,média,2,não,54.9
+S1025,22,masculino,4.9,4.3,3.3,não,74.7,9.0,razoável,1,ensino médio,média,2,sim,69.9
+S1026,22,masculino,2.0,0.8,0.5,não,83.8,6.5,bom,4,graduação,ruim,4,não,73.5
+S1027,18,masculino,3.2,2.2,2.8,sim,88.1,4.8,razoável,5,graduação,média,3,não,71.1
+S1028,24,masculino,4.3,2.0,2.8,sim,78.4,8.1,bom,5,ensino médio,ruim,3,sim,82.8
+S1029,20,feminino,2.0,3.2,3.8,sim,82.6,6.7,ruim,6,ensino médio,ruim,10,sim,75.7
+S1030,21,feminino,3.7,0.6,1.3,não,75.6,7.5,razoável,2,mestrado,média,5,não,70.6
+S1031,17,outro,1.5,3.1,2.6,sim,96.2,8.0,razoável,4,graduação,média,3,sim,51.3
+S1032,20,outro,2.6,4.9,4.3,não,82.1,6.9,bom,3,graduação,bom,7,não,52.1
+S1033,18,feminino,4.0,0.9,1.1,não,99.5,5.8,ruim,2,não informado,média,5,não,70.7
+S1034,22,feminino,1.1,2.7,0.1,não,100.0,7.7,razoável,1,ensino médio,bom,4,não,51.2
+S1035,21,feminino,4.2,1.7,0.0,sim,84.2,6.5,bom,1,graduação,média,3,não,72.6
+S1036,20,feminino,3.5,3.0,2.6,não,74.9,7.3,razoável,3,ensino médio,bom,4,não,70.7
+S1037,17,masculino,4.3,2.5,0.0,sim,64.1,3.9,bom,0,ensino médio,média,2,não,59.4
+S1038,17,masculino,3.8,1.7,1.4,não,70.3,7.0,ruim,0,graduação,bom,1,não,58.1
+S1039,19,masculino,5.5,3.1,2.3,não,71.3,5.7,bom,1,ensino médio,média,3,não,82.3
+S1040,19,feminino,3.7,4.7,2.0,não,98.8,8.5,bom,6,graduação,bom,2,não,69.7
+S1041,23,feminino,2.9,2.3,2.3,não,86.2,7.2,bom,6,graduação,média,1,não,66.0
+S1042,18,masculino,3.7,3.4,2.0,não,88.9,6.8,razoável,3,ensino médio,ruim,1,sim,63.5
+S1043,24,feminino,4.3,0.9,3.2,não,62.8,7.1,ruim,0,graduação,bom,2,não,65.7
+S1044,20,feminino,3.6,1.4,0.8,não,73.0,5.3,bom,4,ensino médio,ruim,9,não,78.5
+S1045,20,masculino,3.6,3.1,1.1,não,93.9,8.4,razoável,1,graduação,média,5,sim,75.1
+S1046,24,masculino,2.4,4.3,1.0,não,87.9,8.9,ruim,5,ensino médio,média,9,sim,71.0
+S1047,23,feminino,2.5,2.9,2.7,não,83.5,7.0,bom,4,não informado,bom,8,sim,59.7
+S1048,22,feminino,1.4,2.1,2.8,não,90.6,8.4,razoável,3,graduação,bom,6,não,52.6
+S1049,22,feminino,6.1,2.5,2.3,não,100.0,5.8,ruim,5,ensino médio,média,1,não,96.5
+S1050,23,feminino,1.6,1.0,3.1,não,82.8,5.5,razoável,4,mestrado,bom,10,sim,62.0
+S1051,22,feminino,2.5,3.2,0.5,não,85.7,6.5,ruim,0,ensino médio,média,5,não,59.7
+S1052,19,feminino,2.4,3.6,3.6,não,86.9,7.0,razoável,6,ensino médio,média,1,não,48.4
+S1053,20,feminino,4.8,2.0,3.5,não,100.0,6.0,bom,0,graduação,bom,7,sim,70.6
+S1054,23,feminino,3.1,1.9,2.6,sim,64.0,7.1,razoável,5,ensino médio,bom,10,não,68.1
+S1055,20,masculino,5.4,2.8,3.8,não,91.8,6.9,bom,2,ensino médio,bom,8,não,87.2
+S1056,24,masculino,2.5,2.0,0.0,não,83.9,5.3,bom,6,graduação,média,8,não,66.7
+S1057,17,masculino,3.9,2.4,1.2,não,90.7,7.1,bom,1,graduação,média,7,sim,75.2
+S1058,19,feminino,2.2,5.0,1.0,não,78.4,7.5,ruim,5,mestrado,média,2,sim,46.4
+S1059,21,feminino,6.7,2.2,2.6,não,84.5,6.7,bom,3,mestrado,média,5,sim,97.1
+S1060,19,feminino,1.7,2.1,0.6,sim,92.1,7.9,razoável,1,ensino médio,média,4,não,61.2
+S1061,23,masculino,4.0,1.7,2.6,não,100.0,5.0,razoável,4,graduação,bom,5,não,75.0
+S1062,21,masculino,4.5,3.4,3.3,sim,93.1,7.1,bom,6,ensino médio,bom,10,não,94.7
+S1063,17,masculino,4.1,2.3,2.6,sim,76.5,5.1,razoável,3,graduação,média,9,não,77.6
+S1064,23,masculino,3.2,1.7,2.1,não,80.8,5.2,bom,3,ensino médio,ruim,4,sim,68.6
+S1065,18,feminino,3.3,4.1,0.7,não,80.5,5.7,ruim,0,mestrado,bom,8,não,69.6
+S1066,20,masculino,3.6,4.2,0.9,não,67.0,5.4,bom,4,graduação,média,8,não,66.5
+S1067,17,masculino,3.3,1.8,3.2,não,81.7,5.8,ruim,0,mestrado,bom,2,não,62.2
+S1068,20,feminino,4.9,0.3,2.7,sim,92.3,6.2,bom,0,graduação,ruim,6,não,82.1
+S1069,22,masculino,6.8,3.7,1.8,não,72.3,7.5,ruim,6,mestrado,média,5,não,100.0
+S1070,18,feminino,2.7,1.7,1.3,não,95.5,6.1,ruim,2,graduação,bom,2,sim,59.7
+S1071,18,feminino,1.4,3.4,0.0,não,89.9,4.6,razoável,0,ensino médio,ruim,10,sim,55.1
+S1072,17,masculino,3.4,0.1,0.6,não,77.7,7.9,razoável,1,ensino médio,média,4,sim,77.1
+S1073,18,feminino,7.4,3.6,3.9,não,83.6,5.5,razoável,3,ensino médio,média,7,sim,97.7
+S1074,21,feminino,2.3,1.0,0.4,não,100.0,6.4,razoável,6,não informado,bom,1,não,66.9
+S1075,18,feminino,6.0,3.4,2.0,sim,92.3,7.0,razoável,0,graduação,bom,9,sim,99.9
+S1076,20,masculino,6.0,2.5,2.9,não,85.1,6.7,ruim,5,graduação,média,10,sim,100.0
+S1077,20,feminino,2.7,1.4,0.4,não,82.6,7.8,razoável,1,graduação,ruim,1,não,57.2
+S1078,23,feminino,4.4,2.0,2.0,sim,85.8,7.1,bom,4,mestrado,bom,5,não,77.3
+S1079,20,masculino,5.9,3.3,2.8,sim,79.9,5.5,bom,3,mestrado,média,7,não,91.6
+S1080,23,masculino,2.9,2.6,1.8,não,64.0,9.1,bom,6,ensino médio,bom,8,não,70.7
+S1081,20,outro,3.2,3.2,5.0,não,100.0,6.7,bom,5,ensino médio,ruim,2,não,57.6
+S1082,21,feminino,2.6,4.9,0.0,sim,86.6,6.3,razoável,6,ensino médio,ruim,4,não,60.2
+S1083,24,masculino,2.0,0.6,3.0,não,89.0,7.7,ruim,6,ensino médio,bom,2,sim,50.5
+S1084,23,feminino,2.5,4.4,1.6,não,84.4,6.8,razoável,5,graduação,média,4,não,51.3
+S1085,19,masculino,1.7,2.6,2.6,não,77.6,7.0,bom,4,graduação,bom,6,não,53.5
+S1086,22,masculino,3.6,1.4,2.3,não,83.1,9.5,bom,5,graduação,ruim,6,não,79.2
+S1087,17,masculino,2.3,0.9,1.0,não,69.0,6.2,razoável,1,mestrado,média,2,sim,47.2
+S1088,20,masculino,3.9,2.3,2.1,não,100.0,6.1,ruim,6,graduação,bom,4,não,73.4
+S1089,18,masculino,1.2,3.6,0.0,não,72.7,6.6,ruim,4,ensino médio,média,4,sim,41.1
+S1090,24,masculino,4.0,2.3,2.5,não,74.7,7.8,razoável,6,graduação,bom,1,não,77.8
+S1091,20,feminino,4.8,4.3,2.1,não,80.6,4.7,razoável,5,ensino médio,média,2,não,63.4
+S1092,18,masculino,0.5,0.8,2.5,sim,97.9,4.1,ruim,4,ensino médio,bom,3,não,43.9
+S1093,22,masculino,4.1,2.5,3.0,não,85.1,5.8,bom,4,não informado,bom,5,não,70.2
+S1094,22,feminino,5.3,1.0,2.2,não,72.6,4.5,razoável,0,ensino médio,média,8,não,81.3
+S1095,22,masculino,1.7,2.9,2.0,não,97.5,6.0,bom,0,ensino médio,bom,6,não,50.2
+S1096,18,feminino,6.0,3.6,0.8,não,92.3,7.1,bom,0,ensino médio,bom,3,não,87.9
+S1097,20,masculino,4.1,2.0,1.0,não,90.4,5.4,bom,5,graduação,média,6,não,80.9
+S1098,22,masculino,2.4,0.0,3.1,não,92.2,4.8,bom,3,graduação,bom,7,sim,63.9
+S1099,21,masculino,3.4,2.7,3.4,não,100.0,6.6,bom,1,ensino médio,bom,6,não,65.6
+S1100,23,masculino,4.3,3.0,1.5,não,100.0,7.5,bom,5,não informado,média,10,sim,93.2
+S1101,18,masculino,3.6,3.0,1.9,não,78.1,4.5,bom,6,graduação,média,6,não,74.0
+S1102,18,masculino,4.3,4.0,0.8,não,100.0,7.5,razoável,0,não informado,média,1,não,60.8
+S1103,20,masculino,2.1,1.2,3.1,não,88.8,7.5,bom,4,mestrado,média,3,não,50.4
+S1104,18,masculino,3.8,3.3,2.5,não,90.0,7.6,bom,5,graduação,bom,7,não,74.3
+S1105,18,masculino,1.4,3.9,3.9,sim,68.1,8.0,bom,4,ensino médio,média,4,sim,32.8
+S1106,22,masculino,3.3,0.4,0.8,não,83.3,9.1,bom,6,ensino médio,bom,4,sim,82.3
+S1107,20,masculino,2.1,2.9,1.4,não,76.9,6.1,razoável,4,não informado,média,7,não,60.4
+S1108,22,feminino,2.4,1.9,2.1,não,93.3,6.6,ruim,4,ensino médio,média,9,sim,60.0
+S1109,23,feminino,5.4,2.4,2.5,não,95.7,6.0,razoável,2,ensino médio,bom,2,não,77.5
+S1110,24,masculino,5.1,2.9,1.6,não,64.3,6.5,razoável,3,graduação,média,9,sim,86.5
+S1111,23,feminino,4.4,1.9,0.8,não,84.8,8.3,bom,1,ensino médio,média,3,não,76.9
+S1112,24,feminino,1.9,1.7,2.8,não,96.2,4.9,razoável,1,graduação,ruim,6,sim,43.9
+S1113,22,masculino,3.0,2.5,2.6,não,83.1,5.5,razoável,0,graduação,média,4,não,51.3
+S1114,23,feminino,5.3,1.2,0.8,não,92.3,8.2,razoável,2,ensino médio,média,1,não,83.3
+S1115,20,feminino,3.7,1.2,3.3,não,88.5,7.7,ruim,5,não informado,bom,9,não,82.7
+S1116,17,masculino,7.0,3.3,3.1,não,88.4,6.1,bom,5,não informado,média,6,sim,94.8
+S1117,22,masculino,4.1,1.1,1.9,não,82.3,7.5,bom,1,não informado,bom,8,não,80.8
+S1118,24,feminino,3.8,3.3,1.9,não,72.8,6.9,ruim,3,graduação,bom,2,sim,58.3
+S1119,21,feminino,3.0,3.1,2.4,sim,73.8,8.3,razoável,4,ensino médio,média,7,não,66.3
+S1120,24,masculino,3.7,0.4,0.9,não,92.1,6.6,razoável,6,graduação,média,6,não,87.9
+S1121,21,masculino,3.3,1.7,1.8,não,85.2,7.7,ruim,0,ensino médio,bom,2,não,60.5
+S1122,18,masculino,4.6,3.9,0.0,não,83.6,9.7,ruim,3,ensino médio,bom,2,não,84.8
+S1123,23,feminino,4.9,1.3,2.8,não,80.8,7.2,bom,1,graduação,média,4,não,77.0
+S1124,21,feminino,2.3,1.9,0.1,não,81.9,6.6,razoável,2,graduação,média,4,não,61.7
+S1125,24,masculino,1.5,3.1,3.5,não,95.5,7.4,razoável,0,ensino médio,média,3,não,44.0
+S1126,18,masculino,0.7,3.4,1.4,sim,81.6,6.1,ruim,1,ensino médio,ruim,8,não,42.4
+S1127,17,feminino,4.3,2.2,1.6,não,71.6,9.4,bom,5,graduação,bom,7,não,88.0
+S1128,20,masculino,1.8,1.8,1.1,não,92.4,6.7,bom,0,ensino médio,bom,2,não,48.7
+S1129,20,masculino,0.3,4.2,1.5,não,83.0,6.2,bom,1,ensino médio,média,3,sim,26.8
+S1130,20,feminino,4.1,4.6,3.4,não,85.3,5.5,ruim,5,graduação,bom,10,não,81.6
+S1131,21,feminino,7.2,3.7,0.0,não,100.0,7.8,bom,6,ensino médio,bom,9,não,100.0
+S1132,17,feminino,3.5,2.6,3.2,sim,84.8,7.5,razoável,5,graduação,média,5,sim,74.0
+S1133,21,feminino,4.8,1.5,2.2,não,87.9,5.9,razoável,4,graduação,ruim,2,sim,78.4
+S1134,23,masculino,3.6,1.5,0.5,não,73.2,7.2,razoável,2,graduação,bom,3,não,70.7
+S1135,21,masculino,3.4,3.1,0.6,não,82.8,4.7,razoável,4,graduação,bom,8,não,74.3
+S1136,17,feminino,4.9,3.0,3.6,não,91.1,6.7,bom,1,graduação,bom,4,não,67.6
+S1137,17,masculino,3.1,4.2,0.8,não,69.4,7.0,bom,6,graduação,ruim,2,não,64.7
+S1138,23,masculino,3.9,3.3,0.5,não,87.0,8.5,razoável,3,mestrado,média,2,não,64.1
+S1139,17,masculino,4.0,0.7,3.1,não,86.0,5.6,bom,6,ensino médio,ruim,6,não,83.5
+S1140,24,masculino,2.5,3.8,2.2,não,85.4,5.0,bom,6,ensino médio,bom,8,não,63.4
+S1141,17,masculino,5.0,1.3,0.8,não,95.4,5.4,bom,6,graduação,bom,7,não,96.2
+S1142,20,masculino,3.2,2.0,2.0,não,88.3,4.9,razoável,4,graduação,ruim,4,sim,65.4
+S1143,24,masculino,2.4,2.8,0.7,não,99.8,8.1,razoável,3,não informado,bom,2,não,62.0
+S1144,24,masculino,4.3,4.9,3.0,não,75.1,8.4,razoável,5,mestrado,bom,9,sim,74.0
+S1145,23,feminino,2.2,6.2,3.0,não,86.4,6.9,bom,1,não informado,bom,4,não,46.7
+S1146,19,feminino,3.5,3.2,2.4,não,85.8,8.0,ruim,2,graduação,bom,9,não,75.5
+S1147,19,feminino,3.5,2.3,2.2,não,74.3,6.7,razoável,3,graduação,ruim,5,sim,78.1
+S1148,17,feminino,5.1,3.1,3.7,não,94.6,6.4,razoável,1,mestrado,bom,7,não,85.2
+S1149,24,feminino,4.2,3.6,1.8,sim,100.0,6.1,razoável,3,não informado,ruim,5,não,75.4
+S1150,19,masculino,3.5,2.1,0.5,sim,84.8,6.1,bom,4,graduação,média,2,não,64.2
+S1151,19,feminino,4.7,4.7,2.3,não,90.1,4.6,bom,1,ensino médio,bom,6,não,69.7
+S1152,17,feminino,5.6,2.8,4.1,não,85.8,6.8,bom,4,ensino médio,bom,7,não,90.3
+S1153,19,feminino,4.3,3.1,0.7,não,77.9,6.5,bom,0,não informado,média,6,não,81.4
+S1154,21,masculino,3.5,3.3,1.4,não,66.8,7.4,razoável,1,graduação,bom,3,não,65.0
+S1155,18,masculino,1.5,3.0,2.3,não,77.9,6.6,razoável,3,ensino médio,bom,10,não,57.3
+S1156,23,masculino,1.9,3.5,1.7,sim,71.1,6.3,razoável,0,ensino médio,bom,8,não,57.7
+S1157,18,masculino,3.0,1.8,0.7,não,100.0,5.5,ruim,4,graduação,ruim,3,não,56.7
+S1158,17,feminino,2.6,1.8,3.0,não,83.8,6.6,razoável,4,graduação,bom,5,sim,62.3
+S1159,20,feminino,3.2,1.2,4.4,não,81.5,7.4,bom,3,graduação,média,9,não,77.9
+S1160,23,masculino,3.6,3.0,2.0,não,93.9,5.1,razoável,0,mestrado,média,5,não,65.2
+S1161,17,outro,4.3,3.4,0.8,não,73.8,6.6,bom,6,ensino médio,média,7,não,76.8
+S1162,24,feminino,3.4,3.0,0.1,não,77.3,6.8,razoável,5,mestrado,média,7,não,83.8
+S1163,20,masculino,4.2,4.5,2.1,não,85.7,5.6,ruim,2,mestrado,bom,5,não,70.6
+S1164,18,masculino,3.6,2.5,3.0,não,95.3,5.8,ruim,3,ensino médio,média,2,sim,63.1
+S1165,17,masculino,0.5,3.3,2.3,não,90.0,6.8,razoável,4,ensino médio,bom,5,não,39.0
+S1166,24,masculino,2.1,1.2,1.8,não,87.5,5.1,razoável,1,ensino médio,média,7,não,66.7
+S1167,23,masculino,3.3,2.0,1.2,sim,85.8,6.9,ruim,0,ensino médio,bom,7,não,72.2
+S1168,23,masculino,1.7,3.3,0.6,não,89.0,5.4,razoável,5,graduação,bom,4,sim,50.1
+S1169,22,masculino,4.4,3.5,2.7,sim,87.0,7.8,razoável,2,graduação,bom,1,não,62.4
+S1170,24,masculino,5.8,2.1,2.8,não,74.7,9.3,razoável,1,graduação,bom,6,não,96.6
+S1171,21,feminino,5.3,2.4,0.1,não,85.5,5.5,bom,0,graduação,bom,3,sim,85.8
+S1172,19,masculino,3.2,0.7,3.5,não,74.3,7.1,bom,5,ensino médio,bom,5,não,68.3
+S1173,20,feminino,5.7,2.1,2.4,não,85.8,5.6,razoável,3,mestrado,bom,4,sim,83.8
+S1174,24,masculino,3.7,3.6,3.3,sim,80.2,7.7,bom,5,ensino médio,ruim,2,não,69.3
+S1175,22,outro,3.0,3.2,0.3,não,100.0,5.0,bom,3,mestrado,bom,7,não,65.3
+S1176,19,masculino,2.6,3.1,0.3,não,84.6,7.1,bom,6,ensino médio,média,5,sim,77.5
+S1177,19,masculino,3.0,2.6,1.6,não,71.0,5.5,razoável,0,mestrado,média,7,sim,55.0
+S1178,17,outro,2.9,2.5,2.4,sim,83.7,6.3,ruim,5,não informado,bom,9,não,65.2
+S1179,19,feminino,3.8,1.7,3.8,não,90.2,5.3,bom,2,ensino médio,média,4,não,58.1
+S1180,21,feminino,3.7,3.3,2.6,sim,100.0,7.5,razoável,5,não informado,bom,5,não,69.2
+S1181,23,masculino,3.5,3.0,1.5,sim,79.1,5.5,bom,0,graduação,média,9,não,67.4
+S1182,22,masculino,4.2,3.1,0.7,não,69.2,7.2,bom,1,mestrado,ruim,10,não,79.9
+S1183,19,feminino,5.3,1.9,3.2,não,93.2,6.1,razoável,1,ensino médio,média,4,sim,85.7
+S1184,17,feminino,4.9,0.0,0.7,não,71.2,6.4,razoável,5,mestrado,ruim,5,não,96.2
+S1185,21,feminino,1.3,3.8,3.6,sim,80.6,6.7,razoável,5,graduação,bom,5,não,40.4
+S1186,18,feminino,0.0,1.9,1.5,não,82.4,5.6,razoável,3,graduação,média,8,não,55.2
+S1187,23,masculino,4.9,1.5,3.5,não,84.3,6.8,razoável,0,graduação,média,4,não,73.8
+S1188,23,feminino,1.4,3.3,2.5,não,91.9,8.3,razoável,3,ensino médio,ruim,4,sim,46.5
+S1189,22,masculino,3.2,2.0,1.6,não,78.2,5.6,razoável,2,ensino médio,média,7,sim,60.5
+S1190,23,masculino,1.7,3.8,1.2,não,82.3,7.9,ruim,6,mestrado,bom,5,não,55.4
+S1191,19,masculino,0.8,3.2,1.4,não,84.9,8.3,bom,1,mestrado,média,6,não,45.1
+S1192,17,feminino,4.3,3.3,2.3,não,86.5,5.5,ruim,4,mestrado,bom,6,não,69.4
+S1193,23,masculino,4.6,0.9,1.9,não,86.0,4.8,bom,4,mestrado,bom,6,não,81.3
+S1194,23,masculino,2.6,4.0,1.1,não,89.4,6.9,bom,0,ensino médio,bom,10,não,66.6
+S1195,18,feminino,0.0,2.8,1.6,não,93.4,5.8,razoável,0,graduação,bom,5,não,26.7
+S1196,18,masculino,2.7,2.1,1.9,não,88.9,8.7,bom,4,ensino médio,ruim,5,não,64.5
+S1197,20,feminino,4.1,2.7,0.0,não,89.5,6.5,razoável,0,mestrado,média,9,sim,87.1
+S1198,21,masculino,1.3,0.4,2.3,sim,69.2,5.5,bom,1,ensino médio,bom,8,sim,42.2
+S1199,19,feminino,3.8,3.0,0.7,não,85.5,5.1,razoável,2,graduação,bom,4,não,61.6
+S1200,23,feminino,3.5,1.3,0.5,não,89.8,7.8,razoável,2,graduação,bom,7,não,81.9
+S1201,24,masculino,4.4,0.9,0.0,não,92.3,5.8,razoável,3,ensino médio,bom,8,não,96.5
+S1202,23,masculino,3.7,0.7,0.0,não,78.1,6.6,razoável,1,não informado,média,9,não,85.1
+S1203,17,masculino,2.0,3.8,0.3,não,78.4,7.6,razoável,6,mestrado,ruim,5,não,58.5
+S1204,20,masculino,5.3,1.7,1.0,não,79.3,5.9,razoável,0,graduação,bom,3,sim,78.4
+S1205,21,outro,3.3,4.3,3.9,não,90.4,6.4,razoável,0,ensino médio,bom,4,não,56.4
+S1206,24,masculino,3.5,1.9,1.2,não,95.3,6.5,ruim,6,graduação,média,10,sim,92.6
+S1207,20,feminino,2.1,0.5,2.0,não,80.9,7.3,ruim,3,graduação,bom,6,sim,62.3
+S1208,22,masculino,2.8,1.2,2.2,sim,94.1,7.2,razoável,3,ensino médio,média,10,não,75.8
+S1209,21,feminino,2.2,4.0,1.9,não,86.2,6.2,ruim,0,ensino médio,média,5,sim,47.1
+S1210,23,feminino,3.2,2.3,1.7,sim,83.8,6.6,ruim,0,mestrado,bom,9,não,66.3
+S1211,23,feminino,6.1,1.8,0.5,não,82.9,6.1,bom,6,graduação,bom,3,sim,98.3
+S1212,21,masculino,1.4,2.7,3.4,não,92.5,4.7,ruim,1,graduação,média,2,sim,29.7
+S1213,23,masculino,1.1,3.1,3.8,não,88.3,6.8,bom,6,graduação,ruim,6,não,45.5
+S1214,19,masculino,5.7,3.8,0.0,não,100.0,8.8,razoável,3,não informado,média,7,não,100.0
+S1215,21,feminino,3.2,4.2,0.7,não,76.5,5.4,bom,6,ensino médio,bom,5,sim,67.5
+S1216,20,feminino,2.5,2.1,1.5,não,90.2,5.6,razoável,6,ensino médio,média,1,sim,60.3
+S1217,21,outro,5.1,0.9,0.7,não,79.7,5.5,razoável,6,ensino médio,bom,3,não,87.0
+S1218,24,masculino,2.6,2.0,2.4,não,76.3,7.4,razoável,1,graduação,bom,3,não,48.5
+S1219,23,feminino,6.2,2.8,1.0,não,84.9,7.0,razoável,5,mestrado,bom,4,não,100.0
+S1220,19,feminino,4.5,1.3,4.2,não,86.4,6.3,razoável,0,ensino médio,média,10,não,82.1
+S1221,19,masculino,2.8,1.4,3.1,não,100.0,5.4,ruim,4,ensino médio,bom,6,sim,63.7
+S1222,22,masculino,6.7,2.9,2.0,não,83.2,6.6,bom,6,graduação,média,5,não,100.0
+S1223,20,feminino,2.6,2.4,2.9,não,73.7,4.6,razoável,4,mestrado,média,1,não,41.9
+S1224,18,feminino,4.6,2.5,3.0,não,87.7,6.7,razoável,5,graduação,ruim,6,não,72.7
+S1225,18,feminino,3.9,1.6,1.2,não,64.3,7.5,bom,0,mestrado,média,9,sim,74.3
+S1226,21,masculino,5.5,2.2,0.9,sim,84.1,5.0,razoável,3,graduação,bom,1,não,88.7
+S1227,22,feminino,5.8,1.4,1.9,não,85.2,4.7,bom,4,graduação,média,8,sim,96.6
+S1228,17,masculino,3.5,3.6,2.7,não,92.9,8.4,razoável,3,ensino médio,média,8,sim,72.6
+S1229,21,masculino,2.4,3.7,2.0,não,94.7,5.8,bom,4,ensino médio,bom,3,sim,52.4
+S1230,22,masculino,4.2,0.3,0.1,não,80.0,7.9,ruim,3,ensino médio,ruim,9,sim,100.0
+S1231,20,feminino,2.5,1.4,0.9,não,83.5,6.3,bom,6,graduação,bom,8,não,73.1
+S1232,20,feminino,6.5,0.7,1.7,não,77.3,6.3,bom,4,mestrado,média,3,não,100.0
+S1233,20,feminino,3.7,1.7,1.7,não,73.7,7.0,razoável,3,mestrado,ruim,10,sim,80.8
+S1234,20,masculino,3.0,2.4,4.0,não,88.1,5.4,ruim,5,ensino médio,bom,5,não,62.9
+S1235,20,feminino,3.8,0.8,0.3,não,72.3,6.7,razoável,1,ensino médio,ruim,3,não,71.5
+S1236,22,masculino,1.5,1.4,2.4,não,80.9,6.0,bom,3,ensino médio,bom,5,não,46.2
+S1237,22,feminino,2.0,1.3,3.4,sim,75.0,4.9,razoável,1,ensino médio,média,9,não,53.8
+S1238,19,masculino,5.3,2.7,4.3,não,90.5,6.9,razoável,1,graduação,ruim,4,sim,74.2
+S1239,24,masculino,2.5,2.6,1.4,não,100.0,6.2,ruim,0,mestrado,ruim,6,não,52.5
+S1240,18,masculino,1.9,1.6,2.3,não,72.0,6.3,razoável,6,mestrado,ruim,3,não,51.2
+S1241,23,masculino,4.3,2.7,2.4,sim,66.5,5.0,razoável,5,graduação,ruim,3,não,60.6
+S1242,20,feminino,5.3,1.8,2.0,não,83.8,8.4,bom,1,graduação,bom,5,não,91.5
+S1243,17,feminino,4.6,2.2,1.7,não,85.2,7.6,razoável,2,graduação,média,8,não,87.3
+S1244,23,masculino,5.0,4.5,2.3,não,87.2,7.7,bom,6,ensino médio,média,8,não,98.0
+S1245,22,feminino,2.4,4.1,0.0,não,80.5,6.1,razoável,1,graduação,média,3,sim,47.9
+S1246,17,masculino,1.4,0.9,2.6,sim,83.0,4.4,ruim,3,graduação,bom,8,não,51.0
+S1247,17,feminino,5.8,3.5,1.9,não,88.7,8.8,razoável,1,graduação,bom,8,sim,90.0
+S1248,17,feminino,3.0,3.5,1.6,não,95.4,6.4,razoável,3,ensino médio,bom,3,não,54.1
+S1249,19,feminino,3.1,1.1,4.1,não,65.4,5.6,bom,3,ensino médio,bom,10,sim,58.4
+S1250,22,masculino,5.5,3.5,1.1,sim,81.3,7.0,bom,2,ensino médio,média,10,não,100.0
+S1251,17,feminino,4.3,4.3,1.4,não,87.1,7.9,razoável,1,mestrado,média,2,não,65.2
+S1252,20,feminino,4.2,1.2,4.0,não,75.8,6.5,razoável,1,ensino médio,bom,10,não,85.3
+S1253,21,masculino,6.7,1.4,0.9,não,100.0,8.0,razoável,4,graduação,bom,2,não,93.8
+S1254,17,masculino,2.5,3.7,1.2,sim,78.6,7.8,bom,6,graduação,média,9,não,78.8
+S1255,19,feminino,4.9,2.8,1.6,não,84.6,5.2,bom,4,ensino médio,média,7,não,85.0
+S1256,23,feminino,3.6,3.2,2.7,não,90.6,5.7,bom,0,graduação,bom,6,não,64.5
+S1257,22,feminino,3.9,2.9,2.0,não,79.1,7.6,razoável,3,mestrado,bom,7,não,71.0
+S1258,24,feminino,5.8,3.0,0.4,não,66.5,3.2,razoável,2,ensino médio,média,8,não,90.8
+S1259,19,feminino,4.3,0.9,1.2,não,80.7,6.3,razoável,4,mestrado,bom,1,não,72.6
+S1260,17,masculino,4.3,3.8,1.1,não,95.3,4.8,razoável,1,ensino médio,média,8,não,70.9
+S1261,22,masculino,5.1,3.9,1.7,sim,81.6,5.9,razoável,0,não informado,ruim,3,sim,65.1
+S1262,21,masculino,3.0,2.2,2.3,não,76.5,6.1,ruim,2,mestrado,média,3,não,49.1
+S1263,17,feminino,2.2,2.4,2.3,sim,94.3,6.1,ruim,5,graduação,média,6,não,62.7
+S1264,19,masculino,1.9,0.7,0.0,não,81.7,5.8,bom,1,mestrado,ruim,4,não,51.5
+S1265,18,feminino,0.6,3.1,3.0,não,79.9,5.2,bom,1,graduação,bom,4,não,18.4
+S1266,20,feminino,6.6,3.2,2.1,não,86.5,9.3,razoável,5,mestrado,média,4,sim,100.0
+S1267,24,feminino,1.8,2.4,3.3,sim,92.7,8.7,razoável,3,graduação,bom,10,não,53.3
+S1268,23,masculino,3.2,3.8,2.3,não,100.0,5.1,razoável,3,graduação,ruim,9,não,76.1
+S1269,19,feminino,3.1,2.1,3.0,não,93.3,8.4,bom,4,graduação,média,8,não,85.6
+S1270,22,masculino,4.0,3.2,2.3,sim,96.6,6.0,bom,4,ensino médio,bom,3,sim,63.0
+S1271,24,feminino,4.7,1.3,3.3,sim,79.9,6.7,bom,1,mestrado,bom,1,não,73.6
+S1272,24,masculino,4.8,2.5,2.4,sim,74.7,6.4,bom,6,ensino médio,bom,1,não,76.2
+S1273,24,masculino,2.6,2.3,1.7,não,85.6,5.7,razoável,1,graduação,bom,1,sim,45.5
+S1274,17,feminino,3.2,2.8,4.3,não,86.1,7.7,razoável,4,ensino médio,média,4,sim,58.6
+S1275,20,masculino,3.9,2.1,2.8,não,74.2,6.7,razoável,5,graduação,média,6,não,77.8
+S1276,17,masculino,3.1,2.3,2.4,sim,83.2,5.9,razoável,4,ensino médio,bom,4,sim,61.5
+S1277,22,feminino,5.9,3.5,0.4,não,89.0,4.9,bom,1,não informado,bom,3,não,71.4
+S1278,17,feminino,4.2,2.0,0.4,não,88.6,5.4,razoável,2,mestrado,bom,8,sim,93.9
+S1279,18,feminino,4.6,0.6,2.1,não,90.0,4.5,ruim,1,ensino médio,bom,8,não,85.9
+S1280,20,feminino,4.5,4.6,2.0,não,87.9,6.5,razoável,2,graduação,bom,6,não,73.8
+S1281,20,feminino,5.3,4.2,1.1,sim,79.9,5.1,bom,2,ensino médio,média,9,não,83.3
+S1282,22,masculino,3.8,0.9,2.0,sim,79.9,6.2,razoável,1,não informado,bom,10,não,79.7
+S1283,23,masculino,1.6,3.3,3.5,sim,73.0,8.1,bom,6,ensino médio,bom,1,não,47.1
+S1284,18,masculino,4.1,1.9,2.6,não,100.0,7.9,razoável,6,graduação,bom,8,não,91.9
+S1285,19,feminino,2.5,2.8,0.5,sim,85.1,6.5,ruim,0,não informado,ruim,6,sim,60.6
+S1286,17,feminino,2.7,2.9,1.7,não,82.8,6.4,razoável,4,mestrado,média,1,não,46.6
+S1287,21,masculino,4.4,2.2,0.9,não,75.7,8.8,bom,6,ensino médio,ruim,4,sim,84.2
+S1288,17,masculino,5.4,1.6,1.4,não,100.0,7.1,razoável,3,ensino médio,média,5,não,95.5
+S1289,24,feminino,3.5,1.7,1.3,não,74.3,6.1,bom,1,ensino médio,bom,7,sim,73.5
+S1290,17,masculino,4.0,1.4,1.3,não,80.7,4.8,razoável,2,não informado,ruim,8,não,75.9
+S1291,19,feminino,6.1,1.5,0.4,não,89.2,7.0,ruim,1,graduação,média,9,não,100.0
+S1292,17,feminino,3.9,2.4,1.7,sim,91.0,7.5,bom,4,mestrado,média,6,sim,74.2
+S1293,18,feminino,7.4,1.6,1.2,não,94.6,5.7,razoável,5,graduação,bom,10,sim,100.0
+S1294,18,masculino,4.3,3.3,0.0,não,100.0,6.8,razoável,6,ensino médio,média,9,não,94.9
+S1295,20,feminino,0.9,4.3,4.1,não,90.1,6.1,bom,6,ensino médio,média,4,não,27.6
+S1296,22,feminino,4.6,1.8,3.0,não,74.4,6.3,razoável,6,ensino médio,média,8,não,86.2
+S1297,23,feminino,4.1,2.8,1.4,não,82.4,3.5,bom,2,mestrado,média,3,não,60.1
+S1298,21,feminino,5.4,3.1,1.8,não,88.1,6.2,ruim,3,ensino médio,média,4,sim,91.3
+S1299,24,feminino,4.5,3.1,0.5,não,100.0,7.7,razoável,3,graduação,média,10,não,93.8
+S1300,17,feminino,3.3,2.6,3.7,não,71.0,5.7,ruim,6,ensino médio,bom,4,sim,61.6
+S1301,17,masculino,1.7,3.4,3.9,sim,97.0,6.6,bom,3,ensino médio,média,6,não,41.7
+S1302,19,feminino,3.2,3.1,2.0,não,86.8,5.6,razoável,5,ensino médio,ruim,9,não,74.5
+S1303,22,feminino,2.2,1.0,2.9,não,93.4,6.9,bom,6,não informado,bom,6,não,63.7
+S1304,18,masculino,2.6,3.5,2.0,não,84.0,6.2,bom,0,graduação,média,1,não,39.6
+S1305,21,feminino,4.4,3.6,0.3,não,76.6,5.4,razoável,2,ensino médio,bom,5,sim,87.5
+S1306,20,feminino,6.0,1.6,1.3,não,92.5,8.1,razoável,5,graduação,média,9,não,100.0
+S1307,18,feminino,4.1,2.5,1.9,sim,91.5,7.6,razoável,2,não informado,bom,5,não,75.4
+S1308,24,masculino,1.7,3.3,1.3,não,94.7,5.8,razoável,6,mestrado,bom,6,sim,61.5
+S1309,22,masculino,4.2,2.2,1.6,não,84.9,7.1,razoável,5,ensino médio,bom,3,sim,73.3
+S1310,24,outro,5.3,3.8,1.7,não,79.0,7.1,bom,6,mestrado,média,8,não,96.3
+S1311,23,feminino,2.6,5.3,1.7,sim,69.4,7.3,bom,5,graduação,média,10,não,67.0
+S1312,20,masculino,3.3,1.6,1.9,não,93.2,4.5,bom,6,mestrado,média,4,não,70.1
+S1313,23,feminino,3.5,0.8,0.6,não,89.2,7.7,bom,0,ensino médio,bom,4,não,84.2
+S1314,19,feminino,2.3,2.9,1.0,não,75.3,5.8,bom,2,graduação,bom,5,sim,48.9
+S1315,24,feminino,4.5,3.4,0.4,não,79.6,6.1,razoável,5,ensino médio,ruim,10,não,98.8
+S1316,19,feminino,3.3,2.2,2.9,sim,80.3,9.7,bom,0,ensino médio,ruim,9,não,76.1
+S1317,17,masculino,4.1,4.2,0.0,não,70.2,6.9,bom,1,ensino médio,média,8,sim,80.4
+S1318,23,masculino,2.2,0.9,3.1,não,76.8,6.0,razoável,6,ensino médio,ruim,7,não,64.1
+S1319,22,masculino,2.8,3.3,3.3,não,73.7,3.9,bom,4,mestrado,média,5,sim,59.4
+S1320,24,feminino,4.6,1.8,1.5,não,80.9,8.2,razoável,5,não informado,ruim,9,sim,94.2
+S1321,21,masculino,2.9,4.6,0.0,sim,77.6,4.9,bom,3,graduação,bom,9,sim,67.8
+S1322,20,masculino,6.1,4.9,1.4,não,68.7,5.3,bom,0,graduação,bom,10,não,96.1
+S1323,18,masculino,2.9,1.6,1.7,não,100.0,6.1,bom,0,graduação,bom,10,não,70.2
+S1324,22,feminino,3.8,1.8,0.7,não,97.5,8.2,razoável,5,graduação,média,2,não,84.2
+S1325,22,feminino,4.9,3.5,1.2,não,77.2,7.4,bom,0,ensino médio,bom,4,não,75.4
+S1326,19,masculino,1.4,2.0,3.5,não,87.7,6.3,razoável,1,graduação,bom,8,não,41.7
+S1327,23,masculino,0.9,2.4,2.5,não,89.2,6.9,razoável,0,ensino médio,ruim,1,não,23.1
+S1328,24,feminino,1.2,2.5,0.8,sim,96.9,5.8,bom,4,mestrado,bom,5,não,50.3
+S1329,24,masculino,5.4,0.2,0.0,não,76.8,6.7,razoável,4,graduação,média,8,não,100.0
+S1330,17,masculino,2.7,2.5,1.4,não,95.9,6.6,bom,6,mestrado,média,2,não,52.2
+S1331,17,masculino,7.3,1.7,1.6,não,79.5,7.7,razoável,6,não informado,média,2,sim,100.0
+S1332,20,masculino,2.7,1.9,2.3,não,71.6,7.7,razoável,3,ensino médio,ruim,8,não,71.2
+S1333,19,masculino,3.8,4.2,1.2,não,92.2,7.1,bom,1,ensino médio,bom,10,não,72.3
+S1334,22,feminino,5.8,1.0,2.4,não,97.9,6.1,razoável,4,não informado,média,9,não,100.0
+S1335,24,masculino,6.5,3.5,3.9,não,100.0,7.4,ruim,5,ensino médio,média,7,sim,100.0
+S1336,21,feminino,6.6,2.2,2.7,não,73.0,6.4,bom,2,graduação,ruim,8,sim,100.0
+S1337,19,masculino,5.3,2.2,1.7,não,92.0,5.2,razoável,2,ensino médio,bom,5,não,93.1
+S1338,20,feminino,5.0,3.4,1.6,sim,80.9,6.0,bom,2,graduação,média,1,sim,67.7
+S1339,20,feminino,4.4,2.9,1.4,não,92.8,6.6,razoável,6,mestrado,bom,4,sim,77.9
+S1340,19,masculino,4.7,3.2,3.1,sim,70.3,7.6,razoável,5,graduação,bom,2,não,80.3
+S1341,20,feminino,2.7,3.7,1.1,não,72.4,6.3,razoável,0,ensino médio,média,3,não,44.3
+S1342,19,masculino,2.3,2.1,1.8,não,77.2,5.0,razoável,5,ensino médio,média,3,não,54.7
+S1343,18,outro,3.5,1.8,1.9,não,85.8,6.6,razoável,0,ensino médio,bom,9,não,85.0
+S1344,19,masculino,3.2,1.2,1.2,não,78.6,6.6,razoável,2,ensino médio,ruim,10,sim,81.7
+S1345,23,masculino,2.8,1.5,0.3,não,91.6,6.7,razoável,3,graduação,ruim,4,não,71.6
+S1346,19,masculino,4.5,6.0,2.2,sim,95.3,7.6,ruim,3,ensino médio,bom,2,sim,73.7
+S1347,20,outro,4.9,4.0,1.7,não,91.0,7.7,razoável,0,mestrado,média,3,não,77.0
+S1348,24,feminino,3.6,0.9,2.4,não,100.0,5.8,ruim,2,graduação,média,3,não,72.3
+S1349,23,feminino,5.7,0.9,1.2,não,89.2,5.8,ruim,5,graduação,média,7,não,100.0
+S1350,20,masculino,1.8,3.1,3.1,não,72.8,5.3,bom,3,ensino médio,média,8,não,54.0
+S1351,17,feminino,3.2,3.2,0.8,não,98.6,7.3,bom,0,ensino médio,bom,6,não,70.4
+S1352,17,masculino,2.4,3.2,3.7,não,78.9,8.2,bom,5,graduação,bom,4,sim,47.0
+S1353,24,feminino,0.7,2.2,0.0,não,94.1,6.1,razoável,2,ensino médio,bom,6,não,48.7
+S1354,24,masculino,3.4,2.3,2.3,não,100.0,6.2,bom,1,ensino médio,bom,1,não,47.6
+S1355,23,masculino,3.3,2.9,2.3,sim,89.6,8.3,bom,2,ensino médio,média,10,não,81.1
+S1356,18,masculino,5.8,2.6,0.9,sim,70.0,7.1,bom,6,ensino médio,média,8,não,100.0
+S1357,24,masculino,4.4,0.0,2.3,não,75.8,7.0,razoável,2,graduação,média,1,não,81.9
+S1358,17,feminino,2.0,2.2,3.2,não,98.2,5.1,bom,5,ensino médio,média,5,não,56.3
+S1359,19,masculino,6.3,1.5,0.0,não,83.3,7.3,bom,5,graduação,bom,2,sim,100.0
+S1360,20,feminino,5.3,2.7,2.4,sim,85.8,5.4,bom,4,ensino médio,bom,6,não,81.0
+S1361,17,masculino,4.4,6.1,0.0,não,92.6,5.1,ruim,4,graduação,média,9,sim,84.9
+S1362,17,feminino,3.2,2.9,0.7,não,92.0,6.1,razoável,5,mestrado,ruim,5,não,67.9
+S1363,18,masculino,2.1,2.1,3.6,não,87.8,5.8,razoável,5,mestrado,ruim,4,não,56.9
+S1364,23,masculino,2.9,3.6,1.2,não,82.9,6.2,razoável,1,ensino médio,média,2,não,45.9
+S1365,23,feminino,5.1,3.1,0.5,sim,81.9,4.8,bom,1,não informado,ruim,3,não,76.0
+S1366,22,masculino,6.3,3.0,1.6,não,93.6,7.7,ruim,2,ensino médio,média,6,sim,94.8
+S1367,18,masculino,5.8,3.2,4.1,não,90.5,7.9,ruim,6,graduação,bom,8,não,99.3
+S1368,19,feminino,2.8,5.0,0.0,sim,82.4,4.2,razoável,3,graduação,bom,8,não,71.0
+S1369,23,feminino,1.8,1.1,0.6,sim,95.8,7.7,ruim,6,graduação,média,5,não,70.9
+S1370,20,masculino,3.7,3.1,3.4,sim,83.7,5.5,razoável,1,ensino médio,média,5,sim,59.8
+S1371,24,masculino,0.8,1.4,3.8,sim,76.5,7.5,bom,2,graduação,média,10,não,36.0
+S1372,18,feminino,4.0,3.2,1.7,não,77.4,6.4,razoável,6,ensino médio,bom,3,não,68.4
+S1373,24,masculino,3.3,1.4,0.4,não,75.2,6.5,ruim,0,graduação,bom,7,sim,72.9
+S1374,17,masculino,2.8,2.0,4.1,sim,82.3,6.3,razoável,4,ensino médio,bom,6,não,57.3
+S1375,20,masculino,1.1,2.1,3.6,sim,97.3,8.0,razoável,6,graduação,média,1,sim,50.3
+S1376,20,feminino,4.3,3.7,2.5,não,76.9,5.0,ruim,3,não informado,bom,4,não,65.7
+S1377,17,feminino,2.7,3.6,0.9,não,86.9,7.2,bom,2,ensino médio,ruim,6,sim,67.9
+S1378,18,masculino,1.7,1.0,1.7,não,78.4,7.8,bom,6,graduação,bom,6,não,63.6
+S1379,17,masculino,0.0,2.6,1.6,não,82.4,7.4,bom,5,ensino médio,média,3,não,32.9
+S1380,24,masculino,3.5,1.6,2.2,não,69.9,9.3,bom,0,graduação,média,6,não,67.7
+S1381,22,feminino,6.2,1.0,3.4,não,82.8,5.9,ruim,4,graduação,bom,10,não,100.0
+S1382,20,masculino,6.0,2.2,2.8,sim,83.1,7.6,bom,0,graduação,média,6,não,96.8
+S1383,21,masculino,2.8,2.1,0.6,não,90.4,6.4,bom,2,ensino médio,ruim,9,sim,71.0
+S1384,21,feminino,2.6,5.4,3.3,não,87.2,8.0,bom,1,ensino médio,ruim,9,não,59.8
+S1385,24,masculino,4.2,3.0,2.1,não,73.0,6.5,ruim,4,graduação,ruim,2,não,64.2
+S1386,19,feminino,2.0,0.8,2.6,não,95.8,6.0,bom,0,ensino médio,ruim,4,não,45.2
+S1387,23,masculino,4.0,1.8,3.4,não,87.1,8.1,bom,1,graduação,ruim,9,sim,82.9
+S1388,17,masculino,4.6,3.7,0.6,não,87.0,5.9,bom,3,ensino médio,média,4,sim,73.2
+S1389,17,masculino,5.3,5.0,1.8,não,84.9,4.8,ruim,2,ensino médio,média,8,não,79.6
+S1390,19,feminino,3.3,0.6,1.2,sim,79.8,5.9,bom,2,ensino médio,bom,10,não,73.0
+S1391,19,feminino,3.2,0.2,0.1,sim,87.2,7.2,bom,4,não informado,média,3,não,72.6
+S1392,24,feminino,2.2,4.7,2.2,não,89.8,8.2,bom,0,ensino médio,ruim,3,não,45.2
+S1393,24,masculino,2.3,3.0,4.6,não,67.5,6.6,razoável,3,graduação,média,9,não,51.8
+S1394,19,feminino,3.2,1.5,0.0,não,79.6,8.1,bom,5,graduação,bom,10,não,92.0
+S1395,20,masculino,4.1,3.1,1.8,não,82.5,4.9,razoável,4,ensino médio,bom,8,não,77.8
+S1396,24,masculino,4.9,0.0,2.5,sim,87.6,6.0,razoável,5,mestrado,média,1,não,97.2
+S1397,22,feminino,2.3,2.5,1.9,sim,96.9,6.2,razoável,4,graduação,bom,10,sim,71.9
+S1398,24,masculino,5.7,2.9,1.7,não,77.3,6.4,bom,0,mestrado,bom,2,sim,69.1
+S1399,17,masculino,3.1,3.6,0.4,não,80.0,6.6,ruim,3,graduação,bom,3,sim,59.6
+S1400,24,masculino,3.5,1.3,2.1,não,79.9,7.3,razoável,0,graduação,bom,2,não,60.4
+S1401,20,masculino,2.4,2.6,1.0,não,77.0,6.0,bom,2,não informado,bom,3,sim,48.3
+S1402,19,masculino,0.0,1.4,0.0,não,81.5,6.7,bom,5,ensino médio,bom,8,sim,50.1
+S1403,17,feminino,4.8,2.8,3.1,não,92.7,6.4,razoável,1,não informado,bom,6,não,74.9
+S1404,24,masculino,4.6,1.4,2.9,sim,74.5,5.4,bom,6,graduação,média,7,sim,85.6
+S1405,20,feminino,3.1,2.0,1.9,não,89.3,6.4,bom,2,ensino médio,bom,10,sim,65.4
+S1406,22,feminino,3.6,1.3,2.1,não,68.0,6.3,ruim,2,graduação,bom,10,sim,82.4
+S1407,24,masculino,4.3,3.3,3.0,não,79.4,6.3,razoável,5,ensino médio,ruim,6,sim,67.3
+S1408,20,masculino,1.2,3.5,2.0,não,81.7,6.5,ruim,4,graduação,bom,1,não,34.3
+S1409,22,masculino,2.7,2.2,2.8,não,100.0,6.6,razoável,2,ensino médio,média,3,não,53.0
+S1410,19,feminino,4.7,2.5,1.5,não,82.3,6.0,razoável,6,ensino médio,média,1,não,78.0
+S1411,24,masculino,1.6,0.8,3.2,sim,63.0,8.0,bom,3,ensino médio,bom,10,não,58.2
+S1412,22,feminino,3.9,2.1,2.2,não,65.0,5.1,bom,2,ensino médio,média,9,não,73.7
+S1413,17,masculino,1.5,2.4,2.0,sim,85.3,5.6,ruim,3,ensino médio,média,9,não,60.3
+S1414,19,feminino,4.2,5.6,0.4,não,91.1,9.8,ruim,0,graduação,ruim,5,sim,78.7
+S1415,17,masculino,3.4,1.2,2.1,sim,88.8,5.3,razoável,4,não informado,média,4,sim,68.3
+S1416,21,masculino,1.1,4.3,0.9,não,86.7,4.9,razoável,3,ensino médio,média,9,não,49.9
+S1417,18,feminino,5.2,3.7,1.1,não,96.6,7.4,razoável,2,graduação,média,9,sim,100.0
+S1418,24,feminino,2.4,2.8,0.9,não,79.6,4.0,bom,4,não informado,média,3,sim,54.7
+S1419,22,masculino,2.3,4.6,0.6,não,93.9,6.2,bom,6,mestrado,bom,5,não,58.7
+S1420,18,feminino,3.8,2.9,4.1,sim,68.7,9.1,razoável,4,mestrado,bom,3,não,70.8
+S1421,18,feminino,5.2,3.0,3.3,não,76.0,4.6,bom,3,não informado,ruim,10,sim,87.1
+S1422,22,feminino,2.0,2.4,3.9,não,66.9,4.1,razoável,3,ensino médio,bom,2,sim,29.5
+S1423,19,feminino,3.6,4.0,0.5,não,82.3,4.7,bom,1,ensino médio,ruim,1,não,53.2
+S1424,24,masculino,4.1,3.8,1.9,sim,84.5,7.6,razoável,1,graduação,ruim,10,não,73.0
+S1425,21,masculino,4.5,1.7,0.4,não,86.1,7.8,ruim,4,graduação,ruim,2,sim,71.1
+S1426,17,masculino,3.8,0.9,1.0,não,85.6,5.9,bom,5,graduação,bom,8,não,80.9
+S1427,20,feminino,2.9,2.3,0.8,sim,75.7,7.3,razoável,5,graduação,bom,8,não,75.1
+S1428,17,feminino,2.3,1.5,3.2,não,83.1,8.2,bom,1,ensino médio,média,3,não,52.4
+S1429,20,masculino,3.6,2.4,1.4,não,70.0,8.6,razoável,2,graduação,média,7,não,67.6
+S1430,17,masculino,1.9,4.0,3.0,não,98.6,6.2,ruim,0,graduação,média,7,sim,35.7
+S1431,22,feminino,0.0,2.0,2.5,não,82.0,3.7,ruim,4,graduação,média,2,não,29.9
+S1432,21,outro,4.2,2.4,4.3,não,80.1,5.5,razoável,0,mestrado,bom,9,não,70.7
+S1433,24,feminino,4.9,2.6,0.2,não,100.0,6.0,bom,1,graduação,média,3,sim,89.3
+S1434,20,masculino,0.0,3.5,3.2,não,72.6,6.2,razoável,3,ensino médio,bom,2,não,26.2
+S1435,24,masculino,2.0,0.0,3.1,não,73.7,6.3,bom,6,ensino médio,média,3,sim,58.3
+S1436,24,masculino,4.4,1.8,0.7,não,74.0,7.8,bom,4,ensino médio,bom,2,sim,78.4
+S1437,24,feminino,6.6,2.8,2.9,não,84.3,8.0,bom,1,não informado,bom,8,não,100.0
+S1438,23,masculino,3.5,3.9,2.2,não,89.3,6.3,razoável,2,mestrado,média,5,sim,66.8
+S1439,19,feminino,2.4,1.9,1.5,não,92.4,7.8,bom,6,ensino médio,bom,3,não,63.8
+S1440,17,masculino,3.2,0.2,0.9,não,100.0,6.9,razoável,4,graduação,bom,5,não,76.1
+S1441,24,feminino,5.6,3.2,1.0,não,62.5,6.6,razoável,4,graduação,média,8,não,82.7
+S1442,17,feminino,2.5,1.7,4.1,não,91.1,7.6,ruim,5,não informado,média,7,não,65.0
+S1443,24,feminino,2.3,1.1,1.8,sim,79.4,6.6,razoável,3,mestrado,bom,6,não,66.8
+S1444,20,masculino,2.8,1.8,2.7,não,79.1,9.0,ruim,4,mestrado,média,1,sim,64.9
+S1445,19,masculino,2.1,2.3,0.9,não,78.8,4.8,bom,3,graduação,ruim,10,não,63.1
+S1446,19,masculino,3.7,1.8,0.9,sim,75.9,5.9,razoável,1,ensino médio,média,1,não,56.3
+S1447,22,feminino,5.9,0.0,3.0,não,100.0,6.3,razoável,2,ensino médio,bom,1,sim,93.6
+S1448,23,feminino,4.0,3.6,0.3,não,93.4,7.0,bom,6,ensino médio,bom,10,sim,91.9
+S1449,22,feminino,3.1,4.0,1.3,não,85.2,8.0,razoável,6,ensino médio,bom,8,sim,74.0
+S1450,22,feminino,3.1,3.3,1.8,não,98.5,6.5,razoável,2,graduação,média,8,não,62.7
+S1451,22,feminino,1.2,1.1,1.9,não,69.9,4.8,ruim,4,mestrado,ruim,7,não,58.6
+S1452,22,masculino,4.8,2.3,1.6,sim,71.7,7.5,bom,4,graduação,bom,6,não,89.3
+S1453,22,feminino,3.4,2.5,2.2,não,63.2,7.4,ruim,1,mestrado,bom,4,não,63.4
+S1454,21,masculino,3.2,3.2,2.6,sim,78.0,4.2,razoável,5,graduação,ruim,1,não,46.7
+S1455,19,masculino,8.3,3.3,2.6,sim,86.6,6.5,razoável,5,ensino médio,média,9,não,100.0
+S1456,22,feminino,3.9,1.6,0.7,sim,86.0,4.6,bom,5,mestrado,ruim,1,não,68.7
+S1457,24,masculino,2.4,2.6,1.5,não,86.5,5.7,bom,3,ensino médio,bom,4,não,58.9
+S1458,19,masculino,2.9,3.0,3.1,não,70.9,5.4,bom,5,mestrado,bom,3,não,59.0
+S1459,19,feminino,5.2,4.2,2.8,sim,93.0,7.5,ruim,2,ensino médio,bom,7,não,77.9
+S1460,18,masculino,3.7,3.3,0.3,sim,87.4,6.6,razoável,6,ensino médio,bom,5,não,72.3
+S1461,21,feminino,1.3,3.4,2.2,não,92.3,5.0,razoável,6,mestrado,ruim,5,não,49.7
+S1462,22,masculino,4.9,2.6,0.0,sim,66.1,7.6,ruim,3,graduação,bom,4,não,80.9
+S1463,17,masculino,2.5,4.2,1.9,sim,88.1,4.8,razoável,1,mestrado,bom,1,não,44.5
+S1464,20,masculino,6.3,3.0,3.9,sim,73.1,6.9,razoável,2,mestrado,média,5,não,85.3
+S1465,23,masculino,5.1,1.5,0.8,não,81.0,5.5,razoável,6,não informado,bom,4,não,83.2
+S1466,24,feminino,2.8,4.2,0.9,não,90.3,6.1,bom,2,graduação,média,10,não,59.7
+S1467,17,masculino,5.4,3.3,2.6,não,85.9,7.1,razoável,6,ensino médio,bom,8,não,98.1
+S1468,21,feminino,3.6,2.0,0.1,não,76.5,7.1,bom,0,graduação,bom,2,sim,66.8
+S1469,20,masculino,4.8,1.9,1.1,não,85.1,8.1,razoável,1,graduação,bom,8,sim,96.1
+S1470,21,feminino,4.2,2.9,2.5,não,69.7,6.4,razoável,1,ensino médio,bom,1,não,60.4
+S1471,24,feminino,2.2,3.1,1.1,não,96.5,6.9,razoável,0,graduação,ruim,4,não,33.8
+S1472,19,feminino,2.5,2.7,1.5,não,82.9,6.0,ruim,3,graduação,média,3,não,56.1
+S1473,20,masculino,5.0,2.9,2.6,não,96.2,6.7,ruim,6,ensino médio,média,5,não,80.6
+S1474,19,masculino,3.0,4.5,2.3,sim,79.7,7.0,razoável,6,graduação,bom,5,não,52.6
+S1475,24,masculino,2.9,3.8,2.1,não,79.8,6.4,bom,6,graduação,bom,5,sim,52.1
+S1476,17,feminino,2.1,2.7,1.4,não,77.4,4.3,bom,5,mestrado,bom,4,sim,39.9
+S1477,24,masculino,4.1,3.6,2.2,não,93.8,6.9,ruim,5,ensino médio,ruim,8,não,84.0
+S1478,17,feminino,6.6,1.3,1.7,não,77.9,6.9,bom,5,ensino médio,bom,3,sim,97.7
+S1479,20,feminino,1.9,3.0,2.3,não,91.4,5.7,bom,5,graduação,bom,4,não,43.3
+S1480,20,masculino,3.5,4.7,1.3,sim,81.2,5.0,bom,5,não informado,bom,1,não,55.9
+S1481,22,feminino,5.6,2.2,1.6,não,65.2,8.3,bom,0,mestrado,ruim,7,não,84.6
+S1482,21,masculino,3.4,1.5,0.7,não,79.3,7.1,razoável,1,não informado,ruim,1,não,67.0
+S1483,22,masculino,4.2,1.7,1.8,não,73.2,6.2,razoável,3,graduação,ruim,2,não,76.0
+S1484,21,feminino,1.9,1.2,0.9,não,85.3,5.1,razoável,2,graduação,bom,7,sim,56.9
+S1485,22,feminino,4.1,1.6,0.6,não,73.1,5.5,razoável,5,ensino médio,bom,1,não,77.5
+S1486,19,feminino,3.2,2.1,2.1,não,94.3,8.1,razoável,0,não informado,bom,3,não,69.4
+S1487,20,masculino,5.0,0.8,2.0,não,84.1,6.7,razoável,6,graduação,média,6,sim,94.6
+S1488,17,masculino,5.3,2.5,2.7,sim,83.2,5.8,bom,3,graduação,média,6,sim,93.4
+S1489,21,feminino,7.4,3.6,1.3,não,91.6,7.1,bom,3,ensino médio,bom,6,sim,100.0
+S1490,24,feminino,4.4,1.4,2.2,não,94.6,5.5,bom,3,mestrado,bom,2,sim,63.6
+S1491,21,feminino,4.0,4.3,2.4,não,84.8,8.3,bom,0,ensino médio,bom,2,não,53.0
+S1492,17,masculino,3.8,3.1,2.3,não,77.3,8.1,bom,2,ensino médio,bom,6,não,67.8
+S1493,22,feminino,3.0,3.7,0.9,não,67.3,5.9,ruim,5,graduação,média,10,não,73.9
+S1494,21,masculino,4.0,1.7,2.0,não,78.1,5.7,razoável,3,ensino médio,bom,5,não,66.5
+S1495,23,masculino,3.1,3.5,2.2,não,78.8,3.4,razoável,0,mestrado,bom,7,não,49.9
+S1496,19,feminino,3.8,1.2,1.8,não,86.1,4.7,bom,6,ensino médio,média,7,não,73.9
+S1497,20,masculino,5.5,3.6,0.0,não,81.5,4.9,razoável,1,não informado,média,5,não,80.3
+S1498,17,feminino,2.0,2.7,2.0,não,91.9,6.7,bom,6,ensino médio,média,8,não,71.7
+S1499,20,masculino,5.2,3.2,4.2,sim,78.9,6.1,ruim,0,graduação,ruim,10,não,83.3
+S1500,23,masculino,5.5,1.1,1.4,não,84.4,4.9,razoável,0,graduação,bom,6,não,84.5
+S1501,21,feminino,3.3,1.4,1.0,não,96.8,6.2,bom,0,graduação,ruim,5,não,74.9
+S1502,21,feminino,0.3,3.2,2.2,não,88.4,7.1,ruim,3,não informado,média,4,sim,34.0
+S1503,24,feminino,2.6,1.4,2.1,sim,84.4,7.1,razoável,0,ensino médio,média,7,não,63.0
+S1504,23,feminino,5.4,3.1,3.1,não,79.0,4.2,razoável,1,graduação,bom,4,não,77.9
+S1505,17,feminino,3.5,0.9,0.4,não,78.7,6.3,razoável,3,não informado,média,5,sim,72.9
+S1506,24,feminino,2.0,3.5,2.6,não,76.5,4.8,bom,6,mestrado,bom,5,não,53.2
+S1507,19,feminino,2.7,1.0,2.4,não,79.6,7.6,razoável,1,não informado,ruim,1,não,57.3
+S1508,24,masculino,4.8,3.2,1.6,não,92.6,7.4,razoável,4,graduação,ruim,1,sim,76.6
+S1509,18,feminino,4.3,3.3,2.2,não,82.8,5.4,ruim,6,ensino médio,média,3,não,64.6
+S1510,17,masculino,3.1,1.7,2.9,sim,71.5,5.6,bom,0,graduação,média,3,sim,51.1
+S1511,18,outro,2.9,3.2,2.8,não,100.0,5.9,razoável,5,ensino médio,média,2,não,63.0
+S1512,23,feminino,2.9,2.8,0.5,não,88.2,3.8,bom,5,não informado,ruim,2,sim,61.6
+S1513,22,masculino,2.1,1.9,2.7,sim,70.9,6.9,bom,3,ensino médio,bom,6,não,62.5
+S1514,18,feminino,5.9,1.3,1.7,não,80.6,6.2,razoável,5,ensino médio,bom,1,sim,87.1
+S1515,19,feminino,3.0,0.1,1.9,não,86.1,7.7,bom,6,ensino médio,ruim,6,sim,82.5
+S1516,24,masculino,5.3,2.9,1.9,não,100.0,5.2,bom,3,graduação,ruim,5,sim,80.9
+S1517,22,feminino,5.8,0.6,1.6,não,73.9,5.8,razoável,6,graduação,bom,6,não,100.0
+S1518,24,feminino,5.0,2.6,3.1,não,94.8,4.7,ruim,0,graduação,bom,5,não,79.6
+S1519,18,masculino,2.9,2.2,1.7,sim,99.0,5.3,bom,2,graduação,média,7,não,71.2
+S1520,24,feminino,4.1,3.3,0.6,sim,78.7,5.1,bom,2,graduação,bom,1,não,62.7
+S1521,23,masculino,3.5,2.1,1.4,não,82.2,7.7,razoável,1,ensino médio,bom,3,não,64.2
+S1522,22,feminino,2.1,2.1,2.0,não,74.6,5.7,razoável,0,ensino médio,bom,6,sim,44.1
+S1523,23,outro,4.0,3.4,3.2,não,83.0,6.6,bom,5,ensino médio,média,1,não,61.7
+S1524,18,feminino,1.7,2.9,2.5,não,84.6,6.0,bom,0,graduação,média,7,sim,39.9
+S1525,23,masculino,5.3,2.9,0.9,não,91.6,5.0,bom,4,ensino médio,ruim,4,não,84.1
+S1526,19,feminino,2.8,3.1,4.5,não,95.9,6.3,razoável,2,não informado,bom,3,não,40.7
+S1527,18,feminino,3.8,0.7,2.1,não,77.5,7.2,bom,5,graduação,bom,10,não,81.8
+S1528,18,masculino,3.9,3.4,3.2,não,65.3,5.1,razoável,6,ensino médio,média,9,sim,77.0
+S1529,18,feminino,3.1,3.2,1.6,não,84.8,7.5,razoável,6,mestrado,bom,1,não,65.7
+S1530,17,masculino,4.4,1.3,2.4,não,87.9,5.5,bom,2,mestrado,bom,8,sim,80.9
+S1531,24,feminino,2.8,2.2,2.7,não,87.5,5.9,bom,0,não informado,bom,1,sim,47.4
+S1532,17,masculino,4.8,2.5,3.1,sim,81.7,7.1,razoável,5,ensino médio,bom,5,sim,83.0
+S1533,17,masculino,1.5,2.3,3.0,não,86.2,5.7,razoável,1,ensino médio,bom,10,não,54.2
+S1534,19,masculino,3.7,2.9,2.8,não,100.0,6.5,bom,6,graduação,média,8,não,82.5
+S1535,22,feminino,6.4,4.2,1.5,sim,88.8,6.1,razoável,0,ensino médio,bom,6,não,85.0
+S1536,24,masculino,2.0,3.8,1.2,não,81.3,6.7,bom,1,graduação,bom,7,sim,40.4
+S1537,23,feminino,2.5,0.9,2.2,sim,80.0,3.6,bom,5,graduação,média,8,não,58.9
+S1538,21,masculino,4.3,3.2,2.8,não,83.3,4.3,ruim,2,ensino médio,ruim,6,não,67.5
+S1539,18,masculino,3.8,4.1,1.6,não,100.0,7.2,bom,4,não informado,bom,6,sim,81.0
+S1540,23,feminino,4.0,3.0,3.0,não,83.2,7.7,bom,3,graduação,média,6,sim,74.7
+S1541,18,feminino,4.2,3.8,3.4,sim,84.8,5.4,bom,2,ensino médio,bom,5,não,67.4
+S1542,19,masculino,4.5,4.9,0.8,não,80.2,6.2,bom,1,graduação,ruim,8,não,72.2
+S1543,18,feminino,5.2,3.7,0.9,não,96.0,6.9,bom,0,ensino médio,ruim,2,não,77.1
+S1544,17,feminino,4.1,2.8,1.6,não,100.0,7.3,ruim,6,graduação,média,7,não,87.9
+S1545,24,feminino,3.1,3.8,2.1,não,89.5,4.1,razoável,5,mestrado,média,4,sim,54.1
+S1546,21,masculino,4.5,2.7,1.2,sim,85.8,5.4,bom,2,mestrado,bom,1,sim,62.9
+S1547,20,masculino,6.3,2.5,3.3,não,85.4,6.1,razoável,6,ensino médio,bom,5,não,95.6
+S1548,18,feminino,3.3,2.1,2.3,não,61.2,7.3,ruim,6,ensino médio,ruim,3,não,67.1
+S1549,23,masculino,2.0,4.4,1.8,não,92.5,9.5,bom,4,graduação,média,4,não,51.5
+S1550,17,feminino,5.2,1.5,0.2,sim,86.3,6.2,bom,5,ensino médio,média,7,não,97.9
+S1551,20,feminino,3.3,4.3,0.4,sim,89.3,4.8,ruim,1,ensino médio,média,5,não,67.0
+S1552,21,feminino,0.2,3.1,2.1,sim,77.9,7.0,bom,5,mestrado,bom,4,sim,31.5
+S1553,20,feminino,4.8,0.8,0.0,não,81.2,8.1,bom,5,ensino médio,média,1,não,88.0
+S1554,17,outro,2.7,2.9,2.9,não,80.9,6.6,razoável,0,não informado,ruim,6,não,53.4
+S1555,24,masculino,3.4,0.0,1.6,não,95.2,5.4,bom,3,não informado,média,10,sim,83.4
+S1556,24,feminino,4.0,3.3,5.4,não,81.2,7.6,razoável,6,graduação,ruim,6,não,79.0
+S1557,22,masculino,3.8,3.6,4.3,não,100.0,7.3,ruim,1,graduação,ruim,7,sim,69.9
+S1558,24,masculino,4.6,1.8,1.6,não,89.3,5.3,razoável,0,ensino médio,média,1,sim,60.1
+S1559,22,feminino,2.8,2.6,1.7,não,72.2,7.0,razoável,6,ensino médio,bom,4,não,70.3
+S1560,20,feminino,4.3,4.8,2.9,sim,83.7,7.7,razoável,3,ensino médio,bom,9,não,79.8
+S1561,19,outro,3.1,1.9,3.7,não,78.5,7.9,bom,0,graduação,bom,10,sim,66.6
+S1562,23,feminino,4.6,1.2,0.0,não,63.1,6.4,bom,3,não informado,média,6,não,91.7
+S1563,23,masculino,4.4,4.3,0.0,sim,100.0,6.1,razoável,3,mestrado,média,2,não,70.1
+S1564,20,masculino,2.1,4.9,1.1,não,92.0,8.0,bom,3,ensino médio,média,4,não,61.5
+S1565,18,feminino,5.1,2.5,2.4,não,90.3,5.0,ruim,0,mestrado,bom,6,não,79.3
+S1566,18,masculino,2.7,3.7,2.3,não,86.7,7.0,ruim,5,ensino médio,bom,4,sim,63.9
+S1567,24,masculino,4.7,4.1,3.0,não,71.2,4.9,bom,3,graduação,ruim,10,sim,93.1
+S1568,23,masculino,4.1,1.6,0.5,não,80.2,7.8,ruim,5,ensino médio,ruim,7,sim,89.8
+S1569,23,masculino,6.3,1.9,0.0,não,93.4,6.2,razoável,6,não informado,bom,3,sim,100.0
+S1570,22,masculino,3.2,4.0,2.7,não,74.5,8.0,bom,6,mestrado,bom,6,sim,61.8
+S1571,19,masculino,3.0,4.5,0.9,não,59.7,7.1,razoável,1,mestrado,bom,4,sim,51.5
+S1572,17,masculino,3.5,3.2,0.0,não,82.7,5.0,bom,4,ensino médio,bom,3,não,60.4
+S1573,18,masculino,3.0,1.4,2.0,não,83.6,8.2,razoável,5,graduação,bom,3,não,67.2
+S1574,23,outro,4.7,4.9,2.7,não,86.4,8.4,ruim,6,graduação,média,2,não,89.6
+S1575,22,masculino,1.1,1.9,1.7,não,92.3,7.6,razoável,4,mestrado,bom,3,sim,48.3
+S1576,21,masculino,1.9,2.1,1.3,não,91.4,5.6,razoável,3,ensino médio,bom,10,não,61.7
+S1577,22,feminino,1.9,2.9,1.6,sim,87.6,6.1,razoável,4,graduação,bom,1,sim,44.4
+S1578,18,masculino,4.9,4.4,1.4,sim,97.0,6.7,razoável,4,ensino médio,média,3,não,77.2
+S1579,18,feminino,6.1,3.5,0.3,sim,69.8,5.7,bom,3,ensino médio,média,9,sim,100.0
+S1580,22,feminino,3.3,3.0,1.0,não,90.0,8.5,bom,5,mestrado,média,4,não,73.0
+S1581,17,masculino,3.2,3.1,2.4,não,91.3,6.7,razoável,3,ensino médio,média,3,não,68.5
+S1582,20,masculino,3.6,2.6,2.2,não,72.6,3.3,razoável,1,ensino médio,bom,8,não,61.0
+S1583,18,feminino,5.2,3.2,2.0,não,70.0,6.9,razoável,2,graduação,ruim,1,sim,70.5
+S1584,22,feminino,2.1,0.0,0.7,não,77.5,6.1,bom,0,graduação,média,5,não,52.5
+S1585,23,masculino,3.9,2.1,1.6,não,78.4,6.4,bom,3,ensino médio,bom,1,não,62.8
+S1586,22,feminino,5.0,2.8,0.0,sim,92.5,6.1,razoável,3,ensino médio,ruim,7,sim,83.5
+S1587,19,masculino,4.3,1.1,2.0,não,78.9,7.5,bom,4,mestrado,média,5,não,71.4
+S1588,20,outro,3.8,3.0,3.4,não,76.4,7.8,razoável,1,ensino médio,média,2,não,61.5
+S1589,21,masculino,5.0,2.3,0.2,não,78.9,6.8,ruim,6,graduação,bom,1,não,75.4
+S1590,17,feminino,0.0,4.6,1.2,não,96.2,6.1,ruim,6,graduação,média,7,não,42.0
+S1591,24,feminino,4.5,4.4,2.2,não,85.1,6.5,razoável,4,ensino médio,bom,1,não,64.0
+S1592,21,feminino,2.5,1.9,3.2,sim,83.2,6.5,razoável,5,mestrado,média,3,não,60.1
+S1593,20,feminino,0.8,2.3,1.3,sim,83.9,5.5,ruim,3,graduação,bom,6,não,34.7
+S1594,20,masculino,4.3,2.4,1.0,sim,97.9,7.2,bom,3,ensino médio,média,6,não,88.0
+S1595,20,masculino,5.6,2.0,0.0,não,77.5,7.1,razoável,4,graduação,média,7,não,100.0
+S1596,21,masculino,3.3,2.7,1.9,não,98.2,8.3,razoável,3,graduação,ruim,1,não,66.1
+S1597,23,masculino,4.9,1.6,4.0,não,87.1,8.0,razoável,5,graduação,ruim,7,não,95.5
+S1598,20,feminino,5.9,1.1,2.1,sim,83.4,5.7,ruim,2,mestrado,média,2,sim,86.4
+S1599,22,masculino,5.5,3.2,1.8,não,100.0,7.5,razoável,0,ensino médio,ruim,6,não,77.3
+S1600,21,masculino,6.0,3.3,2.2,não,74.4,5.4,razoável,0,ensino médio,média,8,sim,90.2
+S1601,24,outro,4.6,1.5,1.8,não,81.5,7.3,razoável,0,ensino médio,bom,5,sim,80.2
+S1602,20,feminino,3.6,3.6,0.9,não,72.7,5.9,ruim,2,não informado,média,10,sim,72.9
+S1603,22,feminino,1.1,1.7,2.7,não,94.5,5.3,razoável,3,não informado,média,3,não,35.8
+S1604,23,outro,3.1,2.8,2.0,não,100.0,6.8,ruim,4,mestrado,bom,8,sim,72.8
+S1605,19,masculino,2.2,3.5,1.8,não,100.0,3.3,bom,6,graduação,bom,8,não,67.6
+S1606,23,masculino,6.8,2.5,0.7,não,97.2,4.4,bom,1,graduação,ruim,4,não,93.1
+S1607,24,feminino,3.2,3.0,3.2,não,83.0,6.3,ruim,3,graduação,média,8,sim,57.5
+S1608,20,feminino,3.7,1.9,2.5,não,81.3,6.6,razoável,2,graduação,bom,5,sim,61.1
+S1609,24,masculino,4.3,2.3,1.2,não,68.3,6.1,ruim,5,ensino médio,ruim,5,não,77.4
+S1610,21,feminino,3.6,2.3,2.9,não,100.0,4.6,razoável,2,mestrado,bom,3,não,69.6
+S1611,18,masculino,6.0,1.6,1.3,não,89.7,5.5,razoável,6,ensino médio,ruim,7,não,100.0
+S1612,20,masculino,2.6,2.3,0.9,não,80.1,7.0,razoável,0,mestrado,bom,9,não,69.3
+S1613,18,feminino,3.8,0.6,1.0,não,98.3,7.2,razoável,3,graduação,média,9,não,85.7
+S1614,22,feminino,2.4,1.9,0.0,não,75.3,6.5,bom,6,ensino médio,bom,1,não,53.9
+S1615,19,feminino,1.5,2.2,2.3,não,89.1,7.9,razoável,0,graduação,média,1,não,43.7
+S1616,17,masculino,2.6,2.2,0.0,não,83.3,7.0,razoável,1,graduação,bom,10,não,79.3
+S1617,24,feminino,3.4,2.2,0.4,não,91.4,5.6,razoável,5,ensino médio,ruim,5,não,71.3
+S1618,23,masculino,2.9,2.4,0.0,não,84.4,6.2,bom,0,graduação,média,1,sim,61.4
+S1619,19,masculino,2.5,3.1,1.7,não,70.5,4.8,bom,1,ensino médio,bom,4,não,45.1
+S1620,20,feminino,1.4,3.5,1.6,não,85.8,6.4,razoável,2,não informado,média,1,não,39.8
+S1621,18,feminino,3.4,1.7,1.4,não,95.5,7.8,bom,0,mestrado,bom,2,não,70.7
+S1622,23,feminino,1.2,1.1,0.7,não,84.7,7.3,razoável,0,graduação,média,2,sim,35.6
+S1623,18,feminino,4.6,1.2,0.5,não,92.8,8.2,bom,4,mestrado,bom,4,não,93.0
+S1624,21,feminino,3.6,1.9,2.3,não,74.5,6.1,bom,5,graduação,média,8,sim,83.2
+S1625,18,feminino,1.3,2.1,1.2,não,84.7,8.1,ruim,5,ensino médio,bom,2,sim,46.6
+S1626,21,masculino,3.0,1.6,2.1,não,78.8,6.3,bom,6,graduação,bom,9,sim,70.8
+S1627,22,masculino,2.4,0.9,0.8,não,92.5,8.3,razoável,2,graduação,média,9,não,78.3
+S1628,23,masculino,4.0,2.0,2.0,não,85.3,6.5,razoável,4,mestrado,bom,2,sim,70.7
+S1629,23,masculino,5.5,2.7,3.2,sim,91.9,7.3,razoável,6,ensino médio,bom,1,não,82.6
+S1630,17,feminino,0.7,3.2,2.4,não,95.9,8.3,bom,1,mestrado,média,10,sim,50.3
+S1631,20,feminino,3.7,1.8,1.3,não,91.9,6.3,razoável,6,mestrado,bom,10,não,80.9
+S1632,21,masculino,3.3,2.0,2.1,não,87.7,6.8,ruim,1,graduação,ruim,9,sim,75.4
+S1633,17,masculino,4.5,1.4,1.5,não,75.0,8.0,bom,2,mestrado,bom,2,sim,83.7
+S1634,18,feminino,3.8,2.5,1.8,não,85.0,6.3,ruim,5,ensino médio,média,8,não,76.8
+S1635,18,masculino,2.4,1.5,1.4,não,79.7,4.9,ruim,1,mestrado,ruim,3,não,45.8
+S1636,17,feminino,3.0,3.2,1.6,não,81.6,9.1,razoável,2,graduação,média,1,sim,58.4
+S1637,23,feminino,2.3,0.4,2.0,não,81.3,5.9,razoável,6,não informado,bom,1,sim,70.3
+S1638,18,feminino,5.1,2.1,0.7,sim,75.2,6.7,razoável,1,mestrado,bom,10,sim,99.4
+S1639,24,feminino,3.5,2.9,0.7,não,65.4,7.9,ruim,3,ensino médio,bom,2,não,62.9
+S1640,22,feminino,6.4,2.7,0.3,sim,78.3,5.8,bom,0,ensino médio,média,7,não,98.0
+S1641,22,masculino,3.4,5.7,0.0,não,86.9,5.3,bom,6,graduação,ruim,6,não,74.7
+S1642,24,feminino,2.4,2.9,0.5,não,71.5,6.8,razoável,5,ensino médio,bom,2,sim,50.4
+S1643,17,feminino,1.2,1.3,2.0,não,85.2,4.3,razoável,6,ensino médio,bom,4,não,49.4
+S1644,24,masculino,0.8,2.4,0.8,não,100.0,6.2,razoável,3,graduação,média,2,sim,35.3
+S1645,21,feminino,1.1,0.4,2.4,sim,95.2,6.8,bom,2,não informado,média,1,sim,46.3
+S1646,21,feminino,3.9,2.4,1.8,não,100.0,6.2,ruim,2,ensino médio,média,3,não,68.4
+S1647,17,feminino,4.3,1.5,0.0,não,88.9,4.6,ruim,6,não informado,média,4,não,84.2
+S1648,24,feminino,1.1,3.6,2.5,não,96.7,8.4,bom,3,ensino médio,bom,10,sim,54.6
+S1649,21,feminino,4.8,1.8,2.7,não,77.8,6.6,razoável,6,graduação,média,5,não,88.0
+S1650,23,feminino,2.8,2.4,0.7,não,78.6,8.2,razoável,0,graduação,bom,5,não,61.5
+S1651,24,feminino,3.7,1.7,2.3,sim,57.6,6.2,bom,0,mestrado,média,7,não,75.7
+S1652,23,feminino,5.9,4.6,0.9,não,96.9,5.4,bom,4,graduação,média,10,não,100.0
+S1653,21,feminino,4.8,2.1,1.9,não,100.0,6.8,razoável,1,ensino médio,bom,8,não,82.6
+S1654,22,feminino,3.1,4.7,0.4,não,79.5,6.2,bom,4,mestrado,bom,9,não,71.5
+S1655,21,feminino,2.2,3.5,0.0,não,82.5,5.1,ruim,0,graduação,média,7,não,57.6
+S1656,23,masculino,0.3,3.1,1.4,sim,77.5,8.3,bom,3,graduação,bom,5,não,36.1
+S1657,19,feminino,2.4,2.9,1.7,não,88.8,5.8,razoável,1,graduação,média,9,sim,67.4
+S1658,20,feminino,3.2,3.0,1.4,sim,96.2,4.3,bom,3,mestrado,bom,8,não,74.8
+S1659,18,masculino,2.0,0.2,0.5,não,67.6,8.1,bom,4,graduação,média,10,sim,73.6
+S1660,24,feminino,3.3,2.2,1.4,não,89.1,5.9,bom,2,ensino médio,bom,9,sim,79.5
+S1661,19,masculino,3.6,3.5,2.1,não,82.2,5.8,bom,3,graduação,ruim,10,não,62.5
+S1662,21,masculino,3.2,2.4,1.8,não,86.1,4.4,razoável,4,não informado,média,8,sim,76.3
+S1663,22,feminino,2.5,0.8,2.0,não,89.6,8.6,razoável,4,ensino médio,bom,6,não,75.6
+S1664,17,masculino,3.8,2.4,1.1,não,83.1,5.0,razoável,4,ensino médio,bom,4,não,64.4
+S1665,21,feminino,4.2,4.5,3.1,não,84.0,6.6,bom,2,ensino médio,média,9,não,75.3
+S1666,22,feminino,1.9,4.0,0.5,sim,82.9,7.6,bom,2,não informado,média,9,sim,50.4
+S1667,20,feminino,5.6,2.4,2.3,não,94.7,7.0,razoável,6,ensino médio,média,10,sim,100.0
+S1668,21,masculino,3.4,3.6,3.1,não,89.2,6.4,bom,2,graduação,bom,10,não,76.4
+S1669,23,masculino,3.5,2.1,2.3,não,87.2,4.5,bom,1,graduação,bom,9,não,69.9
+S1670,17,feminino,4.6,0.5,1.6,não,72.3,5.5,bom,2,mestrado,bom,10,sim,88.9
+S1671,22,outro,3.8,1.4,1.2,não,81.2,6.7,bom,2,ensino médio,média,3,sim,70.4
+S1672,22,feminino,4.9,4.4,2.9,não,94.0,5.6,razoável,2,graduação,bom,3,não,69.4
+S1673,22,masculino,3.9,2.2,0.2,não,85.4,6.7,ruim,3,mestrado,média,6,sim,84.9
+S1674,20,feminino,2.6,2.2,0.7,não,91.6,7.3,ruim,2,ensino médio,ruim,6,não,63.6
+S1675,21,feminino,4.0,2.1,1.4,não,100.0,7.7,razoável,1,graduação,bom,6,não,82.2
+S1676,20,feminino,1.8,4.8,3.2,não,95.4,5.0,bom,4,graduação,bom,5,não,37.4
+S1677,24,masculino,3.7,4.5,2.2,não,85.9,9.1,bom,3,não informado,bom,5,não,73.8
+S1678,18,feminino,3.5,5.2,0.7,sim,79.9,7.4,bom,0,mestrado,bom,2,sim,53.4
+S1679,18,feminino,3.2,2.3,1.5,não,59.5,6.5,bom,2,graduação,bom,7,não,64.2
+S1680,24,outro,3.3,2.9,1.1,não,83.3,7.8,ruim,6,não informado,bom,4,não,70.4
+S1681,21,masculino,0.7,0.7,1.0,não,81.7,9.3,ruim,6,não informado,média,3,não,51.5
+S1682,23,feminino,2.7,4.3,2.9,não,88.9,4.8,ruim,4,não informado,média,8,não,53.4
+S1683,20,feminino,3.6,1.1,0.3,sim,83.5,6.2,razoável,4,ensino médio,bom,4,não,77.2
+S1684,17,masculino,3.7,2.8,3.6,não,81.8,3.6,razoável,3,graduação,bom,4,sim,59.8
+S1685,22,feminino,2.0,1.2,2.7,não,67.2,6.7,ruim,6,graduação,média,8,não,55.4
+S1686,22,feminino,5.4,1.8,3.0,sim,75.6,6.9,razoável,0,ensino médio,média,1,não,69.9
+S1687,21,masculino,2.2,1.5,1.3,sim,89.8,6.5,ruim,5,mestrado,média,9,não,71.6
+S1688,23,masculino,5.0,1.8,1.6,não,100.0,5.7,bom,6,ensino médio,ruim,7,não,92.9
+S1689,18,feminino,4.1,1.9,0.2,não,84.0,4.0,razoável,6,não informado,bom,2,não,72.4
+S1690,18,masculino,2.5,1.8,1.2,sim,88.3,6.9,razoável,1,ensino médio,média,6,não,70.5
+S1691,22,feminino,6.2,3.5,2.3,não,94.5,8.2,razoável,5,graduação,bom,8,não,100.0
+S1692,21,masculino,1.7,1.2,3.2,não,76.9,5.8,bom,4,ensino médio,média,5,sim,37.4
+S1693,20,feminino,4.9,2.8,0.6,não,88.7,7.0,razoável,5,ensino médio,média,6,não,88.7
+S1694,18,masculino,5.0,4.0,1.4,não,77.6,4.6,razoável,6,ensino médio,ruim,10,não,88.6
+S1695,20,feminino,2.5,1.9,1.6,não,93.6,7.0,bom,4,graduação,bom,8,não,68.5
+S1696,23,outro,5.6,1.6,0.3,não,86.5,6.0,razoável,5,mestrado,bom,6,não,100.0
+S1697,18,outro,3.1,2.2,2.5,não,88.0,5.6,bom,4,ensino médio,bom,9,não,66.9
+S1698,18,feminino,3.9,3.9,1.0,não,77.2,5.6,razoável,4,ensino médio,ruim,9,não,71.5
+S1699,19,masculino,3.9,2.7,1.6,não,92.1,6.0,razoável,3,graduação,média,9,não,77.8
+S1700,18,feminino,3.3,1.9,1.3,não,100.0,7.0,ruim,0,graduação,ruim,6,sim,67.7
+S1701,24,masculino,4.7,3.1,0.9,não,74.9,4.9,bom,4,ensino médio,média,9,sim,96.4
+S1702,17,masculino,4.7,1.2,1.8,não,81.6,6.0,razoável,1,mestrado,bom,3,não,83.1
+S1703,24,masculino,0.9,3.3,1.6,sim,87.3,6.5,ruim,6,graduação,bom,5,não,37.9
+S1704,21,feminino,5.5,3.0,1.4,não,92.9,5.2,razoável,6,ensino médio,bom,2,sim,76.3
+S1705,21,feminino,1.0,2.1,1.0,não,79.4,8.7,razoável,1,graduação,média,8,sim,52.6
+S1706,20,feminino,5.0,1.5,2.2,não,56.7,5.5,ruim,2,mestrado,média,4,não,83.6
+S1707,24,masculino,5.2,1.4,3.6,não,98.6,5.7,bom,4,graduação,média,6,não,92.0
+S1708,24,masculino,1.9,3.1,2.0,não,92.6,5.3,bom,4,não informado,ruim,6,não,53.2
+S1709,24,outro,2.9,4.0,2.9,não,67.6,8.7,ruim,4,ensino médio,bom,5,sim,56.4
+S1710,23,masculino,1.8,1.7,0.3,não,78.9,7.2,razoável,5,ensino médio,bom,1,não,58.1
+S1711,18,masculino,3.2,3.1,2.0,não,100.0,5.4,bom,4,ensino médio,média,7,não,70.9
+S1712,17,masculino,3.0,0.0,0.6,sim,99.5,7.8,razoável,4,graduação,média,10,não,98.7
+S1713,20,feminino,4.7,1.8,0.2,sim,94.4,6.7,razoável,1,graduação,bom,8,não,83.3
+S1714,24,feminino,5.5,2.5,1.0,não,83.2,6.8,razoável,0,graduação,bom,1,sim,80.6
+S1715,24,masculino,5.6,1.4,3.1,não,85.8,6.1,bom,0,mestrado,bom,10,não,91.3
+S1716,19,masculino,2.7,1.4,2.8,não,83.7,5.6,bom,2,ensino médio,média,7,sim,63.5
+S1717,20,feminino,3.2,1.7,2.1,sim,96.3,6.9,bom,1,mestrado,média,4,sim,66.3
+S1718,24,feminino,1.0,2.9,0.1,não,76.2,5.8,ruim,4,graduação,bom,6,não,49.9
+S1719,20,masculino,2.3,2.3,1.6,sim,76.9,8.7,razoável,0,ensino médio,bom,9,não,68.9
+S1720,18,feminino,4.9,0.0,2.1,sim,95.1,5.0,bom,3,graduação,média,5,não,94.2
+S1721,19,masculino,5.9,0.0,2.0,sim,84.6,8.3,ruim,3,ensino médio,bom,8,não,100.0
+S1722,20,masculino,1.6,1.8,0.0,não,98.8,6.4,bom,3,graduação,bom,5,não,58.6
+S1723,17,feminino,2.6,3.0,0.8,não,78.3,6.9,bom,4,graduação,média,2,não,53.2
+S1724,17,masculino,3.5,0.0,1.7,não,84.5,7.5,ruim,4,ensino médio,média,4,sim,70.5
+S1725,21,feminino,3.9,1.9,2.4,não,75.8,5.7,bom,2,graduação,média,2,não,64.0
+S1726,19,masculino,2.3,1.9,0.0,sim,85.1,7.5,razoável,6,graduação,ruim,7,sim,77.4
+S1727,19,masculino,4.1,4.2,1.6,não,70.2,3.3,bom,2,ensino médio,bom,7,não,57.4
+S1728,21,outro,2.8,2.0,2.0,não,80.1,5.6,razoável,2,não informado,média,3,sim,59.9
+S1729,20,masculino,3.5,3.0,2.7,não,70.6,5.4,razoável,5,ensino médio,bom,7,não,66.7
+S1730,19,feminino,4.3,2.7,2.6,sim,91.9,5.0,bom,3,graduação,bom,1,não,58.4
+S1731,17,masculino,3.5,0.0,2.4,não,92.2,6.2,bom,4,mestrado,ruim,1,não,63.6
+S1732,17,masculino,2.8,3.4,0.9,não,67.7,7.0,ruim,3,mestrado,média,9,não,62.6
+S1733,24,masculino,3.3,2.8,0.0,não,98.3,7.3,razoável,2,graduação,bom,6,não,70.6
+S1734,18,feminino,3.4,3.1,1.4,não,100.0,6.8,ruim,4,graduação,bom,5,não,75.2
+S1735,19,masculino,2.9,7.2,2.9,sim,85.5,5.7,razoável,1,ensino médio,bom,6,não,50.1
+S1736,20,feminino,3.1,0.0,3.3,não,78.6,6.9,razoável,0,graduação,média,6,não,72.8
+S1737,21,masculino,5.9,4.6,2.6,sim,100.0,6.6,razoável,0,ensino médio,média,1,sim,72.7
+S1738,21,outro,4.3,2.2,2.3,não,71.8,7.6,razoável,2,ensino médio,bom,5,sim,76.0
+S1739,20,masculino,3.1,2.8,2.2,não,85.2,7.4,ruim,6,graduação,bom,9,sim,74.1
+S1740,23,feminino,4.5,2.4,1.2,sim,86.8,6.5,ruim,3,não informado,média,4,sim,79.0
+S1741,22,feminino,3.0,2.0,1.7,não,98.5,5.4,ruim,1,graduação,bom,3,não,51.3
+S1742,18,feminino,5.3,1.8,3.6,não,88.6,5.7,razoável,4,graduação,média,1,sim,71.0
+S1743,21,feminino,4.1,2.9,0.8,sim,80.0,5.8,bom,6,ensino médio,bom,2,sim,76.4
+S1744,19,feminino,3.3,0.7,3.6,não,75.5,6.1,ruim,3,ensino médio,bom,3,sim,52.6
+S1745,18,feminino,4.2,3.4,1.4,não,81.6,6.8,bom,2,mestrado,média,4,não,74.0
+S1746,19,masculino,1.1,2.0,3.3,não,74.9,7.4,bom,3,graduação,bom,7,não,42.6
+S1747,23,masculino,1.8,1.1,0.3,não,85.5,6.4,bom,2,ensino médio,média,6,não,49.8
+S1748,17,feminino,1.7,2.0,2.4,não,79.4,6.5,bom,5,ensino médio,média,8,não,45.7
+S1749,18,feminino,3.7,4.0,1.0,não,70.1,6.7,bom,0,graduação,ruim,9,sim,77.2
+S1750,24,feminino,6.1,1.9,0.2,não,97.6,5.9,ruim,6,graduação,ruim,6,não,98.5
+S1751,21,feminino,6.8,2.9,2.0,não,80.0,5.4,razoável,0,ensino médio,média,7,não,96.2
+S1752,18,masculino,4.5,1.6,2.9,sim,72.3,4.4,bom,3,ensino médio,bom,4,sim,71.3
+S1753,18,masculino,4.3,3.4,0.9,não,83.3,5.7,razoável,1,mestrado,bom,2,não,59.2
+S1754,18,feminino,0.8,3.3,0.2,não,85.7,7.1,bom,4,graduação,ruim,9,não,51.8
+S1755,22,masculino,2.7,4.7,1.7,sim,67.5,5.7,ruim,2,mestrado,bom,9,não,59.3
+S1756,18,masculino,2.3,2.3,1.7,não,88.3,6.2,bom,4,graduação,bom,4,não,58.5
+S1757,19,feminino,2.6,3.3,2.4,não,74.5,7.1,razoável,0,mestrado,bom,3,sim,44.5
+S1758,17,masculino,3.2,2.6,2.8,não,100.0,7.1,razoável,1,ensino médio,bom,10,sim,75.4
+S1759,23,feminino,2.8,4.1,1.7,sim,90.2,5.2,razoável,1,graduação,média,6,sim,54.9
+S1760,20,masculino,0.5,1.6,3.8,sim,81.0,7.7,bom,4,não informado,média,3,sim,30.2
+S1761,18,feminino,4.6,3.4,2.0,não,77.5,7.9,bom,0,graduação,bom,1,sim,71.8
+S1762,21,masculino,1.9,2.3,1.4,não,84.0,5.1,razoável,4,ensino médio,ruim,4,não,51.8
+S1763,18,masculino,3.9,2.4,0.0,sim,91.1,5.5,bom,3,ensino médio,ruim,1,sim,59.5
+S1764,21,masculino,6.6,2.6,1.5,não,84.7,7.9,razoável,1,mestrado,ruim,2,não,96.6
+S1765,19,masculino,2.1,2.8,1.4,sim,82.8,6.3,ruim,1,mestrado,média,3,não,44.1
+S1766,21,masculino,0.0,2.4,2.9,não,85.6,3.8,ruim,3,não informado,média,8,não,30.5
+S1767,24,masculino,3.1,2.8,2.3,não,79.0,4.8,ruim,0,graduação,média,10,não,63.7
+S1768,20,feminino,5.2,4.4,0.5,não,81.6,6.2,razoável,1,ensino médio,ruim,4,não,74.0
+S1769,17,masculino,6.4,3.7,2.0,não,64.1,5.1,razoável,6,ensino médio,bom,4,não,98.8
+S1770,21,feminino,1.7,3.5,2.5,não,94.7,6.0,bom,5,graduação,bom,10,não,53.0
+S1771,21,feminino,4.2,2.0,3.5,não,88.0,6.5,bom,5,ensino médio,média,9,não,84.6
+S1772,17,feminino,2.8,1.4,2.8,não,77.3,8.3,ruim,5,mestrado,ruim,7,não,73.0
+S1773,20,masculino,3.3,3.6,2.6,não,100.0,6.2,razoável,2,ensino médio,ruim,2,sim,57.1
+S1774,18,feminino,7.5,3.6,1.9,sim,85.9,7.8,razoável,6,graduação,média,3,não,100.0
+S1775,21,masculino,1.2,4.3,2.2,não,74.6,8.2,razoável,2,graduação,média,4,não,36.2
+S1776,17,masculino,3.9,1.8,3.2,não,93.6,8.2,ruim,0,ensino médio,média,4,não,65.6
+S1777,24,outro,4.2,2.2,0.3,sim,89.0,6.8,ruim,3,ensino médio,bom,10,sim,87.5
+S1778,24,masculino,5.1,0.5,1.4,não,88.9,4.1,bom,4,graduação,média,8,não,100.0
+S1779,19,feminino,3.6,2.0,1.0,sim,80.7,7.1,bom,6,graduação,média,10,não,85.6
+S1780,17,feminino,4.0,3.7,2.2,não,89.5,7.8,ruim,0,ensino médio,média,10,sim,89.4
+S1781,19,feminino,2.9,1.9,3.2,não,82.4,6.4,razoável,4,graduação,bom,6,não,66.9
+S1782,24,feminino,3.9,3.3,1.1,sim,90.6,8.6,razoável,0,não informado,bom,3,não,56.0
+S1783,20,masculino,3.0,2.3,0.0,não,66.0,7.5,bom,2,ensino médio,bom,9,não,77.9
+S1784,18,masculino,4.4,2.9,1.3,não,80.7,7.2,razoável,5,ensino médio,bom,10,não,91.3
+S1785,17,feminino,2.9,1.1,2.8,não,100.0,7.8,ruim,3,não informado,média,8,não,68.4
+S1786,23,masculino,4.1,2.6,2.4,não,77.3,6.9,bom,2,graduação,média,9,não,85.3
+S1787,24,masculino,3.5,0.0,2.3,não,79.0,3.5,razoável,3,graduação,bom,5,sim,64.4
+S1788,24,masculino,5.2,2.3,1.5,não,80.5,5.9,razoável,6,mestrado,ruim,3,não,82.8
+S1789,23,masculino,3.4,0.5,0.4,não,72.9,7.9,razoável,4,graduação,bom,4,não,78.0
+S1790,22,masculino,0.8,3.9,2.4,não,62.9,5.5,razoável,0,mestrado,bom,5,não,31.5
+S1791,24,masculino,5.4,3.4,0.9,não,82.7,6.2,razoável,1,graduação,bom,9,não,92.3
+S1792,21,feminino,2.1,3.1,4.2,não,86.4,5.2,razoável,1,graduação,ruim,9,sim,50.1
+S1793,20,feminino,2.5,4.3,2.4,não,84.5,8.6,razoável,3,mestrado,bom,3,não,49.4
+S1794,17,feminino,2.6,1.4,1.2,não,83.6,8.5,ruim,5,graduação,média,7,não,80.3
+S1795,23,masculino,5.6,4.6,1.1,não,85.4,5.4,bom,5,não informado,ruim,6,sim,89.7
+S1796,21,masculino,0.3,3.6,1.7,não,95.2,6.7,ruim,3,graduação,média,4,sim,33.6
+S1797,23,masculino,8.2,2.2,1.5,não,83.1,5.7,ruim,2,mestrado,bom,5,sim,100.0
+S1798,17,feminino,5.1,3.9,3.0,não,79.3,7.2,bom,1,graduação,média,10,não,90.6
+S1799,19,feminino,3.8,1.2,2.0,não,82.2,7.1,bom,2,graduação,média,2,sim,66.3
+S1800,17,masculino,3.4,1.5,1.0,não,90.8,7.5,bom,4,graduação,ruim,7,sim,86.1
+S1801,22,feminino,3.9,1.8,3.9,não,99.1,6.9,razoável,1,mestrado,bom,4,não,65.5
+S1802,17,masculino,4.3,1.9,1.9,não,78.7,10.0,razoável,4,não informado,bom,2,não,82.9
+S1803,17,feminino,4.5,1.2,2.6,não,86.0,5.3,bom,0,graduação,bom,6,sim,76.3
+S1804,22,feminino,4.3,4.0,1.1,sim,88.4,4.4,bom,2,ensino médio,média,2,sim,59.0
+S1805,20,feminino,3.6,2.2,2.2,não,75.1,6.0,razoável,3,graduação,média,10,sim,76.1
+S1806,24,feminino,3.2,2.9,2.1,não,85.2,4.6,bom,1,graduação,bom,2,sim,40.3
+S1807,17,feminino,3.3,1.8,0.0,não,70.3,4.7,ruim,2,ensino médio,média,7,sim,65.2
+S1808,22,masculino,3.2,0.3,4.0,sim,67.3,5.3,bom,3,ensino médio,bom,1,não,43.9
+S1809,21,feminino,5.2,2.8,3.2,não,88.7,5.4,bom,0,graduação,bom,7,sim,89.5
+S1810,19,masculino,4.4,0.2,1.4,não,81.2,5.4,bom,1,ensino médio,média,10,não,80.7
+S1811,19,feminino,0.0,2.4,0.6,sim,87.0,7.1,bom,4,ensino médio,média,5,não,53.0
+S1812,17,feminino,4.5,0.9,2.2,não,84.8,5.9,bom,0,graduação,bom,1,não,70.6
+S1813,20,feminino,3.8,4.9,1.9,não,75.2,6.3,ruim,5,ensino médio,média,6,não,65.5
+S1814,20,masculino,3.5,3.6,2.2,não,84.5,7.6,razoável,3,ensino médio,média,7,não,75.1
+S1815,21,feminino,2.9,2.6,2.0,não,72.7,5.6,ruim,1,mestrado,bom,1,não,43.5
+S1816,17,feminino,5.2,4.0,2.4,não,98.9,6.2,razoável,1,ensino médio,média,9,não,80.6
+S1817,19,feminino,4.9,1.5,3.4,não,71.4,6.9,bom,6,ensino médio,bom,7,sim,88.2
+S1818,20,masculino,2.3,3.2,2.4,não,83.0,4.2,razoável,6,graduação,ruim,1,sim,48.5
+S1819,17,masculino,4.1,2.7,0.6,não,74.6,3.6,razoável,0,graduação,bom,3,não,67.3
+S1820,23,masculino,2.0,2.8,3.3,não,90.7,6.9,razoável,1,mestrado,ruim,5,não,50.7
+S1821,20,masculino,1.4,4.0,3.6,não,81.7,7.1,bom,3,mestrado,ruim,4,não,35.4
+S1822,22,feminino,2.6,3.4,5.3,não,79.8,9.0,ruim,0,graduação,bom,2,não,49.1
+S1823,23,masculino,4.8,2.8,0.6,não,93.5,6.7,razoável,4,ensino médio,bom,1,não,85.4
+S1824,24,outro,4.9,0.5,2.1,não,85.3,7.5,ruim,0,não informado,média,4,não,83.9
+S1825,20,masculino,4.3,1.3,0.0,sim,90.2,6.3,bom,0,ensino médio,média,7,não,90.4
+S1826,19,masculino,4.6,2.4,2.4,não,75.2,6.9,ruim,4,ensino médio,bom,4,não,87.8
+S1827,18,feminino,4.3,2.6,1.2,não,71.0,8.5,bom,5,graduação,média,9,não,87.5
+S1828,23,feminino,2.5,1.1,3.9,não,86.1,4.0,razoável,6,graduação,bom,8,não,58.2
+S1829,24,feminino,4.1,5.4,0.9,não,81.8,7.0,ruim,3,não informado,bom,8,sim,73.2
+S1830,21,feminino,4.7,4.3,0.0,não,91.3,9.1,bom,5,graduação,bom,5,não,83.5
+S1831,21,feminino,4.6,3.2,1.3,não,84.2,6.8,ruim,5,ensino médio,média,1,sim,77.6
+S1832,19,masculino,5.3,2.6,0.0,sim,87.1,8.5,razoável,5,ensino médio,média,9,sim,98.4
+S1833,20,outro,4.6,2.2,2.6,não,68.8,5.7,ruim,6,graduação,bom,2,não,78.5
+S1834,17,outro,4.0,1.4,0.0,sim,100.0,6.5,razoável,2,ensino médio,ruim,6,sim,81.1
+S1835,20,feminino,5.1,2.6,1.8,não,83.4,6.5,razoável,6,ensino médio,média,10,não,100.0
+S1836,19,masculino,3.5,2.8,0.0,não,92.0,3.8,razoável,5,não informado,ruim,5,sim,58.7
+S1837,21,feminino,2.2,1.0,1.4,não,76.6,5.1,ruim,2,ensino médio,ruim,10,não,62.6
+S1838,20,masculino,3.3,2.9,3.6,não,88.1,5.2,razoável,4,graduação,média,8,sim,60.3
+S1839,21,masculino,2.4,2.3,2.2,não,72.0,7.5,bom,6,mestrado,média,3,não,63.9
+S1840,23,masculino,2.5,0.2,0.9,sim,89.5,7.5,bom,3,ensino médio,bom,6,sim,80.0
+S1841,24,masculino,3.3,1.5,1.8,sim,81.4,6.9,razoável,5,ensino médio,média,6,não,62.6
+S1842,17,feminino,2.3,2.0,1.8,não,85.3,7.5,razoável,1,graduação,média,10,não,71.4
+S1843,23,feminino,3.0,4.8,2.3,sim,92.0,6.3,razoável,4,mestrado,ruim,3,não,60.6
+S1844,21,feminino,0.7,3.2,0.3,sim,72.7,7.9,razoável,2,ensino médio,bom,7,sim,47.2
+S1845,21,masculino,3.8,0.9,2.5,não,78.2,6.5,ruim,6,ensino médio,média,4,sim,78.1
+S1846,18,masculino,3.5,3.1,0.0,não,89.6,6.6,razoável,3,graduação,bom,5,sim,75.5
+S1847,18,masculino,2.3,0.6,1.1,não,100.0,6.2,razoável,0,graduação,bom,9,não,73.5
+S1848,23,outro,4.5,3.8,1.3,não,83.6,7.3,razoável,3,ensino médio,ruim,6,não,74.6
+S1849,22,masculino,4.9,1.9,2.5,não,90.9,6.0,razoável,3,graduação,média,10,não,98.7
+S1850,23,feminino,1.1,2.4,1.8,não,83.9,7.7,bom,5,ensino médio,média,4,sim,49.2
+S1851,18,feminino,2.4,4.1,0.3,não,100.0,5.1,ruim,5,graduação,bom,8,não,67.4
+S1852,21,masculino,2.3,1.0,0.7,não,67.5,5.2,bom,6,graduação,bom,9,não,72.5
+S1853,19,feminino,2.1,0.8,2.0,não,85.9,7.3,bom,6,mestrado,bom,10,sim,68.4
+S1854,23,feminino,4.7,1.8,1.7,não,68.7,6.4,razoável,2,ensino médio,média,5,não,70.0
+S1855,21,feminino,3.2,3.7,1.2,não,59.9,6.0,razoável,6,ensino médio,bom,2,não,56.1
+S1856,19,feminino,3.1,0.7,1.3,sim,88.0,7.6,razoável,2,ensino médio,ruim,6,sim,81.5
+S1857,19,masculino,0.5,0.0,2.6,sim,86.4,5.8,ruim,5,mestrado,ruim,8,sim,45.0
+S1858,18,masculino,4.5,2.0,1.2,sim,82.2,6.3,razoável,5,ensino médio,bom,5,sim,84.4
+S1859,23,feminino,1.6,3.2,1.7,não,83.9,8.2,bom,1,ensino médio,bom,1,não,36.8
+S1860,20,feminino,3.6,3.9,4.2,não,100.0,8.3,ruim,1,ensino médio,ruim,8,sim,65.6
+S1861,17,masculino,3.9,1.9,0.2,não,82.4,8.4,razoável,4,graduação,ruim,9,sim,93.5
+S1862,18,feminino,5.5,2.0,0.0,não,90.1,6.2,bom,5,ensino médio,ruim,1,não,93.7
+S1863,18,feminino,1.5,3.9,2.7,não,78.5,8.0,bom,0,ensino médio,ruim,8,sim,42.3
+S1864,20,feminino,0.0,0.3,1.1,sim,88.0,5.4,razoável,1,ensino médio,média,10,sim,53.3
+S1865,17,masculino,3.8,2.0,1.4,não,82.6,5.4,bom,2,mestrado,bom,2,não,65.9
+S1866,21,feminino,6.2,2.7,0.9,não,80.9,3.7,razoável,3,graduação,bom,4,sim,87.9
+S1867,22,feminino,5.4,3.0,1.5,não,100.0,8.5,ruim,6,graduação,bom,2,não,94.5
+S1868,23,masculino,3.8,1.9,3.6,não,96.8,5.5,razoável,6,mestrado,bom,2,não,77.8
+S1869,22,masculino,2.8,2.5,2.7,sim,86.4,6.3,razoável,4,mestrado,média,10,não,74.6
+S1870,21,outro,4.7,0.0,2.7,sim,62.0,5.4,bom,1,ensino médio,bom,3,não,67.5
+S1871,24,masculino,2.0,1.7,0.2,sim,81.4,7.3,ruim,3,mestrado,bom,8,sim,66.5
+S1872,18,feminino,4.2,3.0,0.5,não,100.0,6.0,razoável,3,não informado,média,4,não,78.4
+S1873,17,feminino,4.3,1.3,0.0,não,82.7,4.9,razoável,1,ensino médio,bom,7,não,84.9
+S1874,18,masculino,5.1,2.6,0.9,não,96.0,7.0,razoável,0,mestrado,média,10,não,96.6
+S1875,19,feminino,7.6,3.0,2.9,não,99.4,4.8,ruim,0,ensino médio,bom,3,não,100.0
+S1876,18,masculino,4.1,2.1,2.4,não,87.2,5.5,razoável,4,ensino médio,bom,10,não,83.1
+S1877,18,feminino,2.7,2.7,1.6,não,76.6,4.0,bom,0,ensino médio,média,3,não,36.9
+S1878,21,masculino,3.5,1.3,1.8,sim,60.6,4.8,razoável,4,graduação,bom,2,não,60.0
+S1879,21,feminino,0.8,2.3,1.0,não,91.8,6.7,razoável,2,ensino médio,ruim,6,não,44.3
+S1880,21,masculino,2.5,3.2,2.0,não,76.9,4.1,razoável,1,graduação,bom,6,não,41.6
+S1881,22,masculino,2.9,2.7,2.6,sim,86.8,4.7,razoável,3,mestrado,média,1,não,45.5
+S1882,19,outro,2.7,1.8,0.0,não,72.5,6.5,razoável,4,graduação,ruim,7,não,68.2
+S1883,24,masculino,3.7,2.8,2.1,não,82.3,5.8,bom,6,ensino médio,média,4,não,75.5
+S1884,24,feminino,2.3,3.4,2.8,não,85.3,8.9,bom,0,mestrado,bom,3,não,40.9
+S1885,21,masculino,5.2,0.0,1.3,não,87.7,8.7,razoável,6,ensino médio,ruim,8,não,100.0
+S1886,17,feminino,3.5,3.9,2.6,não,73.9,5.5,razoável,4,ensino médio,bom,2,sim,65.6
+S1887,22,masculino,3.5,2.1,4.9,não,97.0,7.2,bom,5,não informado,ruim,9,não,75.9
+S1888,20,outro,3.0,3.0,1.7,sim,79.0,7.4,razoável,4,graduação,bom,8,sim,69.8
+S1889,17,masculino,3.7,3.9,2.2,sim,68.3,5.8,razoável,0,ensino médio,bom,8,não,66.6
+S1890,23,masculino,4.7,0.9,1.0,sim,83.9,4.7,razoável,5,ensino médio,média,3,não,84.5
+S1891,23,masculino,2.2,1.6,2.0,sim,85.3,6.5,bom,5,ensino médio,média,4,sim,65.6
+S1892,17,masculino,2.5,2.2,2.3,não,86.6,6.3,razoável,0,ensino médio,bom,2,não,46.8
+S1893,21,feminino,3.0,1.6,2.0,não,98.6,6.0,bom,5,graduação,bom,2,não,67.7
+S1894,20,masculino,1.5,4.6,0.7,sim,82.6,7.0,bom,1,graduação,bom,4,sim,45.4
+S1895,20,feminino,2.3,1.5,2.0,não,83.8,5.6,razoável,3,graduação,média,6,não,57.0
+S1896,22,masculino,2.8,1.8,3.4,sim,74.0,5.1,bom,6,ensino médio,média,5,não,58.4
+S1897,20,masculino,4.8,2.7,2.3,não,93.2,6.6,bom,1,ensino médio,bom,1,sim,70.8
+S1898,23,feminino,3.9,1.1,2.9,não,86.8,7.0,razoável,1,mestrado,média,10,não,75.7
+S1899,19,feminino,3.8,2.0,1.5,não,80.8,5.1,ruim,0,não informado,média,1,não,55.7
+S1900,21,masculino,4.8,2.9,2.6,não,66.0,7.6,ruim,0,mestrado,média,6,sim,82.1
+S1901,20,masculino,3.3,2.1,2.1,não,99.4,4.4,razoável,6,ensino médio,bom,3,sim,71.4
+S1902,22,masculino,4.1,2.4,0.8,não,72.7,5.8,razoável,3,mestrado,bom,3,não,66.7
+S1903,23,feminino,3.3,1.9,2.2,não,79.1,6.2,razoável,4,ensino médio,média,7,não,70.9
+S1904,19,feminino,3.9,0.7,0.7,sim,88.6,5.7,ruim,1,ensino médio,ruim,1,sim,73.0
+S1905,18,masculino,2.6,2.9,1.1,sim,73.0,5.8,bom,5,graduação,ruim,1,sim,53.9
+S1906,18,feminino,0.0,4.6,2.0,sim,70.1,8.7,razoável,3,graduação,média,10,não,43.4
+S1907,19,feminino,3.3,2.5,2.1,não,63.8,5.5,razoável,1,ensino médio,média,3,não,55.4
+S1908,23,feminino,5.6,2.8,0.5,sim,92.2,9.4,razoável,4,graduação,bom,8,não,100.0
+S1909,22,feminino,4.9,3.3,3.0,não,79.5,7.0,razoável,5,graduação,média,1,não,71.8
+S1910,19,masculino,4.9,1.0,2.4,não,100.0,6.6,razoável,1,não informado,média,10,não,89.2
+S1911,21,masculino,5.4,4.5,1.0,não,75.1,7.1,razoável,2,não informado,bom,4,não,83.9
+S1912,21,masculino,3.6,2.7,0.1,não,75.8,9.5,ruim,6,ensino médio,média,9,não,89.1
+S1913,18,masculino,3.8,4.5,1.6,sim,79.3,5.3,bom,3,ensino médio,bom,4,não,53.5
+S1914,20,feminino,2.6,1.6,1.3,sim,87.4,5.2,bom,6,graduação,ruim,10,não,72.9
+S1915,22,feminino,3.0,4.7,1.9,não,80.3,5.6,razoável,0,ensino médio,média,8,não,61.0
+S1916,18,masculino,4.4,3.4,1.4,não,91.1,6.5,bom,1,ensino médio,bom,7,não,69.1
+S1917,20,masculino,5.3,3.2,0.0,não,75.2,4.4,bom,5,ensino médio,bom,3,não,77.2
+S1918,20,masculino,3.3,2.8,1.4,sim,71.2,6.5,ruim,5,graduação,média,7,não,71.9
+S1919,24,feminino,2.8,2.2,1.5,não,67.0,8.5,bom,3,ensino médio,bom,7,sim,74.7
+S1920,21,masculino,3.5,3.9,2.5,sim,62.8,6.7,bom,3,não informado,bom,10,não,74.5
+S1921,23,feminino,4.4,2.7,1.0,não,79.8,6.1,razoável,6,não informado,média,3,não,85.4
+S1922,17,masculino,1.3,0.1,3.6,não,82.0,5.8,ruim,5,mestrado,média,2,sim,44.3
+S1923,23,masculino,0.1,1.2,0.0,não,78.7,7.6,ruim,5,ensino médio,bom,9,não,53.4
+S1924,17,outro,2.7,2.3,3.2,sim,97.4,5.5,ruim,5,graduação,média,1,sim,57.4
+S1925,19,outro,1.7,2.9,1.6,sim,97.3,8.7,bom,1,não informado,bom,7,não,53.6
+S1926,21,masculino,2.7,2.4,2.7,não,81.7,8.8,razoável,5,ensino médio,bom,4,sim,58.8
+S1927,20,feminino,3.3,4.0,1.9,não,67.1,6.8,bom,0,graduação,bom,2,não,43.5
+S1928,22,feminino,2.8,0.2,3.1,não,79.3,6.5,bom,5,ensino médio,média,2,não,65.6
+S1929,17,feminino,5.7,2.7,1.4,não,79.0,7.7,bom,0,mestrado,média,8,sim,89.8
+S1930,23,masculino,4.0,0.3,0.6,não,78.4,7.8,bom,1,mestrado,bom,7,não,89.5
+S1931,20,feminino,4.0,3.4,3.4,sim,78.0,5.5,ruim,3,graduação,média,7,sim,68.8
+S1932,17,feminino,4.4,2.4,1.7,não,78.5,5.9,razoável,0,graduação,média,5,não,76.8
+S1933,17,feminino,1.8,3.0,2.0,não,81.1,4.9,bom,1,ensino médio,média,10,não,47.5
+S1934,24,masculino,5.1,1.5,3.2,não,78.6,7.0,ruim,5,ensino médio,ruim,8,sim,89.3
+S1935,17,masculino,3.4,4.0,0.7,sim,87.1,7.3,ruim,1,mestrado,bom,2,não,62.0
+S1936,22,masculino,4.5,3.8,2.5,não,88.6,4.9,bom,5,graduação,média,2,sim,66.1
+S1937,21,feminino,1.9,3.2,1.2,não,75.9,6.0,bom,6,graduação,bom,5,não,41.7
+S1938,22,masculino,1.2,2.3,1.7,não,97.7,4.9,razoável,1,ensino médio,ruim,1,não,28.0
+S1939,18,feminino,4.7,3.2,1.9,não,75.2,5.4,bom,3,não informado,bom,6,não,71.0
+S1940,20,outro,4.1,1.7,0.1,sim,68.8,7.2,bom,0,mestrado,média,4,não,67.5
+S1941,21,masculino,2.1,3.5,0.9,não,88.8,5.6,razoável,6,ensino médio,bom,6,não,63.4
+S1942,24,feminino,2.2,4.5,3.3,não,76.8,6.1,ruim,3,ensino médio,bom,7,não,50.2
+S1943,21,masculino,5.2,3.8,2.8,não,88.2,4.5,bom,2,ensino médio,ruim,3,não,72.0
+S1944,21,feminino,1.7,1.6,1.7,não,61.0,6.7,razoável,5,graduação,bom,8,sim,67.9
+S1945,23,masculino,6.0,2.9,2.1,sim,98.9,6.4,ruim,0,não informado,média,7,não,100.0
+S1946,21,feminino,2.1,0.9,1.5,não,91.7,5.6,razoável,3,graduação,bom,1,sim,55.0
+S1947,24,feminino,4.5,3.2,3.3,sim,70.0,6.3,bom,0,ensino médio,bom,6,sim,59.9
+S1948,22,feminino,3.0,3.0,1.6,não,70.2,6.7,razoável,2,mestrado,bom,7,não,63.2
+S1949,21,feminino,4.4,0.3,2.1,não,100.0,5.5,razoável,4,graduação,bom,4,não,84.5
+S1950,19,feminino,2.7,1.1,3.1,não,77.6,4.7,razoável,5,ensino médio,média,2,não,50.8
+S1951,20,feminino,3.3,2.2,0.9,não,76.7,8.7,bom,5,graduação,ruim,10,não,94.0
+S1952,21,feminino,3.6,2.1,3.5,sim,62.3,5.7,ruim,1,ensino médio,média,9,não,65.6
+S1953,20,feminino,2.0,1.0,0.1,não,81.5,6.4,razoável,5,ensino médio,média,7,não,61.7
+S1954,19,masculino,4.6,3.0,3.6,não,82.7,7.7,bom,5,mestrado,bom,1,sim,66.0
+S1955,19,feminino,2.7,2.8,1.4,sim,92.2,10.0,ruim,3,ensino médio,média,8,não,86.9
+S1956,20,feminino,3.2,2.3,1.5,não,71.0,5.0,bom,6,ensino médio,bom,3,não,59.6
+S1957,17,feminino,2.0,1.6,0.0,não,69.8,7.0,bom,5,ensino médio,média,4,não,49.1
+S1958,18,masculino,0.0,3.8,1.3,sim,89.5,5.7,bom,5,ensino médio,média,5,não,31.1
+S1959,23,feminino,3.2,4.5,0.7,não,95.1,5.9,razoável,2,mestrado,bom,1,não,45.7
+S1960,17,masculino,7.1,1.9,1.1,sim,69.3,5.6,bom,6,ensino médio,média,6,não,100.0
+S1961,17,feminino,4.7,1.8,1.6,não,95.8,5.1,bom,2,mestrado,bom,10,não,81.1
+S1962,22,masculino,3.5,3.1,2.9,sim,85.4,6.5,bom,0,mestrado,média,6,não,55.1
+S1963,23,feminino,3.1,2.1,2.0,não,95.9,4.7,ruim,0,ensino médio,bom,2,não,53.3
+S1964,23,outro,3.5,2.3,2.1,não,84.3,7.6,bom,5,ensino médio,ruim,10,sim,89.1
+S1965,17,masculino,4.3,3.4,0.6,não,59.8,6.6,razoável,5,mestrado,média,6,sim,77.3
+S1966,21,outro,1.7,0.2,0.8,não,83.5,7.0,ruim,1,ensino médio,bom,8,sim,56.4
+S1967,22,masculino,5.2,4.1,3.8,não,95.6,5.9,razoável,0,não informado,bom,6,não,76.1
+S1968,22,feminino,4.6,2.6,1.0,não,76.1,6.1,bom,3,ensino médio,média,4,não,74.6
+S1969,19,feminino,4.6,2.0,3.6,sim,81.1,6.8,razoável,5,graduação,média,4,não,83.0
+S1970,24,feminino,4.2,2.4,1.5,não,83.2,5.1,razoável,3,graduação,média,9,sim,85.9
+S1971,23,feminino,3.5,2.5,1.8,não,56.0,6.1,bom,5,ensino médio,média,6,não,64.5
+S1972,17,feminino,4.5,0.4,3.0,não,100.0,5.5,razoável,3,ensino médio,bom,8,não,91.9
+S1973,19,masculino,4.4,4.3,3.2,não,76.0,5.4,bom,4,mestrado,bom,8,não,74.6
+S1974,20,masculino,3.0,2.5,1.7,não,90.1,4.0,razoável,3,graduação,ruim,7,não,70.9
+S1975,18,feminino,2.6,3.0,1.4,não,84.1,8.1,razoável,6,graduação,média,3,não,66.7
+S1976,24,feminino,3.7,3.6,1.7,não,97.6,5.7,bom,0,graduação,bom,10,sim,77.4
+S1977,24,feminino,5.8,1.3,2.2,sim,89.1,7.9,bom,5,ensino médio,média,1,sim,99.0
+S1978,24,feminino,1.6,3.1,2.8,não,82.7,7.8,razoável,0,graduação,bom,5,sim,43.5
+S1979,22,masculino,1.3,2.2,1.8,não,76.1,5.0,bom,6,ensino médio,ruim,10,não,53.4
+S1980,20,feminino,3.7,3.5,2.5,não,93.0,5.2,ruim,6,ensino médio,bom,10,sim,81.0
+S1981,24,masculino,3.6,0.0,3.6,não,66.3,9.6,razoável,3,graduação,média,2,não,66.2
+S1982,20,feminino,3.8,2.4,2.2,sim,91.5,8.6,razoável,2,ensino médio,bom,10,não,88.0
+S1983,21,masculino,3.9,1.8,2.1,não,74.0,6.5,ruim,2,mestrado,média,2,não,64.4
+S1984,24,masculino,3.2,3.0,0.1,não,97.5,6.8,razoável,6,ensino médio,média,7,não,82.4
+S1985,18,masculino,5.7,3.1,0.0,sim,86.6,5.7,razoável,2,mestrado,bom,3,sim,80.9
+S1986,20,masculino,1.1,1.7,2.2,não,91.4,7.0,ruim,5,mestrado,ruim,8,não,59.6
+S1987,20,feminino,2.3,1.6,1.7,sim,85.8,5.6,razoável,1,ensino médio,média,9,não,56.2
+S1988,18,masculino,3.3,2.4,1.2,não,67.5,4.1,razoável,4,graduação,média,8,sim,72.5
+S1989,24,masculino,1.0,1.4,2.1,sim,76.4,4.9,razoável,3,ensino médio,média,6,não,47.6
+S1990,18,masculino,3.2,3.5,1.7,não,91.7,6.5,bom,1,mestrado,bom,5,não,63.6
+S1991,20,masculino,6.0,2.1,3.0,não,86.7,5.1,bom,2,ensino médio,bom,3,não,85.3
+S1992,18,masculino,3.5,0.0,1.9,não,96.8,6.4,razoável,3,graduação,ruim,3,não,71.8
+S1993,20,masculino,3.8,2.1,1.0,não,89.0,5.2,bom,1,ensino médio,bom,7,não,70.9
+S1994,20,feminino,1.6,1.3,2.9,não,75.3,5.6,bom,0,ensino médio,média,5,não,41.7
+S1995,21,feminino,2.6,0.5,1.6,não,77.0,7.5,razoável,2,ensino médio,bom,6,sim,76.1
+S1996,17,feminino,2.9,1.0,2.4,sim,86.0,6.8,ruim,1,ensino médio,média,6,sim,65.9
+S1997,20,masculino,3.0,2.6,1.3,não,61.9,6.5,bom,5,graduação,bom,9,sim,64.4
+S1998,24,masculino,5.4,4.1,1.1,sim,100.0,7.6,razoável,0,graduação,média,1,não,69.7
+S1999,19,feminino,4.3,2.9,1.9,não,89.4,7.1,bom,2,graduação,média,8,não,74.9
