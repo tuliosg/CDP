@@ -49,7 +49,7 @@ O curso está organizado em três módulos principais:
 * Cada módulo está contido em uma pasta. Clique na pasta correspondente para acessar o material completo;
 * Os materiais contidos em cada módulo estão em pastas com suas respectivas descrições: os Jupyter Notebooks na **📁notebooks** de cada módulo, os conjuntos de dados na **📁 dados** e as planilhas na **📁 planilhas**;
 * O arquivo `README` de cada pasta corresponde ao material escrito completo relacionado àquele módulo;
-* As referências citadas ao longo do material escrito ou nos notebooks podem ser encontradas no arquivo `bibliography.bib`.
+* As referências citadas ao longo do material escrito e nos notebooks podem ser encontradas no arquivo `bibliography.bib`.
 
 ## Agradecimentos
 Agradeço à Nayla Chagas, que aceitou o convite para participar desse trabalho e colaborou brilhantemente no Módulo de Organização e pré-processamento, com sua expertise em engenharia de dados.
