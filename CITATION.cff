@@ -8,7 +8,7 @@ authors:
     given-names: "Túlio Sousa de"
     affiliation: "Universidade Federal de Sergipe"
   - family-names: "Chagas"
-    given-names: "Nayla Sahra Santos das"
+    given-names: "Nayla Sahra Santos"
     affiliation: "Universidade Federal de Sergipe"
     contribution: "Co-autora do Módulo 2: Organização e pré-processamento"
 version: 1.0.0
@@ -26,19 +26,19 @@ references:
     title: "Módulo 1: Introdução à ciência de dados e Python"
     authors:
       - family-names: "Gois"
-        given-names: "Túlio Sousa de"
+        given-names: "Túlio Sousa"
   - type: module
     title: "Módulo 2: Organização e pré-processamento"
     authors:
       - family-names: "Gois"
-        given-names: "Túlio Sousa de"
+        given-names: "Túlio Sousa"
       - family-names: "Chagas"
-        given-names: "Nayla Sahra Santos das"
+        given-names: "Nayla Sahra Santos"
   - type: module
     title: "Módulo 3: Análise e visualização"
     authors:
       - family-names: "Gois"
-        given-names: "Túlio Sousa de"
+        given-names: "Túlio Sousa"
 license:
   - content: "CC-BY-4.0" 
   - code: "MIT"
