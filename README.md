@@ -8,10 +8,11 @@ Este curso é destinado a pesquisadores das Ciências Humanas que desejam aprend
 * Introduzir conceitos fundamentais de Ciência de Dados;
 * Desenvolver habilidades práticas de organização, tabulação e limpeza de dados;
 * Apresentar noções básicas de programação em Python focadas na solução de problemas reais de pesquisa;
-* Criar visualizações para comunicar resultados de pesquisa.
+* Explicar conceitos estatísticos comumente utilizados em pesquisa;
+* Criar visualizações para comunicar resultados.
   
 ## Estrutura do curso
-O curso está organizado em quatro módulos principais:
+O curso está organizado em três módulos principais:
 
 ### Módulo 1: Introdução à ciência de dados e Python
 * Conceitos fundamentais sobre dados e sua importância na pesquisa;
@@ -26,31 +27,29 @@ O curso está organizado em quatro módulos principais:
 * Exploração inicial de conjuntos de dados;
 * Limpeza e transformação de dados.
 
-### Módulo 3: Análise de dados
-* Estatística descritiva;
+### Módulo 3: Análise e visualização
 * Análise exploratória de dados;
-* Medidas de correlação e concordância.
-
-### Módulo 4: Visualização de dados
+* Estatística descritiva;
+* Medidas de correlação;
 * Princípios de visualização de dados;
 * Criação de gráficos básicos;
 * União entre análise e visualização.
   
 ## Ferramentas e recursos
 ### Ambientes de trabalho
-* **Google Colab**: ambiente web interativo para execução de códigos;
-* **Google Planilhas**: ambiente para criação, edição e compartilhamento de planilhas.
+* **Google Colab**;
+* **Google Planilhas**.
 
 ### Bibliotecas Python
-* **pandas**: para manipulação e análise estruturada de dados;
-* **matplotlib/seaborn/plotly**: para visualização de dados;
-* **statistics/scipy/NLTK**: para análises estatísticas e textuais.
+* **pandas**;
+* **matplotlib/seaborn**;
+* **scipy**.
 
 ## Navegação pelo repositório
 * Cada módulo está contido em uma pasta. Clique na pasta correspondente para acessar o material completo;
 * Os materiais contidos em cada módulo estão em pastas com suas respectivas descrições: os Jupyter Notebooks na **📁notebooks** de cada módulo, os conjuntos de dados na **📁 dados** e as planilhas na **📁 planilhas**;
-* As referências citadas ao longo do material escrito podem ser encontradas no arquivo `refs.bib` do módulo correspondente;
-* O arquivo `README` de cada pasta corresponde ao material escrito completo relacionado àquele módulo.
+* O arquivo `README` de cada pasta corresponde ao material escrito completo relacionado àquele módulo;
+* As referências citadas ao longo do material escrito e nos notebooks podem ser encontradas no arquivo `bibliography.bib`.
 
 ## Agradecimentos
 Agradeço à Nayla Chagas, que aceitou o convite para participar desse trabalho e colaborou brilhantemente no Módulo de Organização e pré-processamento, com sua expertise em engenharia de dados.
