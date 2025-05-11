@@ -85,6 +85,5 @@ version = {1.0.0}
 - **Conteúdo textual** (arquivos `*.md`) está licenciado sob [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 - **Código-fonte** (Jupyter Notebooks) está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT).
 
-Veja os arquivos LICENSE-CONTENT.md e LICENSE-CODE.md para os textos completos das licenças.
 
 
