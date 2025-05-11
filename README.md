@@ -52,8 +52,39 @@ O curso está organizado em três módulos principais:
 * As referências citadas ao longo do material escrito e nos notebooks podem ser encontradas no arquivo `bibliography.bib`.
 
 ## Agradecimentos
-Agradeço à Nayla Chagas, que aceitou o convite para participar desse trabalho e colaborou brilhantemente no Módulo de Organização e pré-processamento, com sua expertise em engenharia de dados.
+Agradeço à Nayla Chagas ([@nhawlao](https://github.com/nhawlao)) por aceitar o convite para colaborar neste projeto e por contribuir de forma brilhante no Módulo de Organização e pré-processamento. Sua expertise em engenharia de dados foi essencial para a qualidade do material.
 
-Esse trabalho faz parte do meu projeto como Embaixador da Rede Brasileira de Reprodutibilidade (RBR) e só foi possível graças ao apoio da equipe e da infraestrutura do Laboratório Multiusuário de Informática e Documentação Linguística (LAMID).
+Este trabalho faz parte da minha atuação como Embaixador da Rede Brasileira de Reprodutibilidade (RBR) e só se tornou realidade graças ao apoio e à infraestrutura do Laboratório Multiusuário de Informática e Documentação Linguística ([LAMID](https://github.com/lamid-ufs)).
+
+
+## Atribuição e Citação
+
+Se você utilizar este material, agradecemos a atribuição adequada. Você pode fazê-lo das seguintes maneiras, dependendo do contexto:
+
+* **Link para o repositório e menção aos autores**
+
+```
+Material baseado no curso "Ciência de Dados para Pesquisa" por Túlio Sousa de Gois e Nayla Sahra Santos das Chagas
+Disponível em: https://github.com/tuliosg/CDP
+```
+
+* **Citação formal**
+
+```
+@software{Gois_Ciencia_de_Dados,
+author = {Gois, Túlio Sousa and Chagas, Nayla Sahra Santos},
+license = {[\{"content" => "CC-BY-4.0"\}, \{"code" => "MIT"\}]},
+title = {{Ciência de Dados para Pesquisa}},
+url = {https://github.com/tuliosg/CDP},
+version = {1.0.0}
+}
+```
+
+## Licença
+
+- **Conteúdo textual** (arquivos `*.md`) está licenciado sob [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+- **Código-fonte** (Jupyter Notebooks) está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT).
+
+Veja os arquivos LICENSE-CONTENT.md e LICENSE-CODE.md para os textos completos das licenças.
 
 
