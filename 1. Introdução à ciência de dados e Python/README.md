@@ -189,10 +189,6 @@ Neste curso, adotaremos o Jupyter Notebook como ambiente de trabalho, mais espec
 Fecharemos esse módulo diretamente nos Notebooks criados. Inicialmente, vamos explorar esse novo ambiente, entendendo sua estrutura e componentes, no [Introdução ao Google Colab](../1.%20Introdução%20à%20ciência%20de%20dados%20e%20Python/notebooks/introducao_ao_colab.ipynb). Na sequência, partiremos para a programação, no [Prática de Programação com Python](../1.%20Introdução%20à%20ciência%20de%20dados%20e%20Python/notebooks/pratica_programacao_python.ipynb).  
 > Todos os notebooks podem ser acessados na pasta **📁 [notebooks](../1.%20Introdução%20à%20ciência%20de%20dados%20e%20Python/notebooks/)** desse módulo.
 
-
-## Referências
-As referências desse módulo estão disponíveis em formato BibTeX no arquivo [`refs.bib`](../1.%20Introdução%20à%20ciência%20de%20dados%20e%20Python/refs.bib).
-
 ---
 
 <p align="right">

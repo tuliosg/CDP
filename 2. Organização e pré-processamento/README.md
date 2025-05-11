@@ -214,16 +214,13 @@ O trabalho aqui é organizar cada uma das planilhas abaixo seguindo os princípi
 
 
 ## 2.3. Organização e pré-processamento com `pandas`
-A partir de agora, voltaremos ao Google Colab para entender o funcionamento e a aplicação dos princípios através da programação. O notebook [**Organização e pré-processamento com pandas**]() começa do carregamento dos dados, onde vamos inserir no ambiente o arquivo do conjunto de dados e, na sequência, abordaremos como implementar, usando a biblioteca `pandas`, o conhecimento visto na seção de organização. Por fim, veremos o pré-processamento de dados: a exploração inicial, a limpeza e a transformação dos dados.
+A partir de agora, voltaremos ao Google Colab para entender o funcionamento e a aplicação dos princípios através da programação. O notebook [**Organização e pré-processamento com pandas**](../2.%20Organização%20e%20pré-processamento/notebooks/organizacao_pre_processamento_pandas.ipynb) começa do carregamento dos dados, onde vamos inserir no ambiente o arquivo do conjunto de dados e, na sequência, abordaremos como implementar, usando a biblioteca `pandas`, o conhecimento visto na seção de organização. Por fim, veremos o pré-processamento de dados: a exploração inicial, a limpeza e a transformação dos dados.
 
-O notebook da vez é o [**Organização e pré-processamento com pandas**]() e o conjunto de dados que usaremos é o [**Catálogo de livros da biblioteca**](../2.%20Organização%20e%20pré-processamento/dados/Catálogo%20de%20livros%20da%20biblioteca.csv)*.
+O notebook da vez é o [**Organização e pré-processamento com pandas**](../2.%20Organização%20e%20pré-processamento/notebooks/organizacao_pre_processamento_pandas.ipynb) e o conjunto de dados que usaremos é o [**Catálogo de livros da biblioteca**](../2.%20Organização%20e%20pré-processamento/dados/Catálogo%20de%20livros%20da%20biblioteca.csv)*.
 
 \* *O conjunto de dados intitulado "Catálogo de livros da biblioteca" é completamente fictício e foi gerado utilizando o modelo de IA generativa Claude 3.7 Sonnet apenas para fins didáticos.*
 
 > Todos os conjuntos de dados podem ser encontrados na pasta [**📁 dados**](../2.%20Organização%20e%20pré-processamento/dados/)
-
-## Referências
-As referências desse módulo estão disponíveis em formato BibTeX no arquivo [`refs.bib`](../2.%20Organização%20e%20pré-processamento/refs.bib).
 
 ---
 
